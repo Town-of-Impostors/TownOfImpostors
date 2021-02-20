@@ -1,9 +1,9 @@
 # Town Of Impostors
 Town Of Impostors Mod is an Among Us modification for Windows, which adds new classes and abilities to the game. This mod **can be used in public servers**.
 
-<img src ="Pics/TownOfImpostors-Sheriff.png" width="1000"></img>
-<img src ="Pics/TownOfImpostors-Doctor.png" width="1000"></img>
-<img src ="Pics/TownOfImpostors-Impostor.png" width="1000"></img>
+<img src="Pics/TownOfImpostors-Sheriff.png" width="1000"></img>
+<img src="Pics/TownOfImpostors-Doctor.png" width="1000"></img>
+<img src="Pics/TownOfImpostors-Impostor.png" width="1000"></img>
 
 ---
 
@@ -74,7 +74,7 @@ At the current state of the game there is no perma ban system for the game. The 
 You are also able to join your own custom server to be safe <a href="https://github.com/Impostor/Impostor">(Impostor)</a></p>
 
 ### How can I join a custom server?
-Go to your game directory and open BepInEx/config/org.bepinex.plugins.SheriffMod.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.
+Go to your game directory and open BepInEx/config/org.bepinex.plugins.TownOfImpostors.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.
 
 ### Do my friends need to install the mod to play it together?
 Yes. Every player in the lobby must have the mod installed.
