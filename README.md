@@ -41,7 +41,7 @@ The Impostor has additional abilities they can make use of:
 - In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_
 
 <p>If you don't see this message please take a look at the 
-  <a href="#troubleshooting">troubleshooting section</a>.
+  <a href="troubleshooting">troubleshooting section</a>.
 </p>
  
 <h2>Releases and Compatibility</h2>
