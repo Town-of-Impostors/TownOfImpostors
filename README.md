@@ -89,7 +89,8 @@ Yes. Every player in the lobby must have the mod installed.
 
 <h1 id="troubleshooting">Troubleshooting</h1>
 
-### I can't see _loaded_ message on my game screen
+### The mod isn't installed or game doesn't launch
+- Please make sure you're using the latest version of the mod and the correct version of Among Us for it
 - Make sure you have followed all the <a href="#installation">installation steps</a>, especially launching the game via the Among Us.exe file
 - You might be missing some cpp libs (software libraries used by the mod); please install <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe">visual studio c++</a>
 
