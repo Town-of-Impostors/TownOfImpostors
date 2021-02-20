@@ -33,11 +33,11 @@ The Impostor has additional abilities they can make use of:
 
 - Download the Mod for your specific game version. You are not able to launch the game if the versions do not match.
 - Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us") and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors")
-- Extract the content of Among Us Sheriff Mod.zip into the copied folder you created
-- Open your modded folder and open the Game via Among Us.exe
+- Extract the contents TownOfImpostors.zip into the copied folder you created
+- **Make sure to launch the game via Among Us.exe**
 
 **Verifying installation success**
-- Launch the Game via Among Us.exe
+- Launch the game via Among Us.exe
 - In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_
 
 <p>If you don't see this message please take a look at the 
@@ -45,7 +45,6 @@ The Impostor has additional abilities they can make use of:
 </p>
  
 <h2>Releases and Compatibility</h2>
- 
 <table style="width:100%">
   <tr>
     <th>Among Us Version</th>
