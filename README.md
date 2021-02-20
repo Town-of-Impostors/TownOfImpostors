@@ -1,5 +1,7 @@
 # Town Of Impostors
-Town Of Impostors Mod is an Among Us modification for Windows, which adds new classes and abilities to the game. This mod **can be used in public servers**.
+Town Of Impostors Mod is an Among Us modification for Windows. This mod aims to add new classes and abilities to the game to enhance the gameplay. It can also **be used in public servers**.
+
+More classes and abilities will be added in future versions.
 
 <img src="Pics/TownOfImpostors-Sheriff.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
@@ -23,9 +25,9 @@ The Impostor has additional abilities they can make use of:
 ---
 
 # Custom Game Options:
-- **Sheriff** - Sheriff Count, Kill Cooldown, Sheriff Visibility Toggle
-- **Doctor** - Doctor Count, Revive Cooldown
-- **Impostor** - Dispose Ability Toggle, Dispose Ability Cooldown, Disguise Ability Toggle, Disguise Ability Cooldown
+| Sheriff | Doctor | Impostor |
+| --- | --- | --- |
+| <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li></ul> | <ul><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li></ul> |
 
 ---
 
