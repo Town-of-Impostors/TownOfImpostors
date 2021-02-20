@@ -29,7 +29,7 @@ The Impostor has additional abilities they can make use of:
 
 ---
 
-<h1 id="troubleshooting">Installation</h1>
+<h1 id="installation">Installation</h1>
 
 - Download the Mod for your specific game version. You are not able to launch the game if the versions do not match.
 - Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us") and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors")
@@ -41,7 +41,7 @@ The Impostor has additional abilities they can make use of:
 - In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_
 
 <p>If you don't see this message please take a look at the 
-  <a href="troubleshooting">troubleshooting section</a>.
+  <a href="#troubleshooting">troubleshooting section</a>.
 </p>
  
 <h2>Releases and Compatibility</h2>
