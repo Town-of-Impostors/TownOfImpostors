@@ -1,9 +1,9 @@
 # Town Of Impostors
 Town Of Impostors Mod is an Among Us modification for Windows, which adds new classes and abilities to the game. This mod **can be used in public servers**.
 
-<img src="Pics/TownOfImpostors-Sheriff.PNG" width="1000"></img>
-<img src="Pics/TownOfImpostors-Doctor.PNG" width="1000"></img>
-<img src="Pics/TownOfImpostors-Impostor.PNG" width="1000"></img>
+<img src="Pics/TownOfImpostors-Sheriff.PNG" width="300"></img>
+<img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
+<img src="Pics/TownOfImpostors-Impostor.PNG" width="300"></img>
 
 ---
 
