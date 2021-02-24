@@ -61,7 +61,7 @@ The Impostor has additional abilities they can make use of:
   <tr>
     <td>v2020.12.9s</td>
     <td>v1.1.0</td>
-    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.0.0/TownOfImpostors1.1.0.zip">Download</></td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.1.0/TownOfImpostors1.1.0.zip">Download</></td>
   </tr>
 </table>
 
