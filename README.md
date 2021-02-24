@@ -58,10 +58,21 @@ The Impostor has additional abilities they can make use of:
     <td>v1.0.0</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.0.0/TownOfImpostors1.0.0.zip">Download</></td>
   </tr>
+  <tr>
+    <td>v2020.12.9s</td>
+    <td>v1.1.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.0.0/TownOfImpostors1.1.0.zip">Download</></td>
+  </tr>
 </table>
 
 <details>
   <summary>Changelog</summary>
+  <h3>v1.1</h3>
+   <ul>
+    <li>Fixed taskbar not updating and removing "you are dead" line when revived</li>
+    <li>Fixed bug with Sheriff not being able to kill Impostor</li>
+    <li>Several nullpointer bugfixes</li>
+   </ul>
 </details>
 
 ---
