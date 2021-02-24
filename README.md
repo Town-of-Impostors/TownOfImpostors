@@ -1,5 +1,5 @@
 # Town Of Impostors
-Town Of Impostors Mod is an Among Us modification for Windows. This mod aims to add new classes and abilities to the game to enhance the gameplay. It can also **be used in public servers**.
+Town Of Impostors Mod is an Among Us modification for Windows. This mod aims to add new roles and abilities to the game to enhance the gameplay. It can also **be used in public servers**.
 
 More classes and abilities will be added in future versions.
 
@@ -9,7 +9,7 @@ More classes and abilities will be added in future versions.
 
 ---
 
-# New Classes and Abilities?
+# New Roles and Abilities?
 ## Sheriff
 The Sheriff is a class that has the ability to kill Impostors. However, if they attempt to kill a fellow crewmate, they will lose their own life instead as a punishment.
 
@@ -103,7 +103,7 @@ Go to your game directory and open BepInEx/config/org.bepinex.plugins.TownOfImpo
 ### Do my friends need to install the mod to play it together?
 Yes. Every player in the lobby must have the mod installed.
 
-### If you'd like to contact me about anything else:
+### If you'd like to contact me about anything else or find any bugs:
 - **Discord:** AJMix#1111
 - **Email:** <a href="mailto:ajmixdev@gmail.com">ajmixdev@gmail.com</a>
 
