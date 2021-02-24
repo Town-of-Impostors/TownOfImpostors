@@ -63,15 +63,26 @@ The Impostor has additional abilities they can make use of:
     <td>v1.1.0</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.1.0/TownOfImpostors1.1.0.zip">Download</></td>
   </tr>
+  <tr>
+    <td>v2020.12.9s</td>
+    <td>v1.2.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.2.0/TownOfImpostors1.2.0.zip">Download</></td>
+  </tr>
 </table>
 
 <details>
   <summary>Changelog</summary>
-  <h3>v1.1</h3>
+  <h3>v1.1.0</h3>
    <ul>
     <li>Fixed taskbar not updating and removing "you are dead" line when revived</li>
     <li>Fixed bug with Sheriff not being able to kill Impostor</li>
     <li>Several nullpointer bugfixes</li>
+   </ul>
+  <h3>v1.2.0</h3>
+   <ul>
+    <li>Fixed Sheriff being able to kill Impostor in vent</li>
+    <li>Disguise should now work properly with pets</li>
+    <li>Several other null bugs</li>
    </ul>
 </details>
 
