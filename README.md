@@ -86,6 +86,9 @@ The Impostor has additional abilities they can make use of:
    </ul>
 </details>
 
+<h2>Curseforge</h2>
+Link coming soon.
+
 ---
 
 # Q&A
