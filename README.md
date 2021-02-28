@@ -110,6 +110,10 @@ Yes. Every player in the lobby must have the mod installed.
 - **Discord:** AJMix#1111
 - **Email:** <a href="mailto:ajmixdev@gmail.com">ajmixdev@gmail.com</a>
 
+### For updates:
+- **Twitter:** <a href="https://twitter.com/itsAJMix">itsAJMix</a>
+- **Youtube:** <a href="https://www.youtube.com/user/AJMixChannel">AJMix</a>
+
 ---
 
 <h1 id="troubleshooting">Troubleshooting</h1>
