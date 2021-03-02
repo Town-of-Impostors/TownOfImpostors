@@ -87,7 +87,7 @@ The Impostor has additional abilities they can make use of:
 </details>
 
 <h2>Curseforge</h2>
-Link coming soon.
+You can download the mod on Curseforge <a href="https://www.curseforge.com/among-us/all-mods/town-of-impostors">here</a>
 
 ---
 
