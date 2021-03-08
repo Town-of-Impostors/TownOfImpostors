@@ -106,13 +106,22 @@ Go to your game directory and open BepInEx/config/org.bepinex.plugins.TownOfImpo
 ### Do my friends need to install the mod to play it together?
 Yes. Every player in the lobby must have the mod installed.
 
-### If you'd like to contact me about anything else or find any bugs:
+---
+
+# Contact & Donations
+
+### Contact:
 - **Discord:** AJMix#1111
 - **Email:** <a href="mailto:ajmixdev@gmail.com">ajmixdev@gmail.com</a>
 
-### For updates:
+### Updates:
 - **Twitter:** <a href="https://twitter.com/itsAJMix">itsAJMix</a>
 - **Youtube:** <a href="https://www.youtube.com/user/AJMixChannel">AJMix</a>
+
+### Donations:
+<a href="https://www.paypal.com/donate?hosted_button_id=M2FL98EWXTQDE"><img src ="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal button" ></img></a>
+
+All donations are appreciated and will go towards the development of mods.
 
 ---
 
