@@ -12,10 +12,13 @@ More roles and abilities will be added in future versions.
 
 # New Roles and Abilities?
 ## Sheriff
-The Sheriff is a class that has the ability to kill Impostors. However, if they attempt to kill a fellow crewmate, they will lose their own life instead as a punishment.
+The Sheriff is a role that has the ability to kill Impostors. However, if they attempt to kill a fellow crewmate, they will lose their own life instead as a punishment.
 
 ## Doctor
-The Doctor is a class that has the ability to revive dead players. However, this means they are also able to revive Impostors that have been killed by the Sheriff.
+The Doctor is a role that has the ability to revive dead players. However, this means they are also able to revive Impostors that have been killed by the Sheriff.
+
+## Jester
+The Jester is a role with no abilities and no tasks to do. They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
 
 ## Impostor
 The Impostor has additional abilities they can make use of:
@@ -26,9 +29,9 @@ The Impostor has additional abilities they can make use of:
 ---
 
 # Custom Game Options:
-| Sheriff | Doctor | Impostor |
-| --- | --- | --- |
-| <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li></ul> | <ul><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li></ul> |
+| Sheriff | Doctor | Impostor | Jester |
+| --- | --- | --- | --- |
+| <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li></ul> | <ul><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li></ul> | <li>Enable Jester</li> |
 
 ---
 
