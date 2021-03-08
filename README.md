@@ -6,6 +6,7 @@ More roles and abilities will be added in future versions.
 <img src="Pics/TownOfImpostors-Sheriff.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Impostor.PNG" width="300"></img>
+<img src="Pics/TownOfImpostors-Jester.PNG" width="300"></img>
 
 ---
 
@@ -37,6 +38,7 @@ The Impostor has additional abilities they can make use of:
 - Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us") and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors")
 - Extract the contents TownOfImpostors.zip into the copied folder you created
 - **Make sure to launch the game via Among Us.exe**
+- Please note that the first time launching the game with this mod may take a while
 
 **Verifying installation success**
 - Launch the game via Among Us.exe
@@ -68,6 +70,11 @@ The Impostor has additional abilities they can make use of:
     <td>v1.2.0</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.2.0/TownOfImpostors1.2.0.zip">Download</></td>
   </tr>
+  <tr>
+    <td>v2021.3.5s</td>
+    <td>v1.3.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.3.0/TownOfImpostors1.3.0.zip">Download</></td>
+  </tr>
 </table>
 
 <details>
@@ -83,6 +90,17 @@ The Impostor has additional abilities they can make use of:
     <li>Fixed Sheriff being able to kill Impostor in vent</li>
     <li>Disguise should now work properly with pets</li>
     <li>Several other null bugs</li>
+   </ul>
+  <h3>v1.3.0</h3>
+   <ul>
+    <li>Compatibility with v2021.3.5s</li>
+    <li>Updated custom options to be more clean & clear</li>
+    <li>New ability to cycle through options HUD display</li>
+    <li>Jester role</li>
+    <li>Fixed issue with Sheriff being able to kill through walls</li>
+    <li>Fixed detection through walls for other abilities</li>
+    <li>Fixed issue with dragging body sometimes not rendering on top of ground</li>
+    <li>Various null fixes</li>
    </ul>
 </details>
 
@@ -104,7 +122,10 @@ You are also able to join your own custom server to be safe <a href="https://git
 Go to your game directory and open BepInEx/config/org.bepinex.plugins.TownOfImpostors.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.
 
 ### Do my friends need to install the mod to play it together?
-Yes. Every player in the lobby must have the mod installed.
+Yes. Every player in the lobby must have the mod installed. Please don't use and play mods in unorganised public lobbies.
+
+### Can this mod work with other mods?
+I cannot guarantee that this mod will work with other mods. There will likely be conflicts. You will have to test yourself. 
 
 ---
 
