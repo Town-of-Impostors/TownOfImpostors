@@ -1,5 +1,5 @@
 # Town Of Impostors
-Town Of Impostors Mod is an Among Us modification for **PC/Windows**. This mod aims to add new roles and abilities to the game to enhance the gameplay. It can also **be used in public servers**.
+Town Of Impostors Mod is an Among Us modification for **PC/Windows**. This mod aims to add new roles, abilities & options to enhance the gameplay. It can also **be used in public servers**.
 
 More roles and abilities will be added in future versions.
 
@@ -7,6 +7,7 @@ More roles and abilities will be added in future versions.
 <img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Impostor.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Jester.PNG" width="300"></img>
+<img src="Pics/TownOfImpostors-Agent.PNG" width="300"></img>
 
 ---
 
@@ -20,6 +21,9 @@ The Doctor is a role that has the ability to revive dead players. However, this 
 ## Jester
 The Jester is a role with no abilities and no tasks to do. They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
 
+## Agent
+The Agent is a powerful role that has abilities allowing them to access map intel from anywhere. This includes the admin table map, security cameras, door logs and vitals if any are accessible. This gives them much more information on what is going on around the map, but they shouldn't neglect their tasks either.
+
 ## Impostor
 The Impostor has additional abilities they can make use of:
 - **Drag & Drop Bodies** - Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
@@ -29,9 +33,13 @@ The Impostor has additional abilities they can make use of:
 ---
 
 # Custom Game Options:
-| Sheriff | Doctor | Impostor | Jester |
-| --- | --- | --- | --- |
-| <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li></ul> | <ul><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li></ul> | <li>Enable Jester</li> |
+| General | Sheriff | Doctor | Impostor | Jester |
+| --- | --- | --- | --- | --- |
+| <ul><li>Custom Role Eject Confirmation</li><li>Same Roles Know Each Other</li></ul> | <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li><li>Sheriff Can Kill Non-Impostors</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li></ul> | <ul><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li></ul> | <li>Enable Jester</li> |
+
+| Agent |
+| --- |
+| <ul><li>Agent Count</li><li>Agent Tech Cooldown</li><li>Can Access Admin Map</li><li>Can Access Security Camera</li><li>Can Access Door Logs</li><li>Can Access Vitals</li></ul> |
 
 ---
 
@@ -122,7 +130,7 @@ At the current state of the game there is no perma ban system for the game. The 
 You are also able to join your own custom server to be safe <a href="https://github.com/Impostor/Impostor">(Impostor)</a></p>
 
 ### How can I join a custom server?
-Go to your game directory and open BepInEx/config/org.bepinex.plugins.TownOfImpostors.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.
+Go to your game directory and open BepInEx/config/com.ajmix.townofimpostors.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.
 
 ### Do my friends need to install the mod to play it together?
 Yes. Every player in the lobby must have the mod installed. Please don't use and play mods in unorganised public lobbies.
@@ -158,6 +166,10 @@ All donations are appreciated and will go towards the development of mods.
 
 ### I can't find my issue
 You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an issue within GitHub</a> documenting your issue. You will need to be logged into GitHub to do this.
+
+## Known Issues
+- Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
+- There's currently a strange bug that has a low chance of occurring, sometimes the Agent buttons will bug out. Not sure what's currently causing it, but it should only bug out once and should be fine in games after
 
 ---
 
