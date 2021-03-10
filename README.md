@@ -3,6 +3,8 @@ Town Of Impostors Mod is an Among Us modification for **PC/Windows**. This mod a
 
 More roles and abilities will be added in future versions.
 
+<img src="Pics/TownOfImpostorsPreview.png" width="600"></img>
+
 <img src="Pics/TownOfImpostors-Sheriff.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Impostor.PNG" width="300"></img>
@@ -86,6 +88,11 @@ The Impostor has additional abilities they can make use of:
     <td>v1.3.0</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.3.0/TownOfImpostors1.3.0.zip">Download</></td>
   </tr>
+  <tr>
+    <td>v2021.3.5s</td>
+    <td>v1.4.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.4.0/TownOfImpostors1.4.0.zip">Download</></td>
+  </tr>
 </table>
 
 <details>
@@ -111,6 +118,17 @@ The Impostor has additional abilities they can make use of:
     <li>Fixed issue with Sheriff being able to kill through walls</li>
     <li>Fixed detection through walls for other abilities</li>
     <li>Fixed issue with dragging body sometimes not rendering on top of ground</li>
+    <li>Various null fixes</li>
+   </ul>
+  <h3>v1.4.0</h3>
+   <ul>
+    <li>Agent Role</li>
+    <li>Fixed settings resetting bug</li>
+    <li>Added CUSTOM server option</li>
+    <li>Sheriff custom kill button sprite</li>
+    <li>Option for same roles to know each other</li>
+    <li>Option for Sheriff to kill non-impostors</li>
+    <li>Sheriff Kill CD changes</li>
     <li>Various null fixes</li>
    </ul>
 </details>
