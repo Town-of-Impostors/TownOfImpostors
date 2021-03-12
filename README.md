@@ -53,6 +53,8 @@ The Impostor has additional abilities they can make use of:
 - **Make sure to launch the game via Among Us.exe**
 - Please note that the first time launching the game with this mod may take a while
 
+**When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod.**
+
 **Verifying installation success**
 - Launch the game via Among Us.exe
 - In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_
@@ -186,6 +188,7 @@ All donations are appreciated and will go towards the development of mods.
 You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an issue within GitHub</a> documenting your issue. You will need to be logged into GitHub to do this.
 
 ## Known Issues
+- When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod.
 - Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
 - There's currently a strange bug that has a low chance of occurring, sometimes the Agent buttons will bug out. Not sure what's currently causing it, but it should only bug out once and should be fine in games after
 
