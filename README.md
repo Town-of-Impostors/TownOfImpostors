@@ -53,6 +53,8 @@ The Impostor has additional abilities they can make use of:
 - **Make sure to launch the game via Among Us.exe**
 - Please note that the first time launching the game with this mod may take a while
 
+**If you do not follow the installation instructions exactly, or you use a Mod Manager or other mods with this mod, I cannot guarantee the mod will work as intended. Please only raise issues if you've followed installations exactly and you are not using any mod manager or other mods.**
+
 **When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod.**
 
 **Verifying installation success**
