@@ -9,7 +9,9 @@ More roles and abilities will be added in future versions.
 <img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Impostor.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Jester.PNG" width="300"></img>
-<img src="Pics/TownOfImpostors-Agent.PNG" width="300"></img>
+<img src="Pics/TownOfImpostors-Detective.png" width="300"></img>
+<img src="Pics/TownOfImpostors-Plumber.png" width="300"></img>
+<img src="Pics/TownOfImpostors-Arsonist.PNG" width="300"></img>
 
 ---
 
@@ -21,16 +23,29 @@ The Sheriff is a role that has the ability to kill Impostors. However, if they a
 The Doctor is a role that has the ability to revive dead players. However, this means they are also able to revive Impostors that have been killed by the Sheriff.
 
 ## Jester
-The Jester is a role with no abilities and no tasks to do. They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
+The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
 
 ## Agent
 The Agent is a powerful role that has abilities allowing them to access map intel from anywhere. This includes the admin table map, security cameras, door logs and vitals if any are accessible. This gives them much more information on what is going on around the map, but they shouldn't neglect their tasks either.
 
+## Detective
+The Detective is a role that can see footprints and get extra information when reporting bodies (They will get a body report in chat only they can see, which shows time of death and if the body was moved or not). They should use this ability to track down Impostors, but they should also be careful not to frame the wrong person.
+
+## Plumber
+The Plumber is a role that can use vents to travel around. They can also stay in vents to observe the room. But they should be careful not to be suspected as the Impostor or noticed by the Impostor.
+
+## Arsonist
+The Arsonist is a role that aims to douse everyone alive and igniting them all to win alone. They have no tasks (they get fake tasks like Impostors), but should be careful not to be suspected as they have to say close for the duration of time they are dousing. They should also be careful not to be killed by the Impostor.
+
 ## Impostor
 The Impostor has additional abilities they can make use of:
 - **Drag & Drop Bodies** - Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
-- **Dispose Bodies** - Impostors can dispose a body they are dragging if they are close to a vent or inside the vents.
+- **Dispose Bodies** - Impostors can dispose a body they are dragging if they are close to a vent or inside the vents. But when bodies are disposed, a bloodstain is left behind on the vent to give crewmates a clue.
 - **Disguise** - Impostors can disguise as another player for set duration. They must first sample the DNA of a player by being nearby the player.
+
+
+# How does role assignment work?
+When adding in any roles (the count or enabling Jester/Arsonist, as there can only be one Jester and Arsonist maximum), they are all added to a pool and assigned out to players at random. A player is always assigned a role as long as there's a role in the pool to be assigned, otherwise they are just given crewmate.
 
 ---
 
@@ -39,19 +54,21 @@ The Impostor has additional abilities they can make use of:
 | --- | --- | --- | --- | --- |
 | <ul><li>Custom Role Eject Confirmation</li><li>Same Roles Know Each Other</li></ul> | <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li><li>Sheriff Can Kill Non-Impostors</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li></ul> | <ul><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li></ul> | <li>Enable Jester</li> |
 
-| Agent |
-| --- |
-| <ul><li>Agent Count</li><li>Agent Tech Cooldown</li><li>Can Access Admin Map</li><li>Can Access Security Camera</li><li>Can Access Door Logs</li><li>Can Access Vitals</li></ul> |
+| Agent | Detective | Plumber | Arsonist |
+| --- | --- | --- | --- |
+| <ul><li>Agent Count</li><li>Agent Tech Cooldown</li><li>Can Access Admin Map</li><li>Can Access Security Camera</li><li>Can Access Door Logs</li><li>Can Access Vitals</li></ul> | <ul><li>Detective Count</li><li>Footprint Duration</li><li>Anonymous Footprints</li><li>Extra Information On Report</li></ul> | <ul><li>Plumber Count</li></ul> | <ul><li>Enable Arsonist</li><li>Douse Time</li></ul> |
 
 ---
 
 <h1 id="installation">Installation</h1>
 
 - Download the Mod for your specific game version. You are not able to launch the game if the versions do not match.
-- Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us") and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors")
+- Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us"). You can get to your root directory by right-clicking Among Us in steam -> Properties -> Local Files -> Browse. and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors")
 - Extract the contents TownOfImpostors.zip into the copied folder you created
 - **Make sure to launch the game via Among Us.exe**
 - Please note that the first time launching the game with this mod may take a while
+
+**There is a new reset custom settings button in the lobby. Please use it if your settings are bugged. Settings can bug when you update from version to version, it's best practice to reset settings.**
 
 **If you do not follow the installation instructions exactly, or you use a Mod Manager or other mods with this mod, I cannot guarantee the mod will work as intended. Please only raise issues if you've followed installations exactly and you are not using any mod manager or other mods.**
 
@@ -73,56 +90,61 @@ The Impostor has additional abilities they can make use of:
     <th>Link</th>
   </tr>
    <tr>
-    <td>v2020.12.9s</td>
-    <td>v1.0.0</td>
-    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.0.0/TownOfImpostors1.0.0.zip">Download</></td>
+    <td>v2021.3.5s</td>
+    <td>v1.5.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.5.0/TownOfImpostors1.5.0.zip">Download</></td>
+   </tr>
+    <tr>
+    <td>v2021.3.5s</td>
+    <td>v1.4.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.4.0/TownOfImpostors1.4.0.zip">Download</></td>
   </tr>
-  <tr>
+    <tr>
+    <td>v2021.3.5s</td>
+    <td>v1.3.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.3.0/TownOfImpostors1.3.0.zip">Download</></td>
+  </tr>
+    <tr>
+    <td>v2020.12.9s</td>
+    <td>v1.2.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.2.0/TownOfImpostors1.2.0.zip">Download</></td>
+  </tr>
+   <tr>
     <td>v2020.12.9s</td>
     <td>v1.1.0</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.1.0/TownOfImpostors1.1.0.zip">Download</></td>
   </tr>
   <tr>
     <td>v2020.12.9s</td>
-    <td>v1.2.0</td>
-    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.2.0/TownOfImpostors1.2.0.zip">Download</></td>
-  </tr>
-  <tr>
-    <td>v2021.3.5s</td>
-    <td>v1.3.0</td>
-    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.3.0/TownOfImpostors1.3.0.zip">Download</></td>
-  </tr>
-  <tr>
-    <td>v2021.3.5s</td>
-    <td>v1.4.0</td>
-    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.4.0/TownOfImpostors1.4.0.zip">Download</></td>
+    <td>v1.0.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.0.0/TownOfImpostors1.0.0.zip">Download</></td>
   </tr>
 </table>
 
 <details>
   <summary>Changelog</summary>
-  <h3>v1.1.0</h3>
+  <h3>v1.5.0</h3>
    <ul>
-    <li>Fixed taskbar not updating and removing "you are dead" line when revived</li>
-    <li>Fixed bug with Sheriff not being able to kill Impostor</li>
-    <li>Several nullpointer bugfixes</li>
-   </ul>
-  <h3>v1.2.0</h3>
-   <ul>
-    <li>Fixed Sheriff being able to kill Impostor in vent</li>
-    <li>Disguise should now work properly with pets</li>
-    <li>Several other null bugs</li>
-   </ul>
-  <h3>v1.3.0</h3>
-   <ul>
-    <li>Compatibility with v2021.3.5s</li>
-    <li>Updated custom options to be more clean & clear</li>
-    <li>New ability to cycle through options HUD display</li>
-    <li>Jester role</li>
-    <li>Fixed issue with Sheriff being able to kill through walls</li>
-    <li>Fixed detection through walls for other abilities</li>
-    <li>Fixed issue with dragging body sometimes not rendering on top of ground</li>
-    <li>Various null fixes</li>
+    <li>Impostor Drag & Drop Body Ability toggle</li>
+    <li>Arsonist Role</li>
+    <li>Plumber Role</li>
+    <li>Detective Role</li>
+    <li>Doctor Drag & Drop Body Abilityr</li>
+    <li>Doctor Option: Medbay revives only</li>
+    <li>Impostor Comms</li>
+    <li>Comms sabotage causes anonymity</li>
+     <li>Jester Victory Screen Fix</li>
+     <li>Dead bodies won't play kill animation on vent exit</li>
+     <li>You can now sample DNA from dead bodies</li>
+     <li>Fake tasks for Jester & Arsonist</li>
+     <li>Role description in task list</li>
+     <li>Reset custom settings button in lobby</li>
+     <li>Updated role selection process</li>
+     <li>Dispose Bodies leave bloodsplat</li>
+     <li>Button bug fixes</li>
+     <li>Anonymous Votes resetting fix</li>
+     <li>Various null fixes</li>
+     <li>Optimisations</li>
    </ul>
   <h3>v1.4.0</h3>
    <ul>
@@ -134,6 +156,29 @@ The Impostor has additional abilities they can make use of:
     <li>Option for Sheriff to kill non-impostors</li>
     <li>Sheriff Kill CD changes</li>
     <li>Various null fixes</li>
+   </ul>
+    <h3>v1.3.0</h3>
+   <ul>
+    <li>Compatibility with v2021.3.5s</li>
+    <li>Updated custom options to be more clean & clear</li>
+    <li>New ability to cycle through options HUD display</li>
+    <li>Jester role</li>
+    <li>Fixed issue with Sheriff being able to kill through walls</li>
+    <li>Fixed detection through walls for other abilities</li>
+    <li>Fixed issue with dragging body sometimes not rendering on top of ground</li>
+    <li>Various null fixes</li>
+   </ul>
+  <h3>v1.2.0</h3>
+   <ul>
+    <li>Fixed Sheriff being able to kill Impostor in vent</li>
+    <li>Disguise should now work properly with pets</li>
+    <li>Several other null bugs</li>
+   </ul>
+  <h3>v1.1.0</h3>
+   <ul>
+    <li>Fixed taskbar not updating and removing "you are dead" line when revived</li>
+    <li>Fixed bug with Sheriff not being able to kill Impostor</li>
+    <li>Several nullpointer bugfixes</li>
    </ul>
 </details>
 
