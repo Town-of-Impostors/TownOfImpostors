@@ -52,7 +52,7 @@ When adding in any roles (the count or enabling Jester/Arsonist, as there can on
 # Custom Game Options:
 | General | Sheriff | Doctor | Impostor | Jester |
 | --- | --- | --- | --- | --- |
-| <ul><li>Custom Role Eject Confirmation</li><li>Same Roles Know Each Other</li></ul> | <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li><li>Sheriff Can Kill Non-Impostors</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li></ul> | <ul><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li></ul> | <li>Enable Jester</li> |
+| <ul><li>Custom Role Eject Confirmation</li><li>Same Roles Know Each Other</li><li>Comms Sabotage Causes Anonymity</li></ul> | <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li><li>Innocent Target Also Dies</li><li>Can Kill Jester</li><li>Can Kill Arsonist</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li><li>Doctor Drag & Drop Ability</li><li>Medbay Revive Only</li></ul> | <ul><li>Drag & Drop Ability Toggle</li><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li><li>Enable Impostor Messaging</li></ul> | <li>Enable Jester</li> |
 
 | Agent | Detective | Plumber | Arsonist |
 | --- | --- | --- | --- |
