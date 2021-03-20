@@ -15,52 +15,162 @@ More roles and abilities will be added in future versions.
 
 ---
 
-# New Roles and Abilities?
-## Sheriff
+# Roles, Abilities & Custom Options
+
+### General Custom Options
+- **Custom Role Eject Confirmation:** Enables ejects to show the special role of the player being ejected, assuming "Confirm Ejects" option is on
+- **Same Roles Know Each Other:** Allows players of the same role to see each other (via highlighted names)
+- **Comms Sabotage Causes Anonymity:** Improves the Comms Sabotage to turn everyone anonymous
+- **Ghosts Use Crewmate Vision:** Ghosts will no longer have ghost vision (where they can see everything), they will now instead use normal crewmate vision. _This option is recommended if there is a Doctor in the game_
+- **Impostors Can Kill Each Other:** Allows Impostors to target and kill each other
+
+## Crewmate Team
+
+The special roles in the Crewmate Team. The goal of the Crewmate Team is to combine their abilities and knowledge to **find the Impostors**. The Crewmate Team will win if all Impostors are ejected or killed.
+
+### Sheriff
 The Sheriff is a role that has the ability to kill Impostors. However, if they attempt to kill a fellow crewmate, they will lose their own life instead as a punishment.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Sheriff Chance:** Chance of a Sheriff being added to the role selection pool
++ **# Max Sheriff Count:** The maximum number of Sheriffs that can be added to the role selection pool
++ **Sheriff Kill Cooldown:** Kill cooldown for the Sheriff
++ **Show Sheriff:** Shows the Sheriff to other players (via a highlighted name)
++ **Innocent Target Also Dies:** The Innocent target will also be killed along with the Sheriff
++ **Jester Is Enemy:** Jester will no longer count as "Innocent"
++ **Arsonist Is Enemy:** Arsonist will no longer count as "Innocent"
 
-## Doctor
+</details>
+
+### Doctor
 The Doctor is a role that has the ability to revive dead players. However, this means they are also able to revive Impostors that have been killed by the Sheriff.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Doctor Chance:** Chance of a Doctor being added to the role selection pool
++ **# Max Doctor Count:** The maximum number of Doctors that can be added to the role selection pool
++ **Doctor Revive Cooldown:** Cooldown for the Doctor Revive Ability
++ **Doctor Revive Time:** The time is takes for a Doctor to successfully revive a player
++ **Start Cooldown On Failed Revives:** Start Revive Ability Cooldown if revive fails (if body is removed or disposed)
++ **Medbay Revive Only:** Only allow revives in the Medbay location of a map
++ **Arsonist Is Enemy:** Crewmates with special roles lose their role if revived (Does not affect Jester & Arsonist)
 
-## Jester
-The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
+</details>
 
-## Agent
+### Agent
 The Agent is a powerful role that has abilities allowing them to access map intel from anywhere. This includes the admin table map, security cameras, door logs and vitals if any are accessible. This gives them much more information on what is going on around the map, but they shouldn't neglect their tasks either.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Agent Chance:** Chance of a Agent being added to the role selection pool
++ **# Max Agent Count:** The maximum number of Agents that can be added to the role selection pool
++ **Agent Tech Cooldown:** The cooldown of Agent's abilities (the cooldowns are separate between the abilities, but they will all have the same cooldown time)
++ **Can Use Admin Map:** Agent can activate Admin Map
++ **Can Use Cameras:** Agent can activate Cameras _(Skeld and Polus Only)_
++ **Can Use Door Logs:** Agent can activate Door Logs _(MIRA HQ Only)_
++ **Can Use Vitals:** Agent can activate Vitals _(Polus Only)_
 
-## Detective
+</details>
+
+### Detective
 The Detective is a role that can see footprints and get extra information when reporting bodies (They will get a body report in chat only they can see, which shows time of death and if the body was moved or not). They should use this ability to track down Impostors, but they should also be careful not to frame the wrong person.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Detective Chance:** Chance of a Detective being added to the role selection pool
++ **# Max Detective Count:** The maximum number of Detectives that can be added to the role selection pool
++ **Footprint Duration:** How long the footprints will last in seconds
++ **Anonymous Footprints:** Whether the footprints should be anonymous or not
++ **Extra Information On Report:** If Detective reports a body, they will get an additional "Body Report" via messages (which only they can see). Shows how long the player has been dead for, as well as whether the body has been moved or not
++ **Killers Leave Bloody Prints:** Killers _(includes both Sheriffs & Impostors)_ will leave bloody footprints after a kill
++ **Bloody Prints Duration:** Duration for how long Killers should have bloody footprints for
 
-## Plumber
+</details>
+
+### Plumber
 The Plumber is a role that can use vents to travel around. They can also stay in vents to observe the room. But they should be careful not to be suspected as the Impostor or noticed by the Impostor.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Plumber Chance:** Chance of a Plumber being added to the role selection pool
++ **# Max Plumber Count:** The maximum number of Plumbers that can be added to the role selection pool
 
-## Arsonist
-The Arsonist is a role that aims to douse everyone alive and igniting them all to win alone. They have no tasks (they get fake tasks like Impostors), but should be careful not to be suspected as they have to say close for the duration of time they are dousing. They should also be careful not to be killed by the Impostor.
+</details>
 
-## Impostor
+### Informant
+The Informant is a role that can see other roles after they are finished with ALL their tasks. They will be "Informed" after finishing tasks, but should also be careful of Impostors that are notified about them. The Informant can only be informed or revealed after **completing at least one task**.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Informant Chance:** Chance of a Informant being added to the role selection pool
++ **# Max Informant Count:** The maximum number of Informants that can be added to the role selection pool
++ **Impostors Are Notified:** Toggles whether Impostors will be notified and also have the Informant revealed to them
++ **Tasks Left When Impostors Notified:** How many tasks left for the Informant before Impostors are notified about them
++ **Show Arrows (Informants And Impostors):** Show arrows pointing to Informants/Impostors if either have been revealed. These can only be seen by Informants or Impostors depending on options that are enabled
++ **See Jester After Tasks:** Toggles whether Informants can see Jesters after tasks
++ **See Arsonists After Tasks:** Toggles whether Informants can see Arsonists after tasks
++ **See Crewmate Roles After Tasks:** Toggles whether Informants can see Crewmate special roles _(if any)_ after tasks
++ **Highlight Names In Meetings:** Toggles whether names are highlighted in meetings too _(for Informants & Impostors)_
+
+</details>
+
+## Other Teams
+
+### Jester
+The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Jester Chance:** Chance of a Jester being added to the role selection pool
++ **Enable Jester:** Allow Jester to be added to the role selection pool 
++ **Jester Can Fix Sabotages:** Allow Jester to fix sabotages
++ **Jester Wins From Sheriff Kill:** Jester will win if killed by the Sheriff
+
+</details>
+
+### Arsonist
+The Arsonist is a role that aims to douse everyone alive and igniting them all to win alone. They need to do this before the Crewmate Team wins by finding all the Impostors. They have no tasks (they get fake tasks like Impostors), but should be careful not to be suspected as they have to say close for the duration of time they are dousing. They should also be careful not to be killed by the Impostor.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Arsonist Chance:** Chance of a Arsonist being added to the role selection pool
++ **Enable Arsonist:** Allow Arsonist to be added to the role selection pool 
++ **Douse Time:** How long it takes for Arsonist to douse a target
++ **Arsonist Can Fix Sabotages:** Toggles whether Arsonists can fix sabotages
++ **Arsonist Must Refuel:** Toggles whether Arsonists must refuel after set amount of douses
++ **# Douses Stored:** Number of successful Douses before Arsonists must refuel _(if refuel option is toggled on)_
+
+</details>
+
+### Impostor
 The Impostor has additional abilities they can make use of:
-- **Drag & Drop Bodies** - Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
-- **Dispose Bodies** - Impostors can dispose a body they are dragging if they are close to a vent or inside the vents. But when bodies are disposed, a bloodstain is left behind on the vent to give crewmates a clue.
-- **Disguise** - Impostors can disguise as another player for set duration. They must first sample the DNA of a player by being nearby the player.
+- **Drag & Drop Bodies:** Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
+- **Dispose Bodies:** Impostors can dispose a body they are dragging if they are close to a vent or inside the vents. But when bodies are disposed, a bloodstain is left behind on the vent to give crewmates a clue.
+- **Disguise:** Impostors can disguise as another player for set duration. They must first sample the DNA of a player by being nearby the player.
+<details>
+<summary>Custom Options</summary>
+  
++ **Drag And Drop Ability:** Toggle the Drag and Drop Ability
++ **Disguise Ability:** Toggle the Disguise Ability
++ **Disguise Cooldown:** Cooldown for the Disguise Ability
++ **Disguise Duration:** How long the Disguise lasts for in seconds
++ **Dispose Body Ability:** Toggle the Dispose Body Ability
++ **Dispose Body Cooldown:** Cooldown for the Dipose Body Ability
++ **Enable Impostor Messaging:** Toggle on/off Impostor Comms. Impostor Comms allows Impostors to chat to each other in-game via the chat messaging system, outside of meetings
++ **Can Vent With Body:** Toggle whether the Impostor can vent with bodies
 
+</details>
 
 # How does role assignment work?
-When adding in any roles (the count or enabling Jester/Arsonist, as there can only be one Jester and Arsonist maximum), they are all added to a pool and assigned out to players at random. A player is always assigned a role as long as there's a role in the pool to be assigned, otherwise they are just given crewmate.
+The role selection works as follows:
+For each role, it will take the count and attempt to add that to the selection pool **X** number of times, where **X** is the maximum count. The chance of the role being added to the selection pool each time is based on the percentage chance set in the custom options for the specified role.
 
----
+Once the selection pool is filled, the roles in there will then be randomly assigned to Crewmates (who are not already Impostors). As long as there are roles in the pool to assign, the role selection will assign them out. If there are no more roles to be assigned out, the remaining players will just stay as normal Crewmates.
 
-# Custom Game Options:
-| General | Sheriff | Doctor | Jester |
-| --- | --- | --- | --- |
-| <ul><li>Custom Role Eject Confirmation</li><li>Same Roles Know Each Other</li><li>Comms Sabotage Causes Anonymity</li></ul> | <ul><li>Sheriff Count</li><li>Sheriff Kill Cooldown</li><li>Sheriff Visibility Toggle</li><li>Innocent Target Also Dies</li><li>Can Kill Jester</li><li>Can Kill Arsonist</li></ul> | <ul><li>Doctor Count</li><li>Revive Cooldown</li><li>Doctor Drag & Drop Ability</li><li>Medbay Revive Only</li></ul> | <li>Enable Jester</li> |
-
-| Agent | Detective | Plumber | Arsonist |
-| --- | --- | --- | --- |
-| <ul><li>Agent Count</li><li>Agent Tech Cooldown</li><li>Can Access Admin Map</li><li>Can Access Security Camera</li><li>Can Access Door Logs</li><li>Can Access Vitals</li></ul> | <ul><li>Detective Count</li><li>Footprint Duration</li><li>Anonymous Footprints</li><li>Extra Information On Report</li></ul> | <ul><li>Plumber Count</li></ul> | <ul><li>Enable Arsonist</li><li>Douse Time</li></ul> |
-
-| Impostor |
-| --- |
-| <ul><li>Drag & Drop Ability Toggle</li><li>Dispose Ability Toggle</li><li>Dispose Ability Cooldown</li><li>Disguise Ability Toggle</li><li>Disguise Ability Cooldown</li><li>Enable Impostor Messaging</li></ul> |
+Example:
+_**Sheriffs - # Max Count: 3 - % Chance: 50**_
+This means that the role selection will try to put 3 sheriffs into the pool, at 50% chance each time. So the pool can end up with 0, 1, 2 or even the maximum of 3 Sheriffs.
 
 ---
 
@@ -78,6 +188,8 @@ When adding in any roles (the count or enabling Jester/Arsonist, as there can on
 
 **Starting from v1.5.0 onwards, there is a new reset custom settings button in the lobby. Please use it if your settings are bugged. Settings can bug when you update from version to version, it's best practice to reset settings.**
 
+**Starting from v1.6.0 onwards, this mod should now be compatible with Mod Manager by MatuxGG. Please note that using the Mod Manager to install the mod still does not guarantee that the mod will work as intended.**
+
 **Verifying installation success**
 - Launch the game via Among Us.exe
 - In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_
@@ -93,6 +205,11 @@ When adding in any roles (the count or enabling Jester/Arsonist, as there can on
     <th>Mod Version</th>
     <th>Link</th>
   </tr>
+  <tr>
+    <td>v2021.3.5s</td>
+    <td>v1.6.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.6.0/TownOfImpostors1.6.0.zip">Download</></td>
+   </tr>
    <tr>
     <td>v2021.3.5s</td>
     <td>v1.5.0</td>
@@ -127,13 +244,44 @@ When adding in any roles (the count or enabling Jester/Arsonist, as there can on
 
 <details>
   <summary>Changelog</summary>
+  <details>
+  <summary>v1.6.0</summary>
+  <h3>v1.6.0</h3>
+   <ul>
+    <li>Informant role</li>
+    <li>Doctor Medbay only fix for Polus</li>
+    <li>DNA Sample button improved</li>
+    <li>Mod Manager (by MatuxGG)/Reactor.Essentials compatibility</li>
+    <li>Fixed disguising-pet-vent bug</li>
+    <li>Custom Option: Crewmate Ghosts Use Crewmate Vision</li>
+    <li>Percentage Chance for Roles</li>
+    <li>New 1,2,3,4.. Keybinds for Abilities</li>
+     <li>Arsonist better end visuals</li>
+     <li>Custom Option for killers to leave bloody footprints for detective</li>
+     <li>Custom Option to allow Impostors to kill each other</li>
+     <li>Custom Option for Arsonist to refuel</li>
+     <li>Custom Option for Jester to win from Sheriff Kill</li>
+     <li>Custom Option for Doctor Revive to remove Crewmate special role</li>
+     <li>Custom Option to change whether Impostor can vent with body or not</li>
+     <li>Custom Option for Doctor Revive Time</li>
+     <li>Fixed bug with Detective seeing Impostor colour footprints despite being disguised</li>
+     <li>Fixed bug with Pets reappearing during comms sabotage after meeting</li>
+     <li>Fixed bug with buttons being used in meetings</li>
+     <li>Balance Fix: Custom Buttons cooldowns no longer continue going down during meetings</li>
+     <li>Removed CUSTOM server option (please look into Unify by MoltenMods)</li>
+     <li>Various null fixes</li>
+     <li>Optimisations</li>
+   </ul>
+    </details>
+  <details>
+  <summary>v1.5.0</summary>
   <h3>v1.5.0</h3>
    <ul>
     <li>Impostor Drag & Drop Body Ability toggle</li>
     <li>Arsonist Role</li>
     <li>Plumber Role</li>
     <li>Detective Role</li>
-    <li>Doctor Drag & Drop Body Abilityr</li>
+    <li>Doctor Drag & Drop Body Ability</li>
     <li>Doctor Option: Medbay revives only</li>
     <li>Impostor Comms</li>
     <li>Comms sabotage causes anonymity</li>
@@ -150,6 +298,9 @@ When adding in any roles (the count or enabling Jester/Arsonist, as there can on
      <li>Various null fixes</li>
      <li>Optimisations</li>
    </ul>
+    </details>
+  <details>
+  <summary>v1.4.0</summary>
   <h3>v1.4.0</h3>
    <ul>
     <li>Agent Role</li>
@@ -161,6 +312,9 @@ When adding in any roles (the count or enabling Jester/Arsonist, as there can on
     <li>Sheriff Kill CD changes</li>
     <li>Various null fixes</li>
    </ul>
+  </details>
+  <details>
+  <summary>v1.3.0</summary>
     <h3>v1.3.0</h3>
    <ul>
     <li>Compatibility with v2021.3.5s</li>
@@ -172,18 +326,25 @@ When adding in any roles (the count or enabling Jester/Arsonist, as there can on
     <li>Fixed issue with dragging body sometimes not rendering on top of ground</li>
     <li>Various null fixes</li>
    </ul>
+  </details>
+  <details>
+  <summary>v1.2.0</summary>
   <h3>v1.2.0</h3>
    <ul>
     <li>Fixed Sheriff being able to kill Impostor in vent</li>
     <li>Disguise should now work properly with pets</li>
     <li>Several other null bugs</li>
    </ul>
+  </details>
+  <details>
+  <summary>v1.1.0</summary>
   <h3>v1.1.0</h3>
    <ul>
     <li>Fixed taskbar not updating and removing "you are dead" line when revived</li>
     <li>Fixed bug with Sheriff not being able to kill Impostor</li>
     <li>Several nullpointer bugfixes</li>
    </ul>
+  </details>
 </details>
 
 <h2>Curseforge</h2>
@@ -201,7 +362,7 @@ At the current state of the game there is no perma ban system for the game. The 
 You are also able to join your own custom server to be safe <a href="https://github.com/Impostor/Impostor">(Impostor)</a></p>
 
 ### How can I join a custom server?
-Go to your game directory and open BepInEx/config/com.ajmix.townofimpostors.txt. There you can set the hostname or IP of the server. Then set the server region to CUSTOM.
+This functionality has been removed from 1.6.0 onwards. Please look into using <a href="https://github.com/MoltenMods/Unify">Unify</a></p>
 
 ### Do my friends need to install the mod to play it together?
 Yes. Every player in the lobby must have the mod installed. Please don't use and play mods in unorganised public lobbies.
@@ -240,8 +401,12 @@ You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an i
 
 ## Known Issues
 - When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod. In v1.5.0 onwards, there is a new reset settings button the host can make use of to do a hard reset on all custom settings to reset everything to default values
+
 - Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
-- There's currently a strange bug that has a low chance of occurring, sometimes the Agent buttons will bug out. Not sure what's currently causing it, but it should only bug out once and should be fine in games after
+
+- The Arsonist has to Douse targets again if the target is killed and then revived. This is unintended and will be fixed in a future release.
+
+- With the new keybindings from 1.6.0 for special abilities, some roles are able to use their abilities while doing other things (such as tasks or fixing sabotages). This causes some small bugs for some special roles such as the **Agent**, where using the keybindings for abilities whilst having another window open will cause abilities to go into cooldown. But, this also makes some special roles with abilities a little bit more powerful. As of now, this is not known to cause any game breaking bugs, but will be fixed in a future release as it is unintended.
 
 ---
 
