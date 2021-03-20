@@ -25,7 +25,7 @@ From 1.6.0 onwards, you can now use keys **1, 2, 3, 4** to activate abilities.
 - **Custom Role Eject Confirmation:** Enables ejects to show the special role of the player being ejected, assuming "Confirm Ejects" option is on
 - **Same Roles Know Each Other:** Allows players of the same role to see each other (via highlighted names)
 - **Comms Sabotage Causes Anonymity:** Improves the Comms Sabotage to turn everyone anonymous
-- **Ghosts Use Crewmate Vision:** Ghosts will no longer have ghost vision (where they can see everything), they will now instead use normal crewmate vision. _This option is recommended if there is a Doctor in the game_
+- **Ghosts Use Crewmate Vision:** Ghosts will no longer have ghost vision (where they can see everything), they will now instead use normal crewmate vision. Impostors are unaffected. _This option is recommended if there is a Doctor in the game_
 - **Impostors Can Kill Each Other:** Allows Impostors to target and kill each other
 
 ## Crewmate Team
