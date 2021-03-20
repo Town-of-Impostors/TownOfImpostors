@@ -58,7 +58,7 @@ The Doctor is a role that has the ability to revive dead players. However, this 
 + **Doctor Revive Time:** The time is takes for a Doctor to successfully revive a player
 + **Start Cooldown On Failed Revives:** Start Revive Ability Cooldown if revive fails (if body is removed or disposed)
 + **Medbay Revive Only:** Only allow revives in the Medbay location of a map
-+ **Arsonist Is Enemy:** Crewmates with special roles lose their role if revived (Does not affect Jester & Arsonist)
++ **Lose Role On Revive:** Crewmates with special roles lose their role if revived (Does not affect Jester & Arsonist)
 
 </details>
 
