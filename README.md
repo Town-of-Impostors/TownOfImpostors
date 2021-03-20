@@ -12,6 +12,7 @@ More roles and abilities will be added in future versions.
 <img src="Pics/TownOfImpostors-Detective.png" width="300"></img>
 <img src="Pics/TownOfImpostors-Plumber.png" width="300"></img>
 <img src="Pics/TownOfImpostors-Arsonist.PNG" width="300"></img>
+<img src="Pics/TownOfImpostors-Informant.PNG" width="300"></img>
 
 ---
 
