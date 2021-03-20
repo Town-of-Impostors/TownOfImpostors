@@ -1,7 +1,7 @@
 # Town Of Impostors
-Town Of Impostors Mod is an Among Us modification for **PC/Windows**. This mod aims to add new roles, abilities & options to enhance the gameplay. It can also **be used in public servers**.
+Town Of Impostors Mod is an Among Us modification for **PC/Windows**. This mod aims to add new roles, abilities & options to enhance the gameplay. It also aims to add a lot of customisation options for you to customise and play games your way. It can also **be used in public servers**.
 
-More roles and abilities will be added in future versions.
+More roles and abilities will be added in future versions. Customise and play games your way.
 
 <img src="Pics/TownOfImpostorsPreview.png" width="600"></img>
 
@@ -17,6 +17,9 @@ More roles and abilities will be added in future versions.
 ---
 
 # Roles, Abilities & Custom Options
+
+### Keybindings
+From 1.6.0 onwards, you can now use keys **1, 2, 3, 4** to activate abilities.
 
 ### General Custom Options
 - **Custom Role Eject Confirmation:** Enables ejects to show the special role of the player being ejected, assuming "Confirm Ejects" option is on
@@ -370,6 +373,9 @@ Yes. Every player in the lobby must have the mod installed. Please don't use and
 
 ### Can this mod work with other mods?
 I cannot guarantee that this mod will work with other mods. There will likely be conflicts. You will have to test yourself. 
+
+### Can this mod work with controllers?
+This mod was not made to be compatible with controllers. Recommended to only play this mod with keyboard and mouse.
 
 ---
 
