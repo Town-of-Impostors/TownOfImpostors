@@ -418,5 +418,4 @@ You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an i
 ---
 
 <h1>License</h1>
-<p>This software is distributed under the <b>GNU GPLv3</b> License.
 <a href="https://github.com/BepInEx/BepInEx">BepinEx</a> is distributed under <b>LGPL-2.1</b> License.</p>
