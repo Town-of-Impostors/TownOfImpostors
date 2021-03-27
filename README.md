@@ -211,6 +211,11 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
   </tr>
   <tr>
     <td>v2021.3.5s</td>
+    <td>v1.6.1</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.6.1/TownOfImpostors1.6.1.zip">Download</></td>
+   </tr>
+  <tr>
+    <td>v2021.3.5s</td>
     <td>v1.6.0</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.6.0/TownOfImpostors1.6.0.zip">Download</></td>
    </tr>
@@ -248,6 +253,17 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
 
 <details>
   <summary>Changelog</summary>
+  <details>
+  <summary>v1.6.1</summary>
+  <h3>v1.6.1</h3>
+   <ul>
+    <li>Fixed issue with DLL plugin no longer working</li>
+    <li>Disguise issues with Meetings and KillOverlay fixed</li>
+    <li>Fixed revived players losing "Douse" state</li>
+    <li>Fixed hotkeys still working while other windows are opened</li>
+     <li>Fixed abilities being able to be used while doing other things</li>
+   </ul>
+    </details>
   <details>
   <summary>v1.6.0</summary>
   <h3>v1.6.0</h3>
