@@ -427,10 +427,6 @@ You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an i
 
 - Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
 
-- The Arsonist has to Douse targets again if the target is killed and then revived. This is unintended and will be fixed in a future release.
-
-- With the new keybindings from 1.6.0 for special abilities, some roles are able to use their abilities while doing other things (such as tasks or fixing sabotages). This causes some small bugs for some special roles such as the **Agent**, where using the keybindings for abilities whilst having another window open will cause abilities to go into cooldown. But, this also makes some special roles with abilities a little bit more powerful. As of now, this is not known to cause any game breaking bugs, but will be fixed in a future release as it is unintended.
-
 ---
 
 <h1>License</h1>
