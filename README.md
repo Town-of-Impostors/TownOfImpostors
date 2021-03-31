@@ -201,7 +201,7 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
 **Uninstalling the Mod**
 - If you copied the Among Us folder as instructed by the Installation Steps, simply delete the copied folder.
 - If you did not, and you unzipped the mod into your main Among Us folder, then you have to delete the following folders & files:
-  - **BepInEx** folder, **mono** folder, **doorstop.ini**, **winhttp.dll**
+  - **BepInEx** folder, **mono** folder, **doorstop_config.ini**, **winhttp.dll**
 
 <p>If you don't see this message please take a look at the 
   <a href="#troubleshooting">troubleshooting section</a>.
@@ -421,10 +421,14 @@ All donations are appreciated and will go towards the development of mods.
 
 ### The mod isn't installed or game doesn't launch
 - Please make sure you're using the latest version of the mod and the correct version of Among Us for it
+- Please make sure you're using Windows, this mod is not compatible on mobile, Mac or any other OS/devices
+- Please make sure you're not loading other mods along with this one
 - Make sure you have followed all the <a href="#installation">installation steps</a>, especially launching the game via the Among Us.exe file
+- Try uninstalling the mod (see uninstalling the mod in the Installation Steps) and following the installation steps again
+- If you're using a Mod Manager to install the mod, it is not guaranteed to work
 - You might be missing some cpp libs (software libraries used by the mod); please install <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe">visual studio c++</a>
 
-### I can't find my issue
+### The mod still doesn't work or found a bug?
 You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an issue within GitHub</a> documenting your issue. You will need to be logged into GitHub to do this.
 
 ## Known Issues
