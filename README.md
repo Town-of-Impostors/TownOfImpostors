@@ -198,6 +198,11 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
 - Launch the game via Among Us.exe
 - In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_
 
+**Uninstalling the Mod**
+- If you copied the Among Us folder as instructed by the Installation Steps, simply delete the copied folder.
+- If you did not, and you unzipped the mod into your main Among Us folder, then you have to delete the following folders & files:
+  - **BepInEx** folder, **mono** folder, **doorstop.ini**, **winhttp.dll**
+
 <p>If you don't see this message please take a look at the 
   <a href="#troubleshooting">troubleshooting section</a>.
 </p>
@@ -426,6 +431,10 @@ You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an i
 - When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod. In v1.5.0 onwards, there is a new reset settings button the host can make use of to do a hard reset on all custom settings to reset everything to default values
 
 - Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
+
+- Impostor Comms is currently permanently enabled and dead impostors cannot talk to other players.
+
+- Dead bodies change into wrong colours after an anonymous comms sabotage.
 
 ---
 
