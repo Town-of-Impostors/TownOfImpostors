@@ -168,12 +168,13 @@ The Impostor has additional abilities they can make use of:
 
 # How does role assignment work?
 The role selection works as follows:
-For each role, it will take the count and attempt to add that to the selection pool **X** number of times, where **X** is the maximum count. The chance of the role being added to the selection pool each time is based on the percentage chance set in the custom options for the specified role.
+For each role, it will attempt to add that to the selection pool **X** number of times, where **X** is the maximum count. The chance of the role being added to the selection pool each time is based on the percentage chance set in the custom options for the specified role.
 
-Once the selection pool is filled, the roles in there will then be randomly assigned to Crewmates (who are not already Impostors). As long as there are roles in the pool to assign, the role selection will assign them out. If there are no more roles to be assigned out, the remaining players will just stay as normal Crewmates.
+Once the selection pool is filled, the roles in there will then be randomly assigned to Crewmates (who are not already Impostors and don't already have a special role). As long as there are roles in the pool to assign and Crewmates to assign them to, they will be assigned out. If there are no more roles to be assigned out, the remaining players will just stay as normal Crewmates.
 
 Example:
-_**Sheriffs - # Max Count: 3 - % Chance: 50**_
+_**Sheriffs - # Max Count: 3 | % Chance: 50**_
+
 This means that the role selection will try to put 3 sheriffs into the pool, at 50% chance each time. So the pool can end up with 0, 1, 2 or even the maximum of 3 Sheriffs.
 
 ---
