@@ -114,7 +114,6 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.0.0/TownOfImpostors1.0.0.zip">Download</></td>
   </tr>
 </table>
-Table not updated? Check all releases [here](https://github.com/AJMix/TownOfImpostors/releases).
 
 <details>
   <summary>Changelog</summary>
