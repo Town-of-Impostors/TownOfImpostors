@@ -1,5 +1,5 @@
 # Town Of Impostors
-Town Of Impostors Mod is an Among Us modification for **PC/Windows**. This mod aims to add new roles, abilities & options to enhance the gameplay. It also aims to add a lot of customisation options for you to customise and play games your way. It can also **be used in public servers**.
+Town Of Impostors Mod is an Among Us modification for **PC/Windows**. This mod aims to add new roles, abilities & options to enhance the gameplay. It also aims to add a lot of customisation options for you to customise and play games your way. It can also **be used in public servers**. **Please DO NOT play this mod on public lobbies. Only play in private organised lobbies where everyone has the mod.**
 
 More roles and abilities will be added in future versions. Customise and play games your way.
 
