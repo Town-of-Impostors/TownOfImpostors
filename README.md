@@ -5,15 +5,15 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 
 <p align="center">
 <img src="Pics/TownOfImpostorsPreview.png" width="900">
-<img src="Pics/TownOfImpostors-Sheriff.PNG" width="290">
-<img src="Pics/TownOfImpostors-Doctor.PNG" width="290">
-<img src="Pics/TownOfImpostors-Impostor.PNG" width="290">
-<img src="Pics/TownOfImpostors-Jester.PNG" width="290">
-<img src="Pics/TownOfImpostors-Detective.png" width="290">
-<img src="Pics/TownOfImpostors-Plumber.png" width="290">
-<img src="Pics/TownOfImpostors-Arsonist.PNG" width="290">
-<img src="Pics/TownOfImpostors-Informant.PNG" width="290">
-<img src="Pics/TownOfImpostors-Trickster.png" width="290">
+<img src="Pics/TownOfImpostors-Sheriff.PNG" width="280">
+<img src="Pics/TownOfImpostors-Doctor.PNG" width="280">
+<img src="Pics/TownOfImpostors-Impostor.PNG" width="280">
+<img src="Pics/TownOfImpostors-Jester.PNG" width="280">
+<img src="Pics/TownOfImpostors-Detective.png" width="280">
+<img src="Pics/TownOfImpostors-Plumber.png" width="280">
+<img src="Pics/TownOfImpostors-Arsonist.PNG" width="280">
+<img src="Pics/TownOfImpostors-Informant.PNG" width="280">
+<img src="Pics/TownOfImpostors-Trickster.png" width="280">
 </p>
 
 ---
