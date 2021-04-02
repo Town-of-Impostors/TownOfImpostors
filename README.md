@@ -62,7 +62,7 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
  
 <h2>Releases and Compatibility</h2>
 
-If table is not yet updated, check all releases [here](https://github.com/AJMix/TownOfImpostors/releases).
+If the table is not yet updated, check all releases [here](https://github.com/AJMix/TownOfImpostors/releases).
 
 <table style="width:100%">
   <tr>
