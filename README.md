@@ -293,7 +293,7 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
   <summary>v1.7.0</summary>
   <h3>v1.7.0</h3>
    <ul>
-    <li>Compatibility with 2021.3.35.3s</li>
+    <li>Compatibility with 2021.3.31.3s</li>
     <li>Compatibilities with Airship</li>
     <li>Trickster Role</li>
     <li>Impostor Decoy Abilities (Like Trickster)</li>
