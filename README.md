@@ -61,6 +61,9 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 </p>
  
 <h2>Releases and Compatibility</h2>
+
+If table is not yet updated, check all releases [here](https://github.com/AJMix/TownOfImpostors/releases).
+
 <table style="width:100%">
   <tr>
     <th>Among Us Version</th>
@@ -251,7 +254,7 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 </details>
 
 <h2>Curseforge</h2>
-You can download the mod on Curseforge <a href="https://www.curseforge.com/among-us/all-mods/town-of-impostors">here</a>
+You can download the mod on Curseforge <a href="https://www.curseforge.com/among-us/all-mods/town-of-impostors">here</a>.
 
 ---
 
