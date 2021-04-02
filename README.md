@@ -4,18 +4,17 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 **Every player in the room must have the mod installed for it to work correctly. Please DO NOT play this mod on public lobbies, it is intended for private organised lobbies.**
 
 <p align="center">
-  <img width="900" src="Pics/TownOfImpostorsPreview.png">
+<img src="Pics/TownOfImpostorsPreview.png" width="900">
+<img src="Pics/TownOfImpostors-Sheriff.PNG" width="290">
+<img src="Pics/TownOfImpostors-Doctor.PNG" width="290">
+<img src="Pics/TownOfImpostors-Impostor.PNG" width="290">
+<img src="Pics/TownOfImpostors-Jester.PNG" width="290">
+<img src="Pics/TownOfImpostors-Detective.png" width="290">
+<img src="Pics/TownOfImpostors-Plumber.png" width="290">
+<img src="Pics/TownOfImpostors-Arsonist.PNG" width="290">
+<img src="Pics/TownOfImpostors-Informant.PNG" width="290">
+<img src="Pics/TownOfImpostors-Trickster.png" width="290">
 </p>
-
-<img src="Pics/TownOfImpostors-Sheriff.PNG" width="300"></img>
-<img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
-<img src="Pics/TownOfImpostors-Impostor.PNG" width="300"></img>
-<img src="Pics/TownOfImpostors-Jester.PNG" width="300"></img>
-<img src="Pics/TownOfImpostors-Detective.png" width="300"></img>
-<img src="Pics/TownOfImpostors-Plumber.png" width="300"></img>
-<img src="Pics/TownOfImpostors-Arsonist.PNG" width="300"></img>
-<img src="Pics/TownOfImpostors-Informant.PNG" width="300"></img>
-<img src="Pics/TownOfImpostors-Trickster.png" width="300"></img>
 
 ---
 
