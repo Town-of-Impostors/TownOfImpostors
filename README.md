@@ -3,7 +3,9 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 
 **Every player in the room must have the mod installed for it to work correctly. Please DO NOT play this mod on public lobbies, it is intended for private organised lobbies.**
 
-<img src="Pics/TownOfImpostorsPreview.png" width="600"></img>
+<p align="center">
+  <img width="900" src="Pics/TownOfImpostorsPreview.png">
+</p>
 
 <img src="Pics/TownOfImpostors-Sheriff.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
