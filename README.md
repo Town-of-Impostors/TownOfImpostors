@@ -3,7 +3,7 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 
 **Every player in the room must have the mod installed for it to work correctly. Please DO NOT play this mod on public lobbies, it is intended for private organised lobbies.**
 
-<img align="center" src="Pics/TownOfImpostorsPreview.png" width="600"></img>
+<img src="Pics/TownOfImpostorsPreview.png" width="600"></img>
 
 <img src="Pics/TownOfImpostors-Sheriff.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Doctor.PNG" width="300"></img>
@@ -22,7 +22,21 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 - Download the Mod for your specific game version. You are not able to launch the game if the versions do not match.
 - Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us"). You can get to your root directory by right-clicking Among Us in steam -> Properties -> Local Files -> Browse. and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors")
 - Extract the contents TownOfImpostors.zip into the copied folder you created
-- **Make sure to launch the game via Among Us.exe**
+- Ensure the copied directory that is being modded now contains at least the following:
+```
+.
+├── Among Us_Data
+├── BepInEx
+├── mono
+├── Among Us.exe
+├── changelog.txt
+├── doorstop_config.ini
+├── GameAssembly.dll
+├── UnityCrashHandler32.exe
+├── UnityPlayer.dll
+└── winhttp.dll
+```
+- **Make sure to launch the game via the Among Us.exe from this directory**
 - Please note that the first time launching the game with this mod may take a while
 
 **If you do not follow the installation instructions exactly, or you use a Mod Manager or other mods with this mod, I cannot guarantee the mod will work as intended. Please only raise issues if you've followed installations exactly and you are not using any mod manager or other mods.**
@@ -100,6 +114,7 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.0.0/TownOfImpostors1.0.0.zip">Download</></td>
   </tr>
 </table>
+Table not updated? Check all releases [here](https://github.com/AJMix/TownOfImpostors/releases).
 
 <details>
   <summary>Changelog</summary>
