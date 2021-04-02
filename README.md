@@ -1,7 +1,7 @@
 # Town Of Impostors
-Town Of Impostors Mod is an Among Us modification for **PC/Windows**. This mod aims to add new roles, abilities & options to enhance the gameplay. It also aims to add a lot of customisation options for you to customise and play games your way. It can also **be used in public servers**. **Please DO NOT play this mod on public lobbies. Only play in private organised lobbies where everyone has the mod.**
+Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. This mod aims to add new roles & abilities to enhance gameplay, while also allowing for many customisation options for you to tailor, balance and play games your way.
 
-More roles and abilities will be added in future versions. Customise and play games your way.
+**Every player in the room must have the mod installed for it to work correctly. Please DO NOT play this mod on public lobbies, it is intended for private organised lobbies.**
 
 <img src="Pics/TownOfImpostorsPreview.png" width="600"></img>
 
@@ -14,192 +14,6 @@ More roles and abilities will be added in future versions. Customise and play ga
 <img src="Pics/TownOfImpostors-Arsonist.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Informant.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Trickster.png" width="300"></img>
-
----
-
-# Roles, Abilities & Custom Options
-
-### Keybindings
-From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilities.
-
-### General Custom Options
-- **Custom Role Eject Confirmation:** Enables ejects to show the special role of the player being ejected, assuming "Confirm Ejects" option is on
-- **Same Roles Know Each Other:** Allows players of the same role to see each other (via highlighted names)
-- **Comms Sabotage Causes Anonymity:** Improves the Comms Sabotage to turn everyone anonymous
-- **Ghosts Use Crewmate Vision:** Ghosts will no longer have ghost vision (where they can see everything), they will now instead use normal crewmate vision. Impostors are unaffected. _This option is recommended if there is a Doctor in the game_
-- **Impostors Can Kill Each Other:** Allows Impostors to target and kill each other
-
-## Crewmate Team
-
-The special roles in the Crewmate Team. The goal of the Crewmate Team is to combine their abilities and knowledge to **find the Impostors**. The Crewmate Team will win if all Impostors are ejected or killed.
-
-### Sheriff
-The Sheriff is a role that has the ability to kill Impostors. However, if they attempt to kill a fellow crewmate, they will lose their own life instead as a punishment.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Sheriff Chance:** Chance of a Sheriff being added to the role selection pool
-+ **# Max Sheriff Count:** The maximum number of Sheriffs that can be added to the role selection pool
-+ **Sheriff Kill Cooldown:** Kill cooldown for the Sheriff
-+ **Show Sheriff:** Shows the Sheriff to other players (via a highlighted name)
-+ **Innocent Target Also Dies:** The Innocent target will also be killed along with the Sheriff
-+ **Jester Is Enemy:** Jester will no longer count as "Innocent"
-+ **Arsonist Is Enemy:** Arsonist will no longer count as "Innocent"
-
-</details>
-
-### Doctor
-The Doctor is a role that has the ability to revive dead players. However, this means they are also able to revive Impostors that have been killed by the Sheriff.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Doctor Chance:** Chance of a Doctor being added to the role selection pool
-+ **# Max Doctor Count:** The maximum number of Doctors that can be added to the role selection pool
-+ **Doctor Revive Cooldown:** Cooldown for the Doctor Revive Ability
-+ **Doctor Revive Time:** The time is takes for a Doctor to successfully revive a player
-+ **Start Cooldown On Failed Revives:** Start Revive Ability Cooldown if revive fails (if body is removed or disposed)
-+ **Medbay Revive Only:** Only allow revives in the Medbay location of a map
-+ **Lose Role On Revive:** Crewmates with special roles lose their role if revived (Does not affect Jester & Arsonist)
-
-</details>
-
-### Agent
-The Agent is a powerful role that has abilities allowing them to access map intel from anywhere. This includes the admin table map, security cameras, door logs and vitals if any are accessible. This gives them much more information on what is going on around the map, but they shouldn't neglect their tasks either.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Agent Chance:** Chance of a Agent being added to the role selection pool
-+ **# Max Agent Count:** The maximum number of Agents that can be added to the role selection pool
-+ **Agent Tech Cooldown:** The cooldown of Agent's abilities (the cooldowns are separate between the abilities, but they will all have the same cooldown time)
-+ **Can Use Admin Map:** Agent can activate Admin Map
-+ **Can Use Cameras:** Agent can activate Cameras _(Skeld and Polus Only)_
-+ **Can Use Door Logs:** Agent can activate Door Logs _(MIRA HQ Only)_
-+ **Can Use Vitals:** Agent can activate Vitals _(Polus Only)_
-
-</details>
-
-### Detective
-The Detective is a role that can see footprints and get extra information when reporting bodies (They will get a body report in chat only they can see, which shows time of death and if the body was moved or not). They should use this ability to track down Impostors, but they should also be careful not to frame the wrong person.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Detective Chance:** Chance of a Detective being added to the role selection pool
-+ **# Max Detective Count:** The maximum number of Detectives that can be added to the role selection pool
-+ **Footprint Duration:** How long the footprints will last in seconds
-+ **Anonymous Footprints:** Whether the footprints should be anonymous or not
-+ **Extra Information On Report:** If Detective reports a body, they will get an additional "Body Report" via messages (which only they can see). Shows how long the player has been dead for, as well as whether the body has been moved or not
-+ **Killers Leave Bloody Prints:** Killers _(includes both Sheriffs & Impostors)_ will leave bloody footprints after a kill
-+ **Bloody Prints Duration:** Duration for how long Killers should have bloody footprints for
-
-</details>
-
-### Plumber
-The Plumber is a role that can use vents to travel around. They can also stay in vents to observe the room. But they should be careful not to be suspected as the Impostor or noticed by the Impostor.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Plumber Chance:** Chance of a Plumber being added to the role selection pool
-+ **# Max Plumber Count:** The maximum number of Plumbers that can be added to the role selection pool
-
-</details>
-
-### Informant
-The Informant is a role that can see other roles after they are finished with ALL their tasks. They will be "Informed" after finishing tasks, but should also be careful of Impostors that are notified about them. The Informant can only be informed or revealed after **completing at least one task**.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Informant Chance:** Chance of a Informant being added to the role selection pool
-+ **# Max Informant Count:** The maximum number of Informants that can be added to the role selection pool
-+ **Impostors Are Notified:** Toggles whether Impostors will be notified and also have the Informant revealed to them
-+ **Tasks Left When Impostors Notified:** How many tasks left for the Informant before Impostors are notified about them
-+ **Show Arrows (Informants And Impostors):** Show arrows pointing to Informants/Impostors if either have been revealed. These can only be seen by Informants or Impostors depending on options that are enabled
-+ **See Jester After Tasks:** Toggles whether Informants can see Jesters after tasks
-+ **See Arsonists After Tasks:** Toggles whether Informants can see Arsonists after tasks
-+ **See Crewmate Roles After Tasks:** Toggles whether Informants can see Crewmate special roles _(if any)_ after tasks
-+ **Highlight Names In Meetings:** Toggles whether names are highlighted in meetings too _(for Informants & Impostors)_
-
-</details>
-
-### Trickster
-The Trickster is a role that can create a decoy to trick the Impostor. If the Impostor kills the decoy, they will go into kill cooldown which will slow them down. However, the Sheriff is also able to kill decoys. The Trickster may also swap positions with their decoys to avoid danger or cover more ground quicker.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Trickster Chance:** Chance of a Trickster being added to the role selection pool
-+ **# Max Trickster Count:** The maximum number of Tricksters that can be added to the role selection pool
-+ **Trickster Decoy Cooldown:** Cooldown duration for the Trickster Decoy ability
-+ **Trickster Decoy Duration:** Duration of how long the decoy should last
-+ **Enable Trickster Swap Ability:** Allow Trickster to swap positions with the decoy
-+ **Trickster Swap Cooldown:** Cooldown duration for the Trickster Swap ability
-
-</details>
-
-## Other Teams
-
-### Jester
-The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Jester Chance:** Chance of a Jester being added to the role selection pool
-+ **Enable Jester:** Allow Jester to be added to the role selection pool 
-+ **Jester Can Fix Sabotages:** Allow Jester to fix sabotages
-+ **Jester Wins From Sheriff Kill:** Jester will win if killed by the Sheriff
-
-</details>
-
-### Arsonist
-The Arsonist is a role that aims to douse everyone alive and igniting them all to win alone. They need to do this before the Crewmate Team wins by finding all the Impostors. They have no tasks (they get fake tasks like Impostors), but should be careful not to be suspected as they have to say close for the duration of time they are dousing. They should also be careful not to be killed by the Impostor.
-<details>
-<summary>Custom Options</summary>
-  
-+ **% Arsonist Chance:** Chance of a Arsonist being added to the role selection pool
-+ **Enable Arsonist:** Allow Arsonist to be added to the role selection pool 
-+ **Douse Time:** How long it takes for Arsonist to douse a target
-+ **Arsonist Can Fix Sabotages:** Toggles whether Arsonists can fix sabotages
-+ **Arsonist Must Refuel:** Toggles whether Arsonists must refuel after set amount of douses
-+ **# Douses Stored:** Number of successful Douses before Arsonists must refuel _(if refuel option is toggled on)_
-
-</details>
-
-### Impostor
-The Impostor has additional abilities they can make use of:
-- **Drag & Drop Bodies:** Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
-- **Dispose Bodies:** Impostors can dispose a body they are dragging if they are close to a vent or inside the vents. But when bodies are disposed, a bloodstain is left behind on the vent to give crewmates a clue.
-- **Disguise:** Impostors can disguise as another player for set duration. They must first sample the DNA of a player by being nearby the player.
-- **Decoy:** Impostors can drop a decoy, much like the Trickster, to confuse players and trick the Sheriff. They can also drop a decoy of another player by first Disguising as that player
-- **Swap:** Impostors can swap positions with their decoy, much like the Trickster, to avoid danger or cover more ground quicker
-
-<details>
-  
-<summary>Custom Options</summary>
-  
-+ **Drag And Drop Ability:** Toggle the Drag and Drop Ability
-+ **Disguise Ability:** Toggle the Disguise Ability
-+ **Disguise Cooldown:** Cooldown for the Disguise Ability
-+ **Disguise Duration:** How long the Disguise lasts for in seconds
-+ **Dispose Body Ability:** Toggle the Dispose Body Ability
-+ **Dispose Body Cooldown:** Cooldown for the Dipose Body Ability
-+ **Enable Decoy Ability:** Toggle the Decoy Ability for Impostors
-+ **Decoy Cooldown:** Cooldown for the Decoy ability
-+ **Decoy Duration:** Duration for how long the Decoy will last
-+ **Enable Decoy Swap Ability:** Toggle the Decoy Swap Ability for Impostors
-+ **Decoy Swap Cooldown:** Cooldown for the Decoy Swap Ability
-+ **Enable Impostor Messaging:** Toggle on/off Impostor Comms. Impostor Comms allows Impostors to chat to each other in-game via the chat messaging system, outside of meetings
-+ **Can Vent With Body:** Toggle whether the Impostor can vent with bodies
-
-</details>
-
-# How does role assignment work?
-The role selection works as follows:
-For each role, it will attempt to add that to the selection pool **X** number of times, where **X** is the maximum count. The chance of the role being added to the selection pool each time is based on the percentage chance set in the custom options for the specified role.
-
-Once the selection pool is filled, the roles in there will then be randomly assigned to Crewmates (who are not already Impostors and don't already have a special role). As long as there are roles in the pool to assign and Crewmates to assign them to, they will be assigned out. If there are no more roles to be assigned out, the remaining players will just stay as normal Crewmates.
-
-Example:
-_**Sheriffs - # Max Count: 3 | % Chance: 50**_
-
-This means that the role selection will try to put 3 sheriffs into the pool, at 50% chance each time. So the pool can end up with 0, 1, 2 or even the maximum of 3 Sheriffs.
 
 ---
 
@@ -424,6 +238,192 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
 
 <h2>Curseforge</h2>
 You can download the mod on Curseforge <a href="https://www.curseforge.com/among-us/all-mods/town-of-impostors">here</a>
+
+---
+
+# Roles, Abilities & Custom Options
+
+### Keybindings
+From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilities.
+
+### General Custom Options
+- **Custom Role Eject Confirmation:** Enables ejects to show the special role of the player being ejected, assuming "Confirm Ejects" option is on
+- **Same Roles Know Each Other:** Allows players of the same role to see each other (via highlighted names)
+- **Comms Sabotage Causes Anonymity:** Improves the Comms Sabotage to turn everyone anonymous
+- **Ghosts Use Crewmate Vision:** Ghosts will no longer have ghost vision (where they can see everything), they will now instead use normal crewmate vision. Impostors are unaffected. _This option is recommended if there is a Doctor in the game_
+- **Impostors Can Kill Each Other:** Allows Impostors to target and kill each other
+
+## Crewmate Team
+
+The special roles in the Crewmate Team. The goal of the Crewmate Team is to combine their abilities and knowledge to **find the Impostors**. The Crewmate Team will win if all Impostors are ejected or killed.
+
+### Sheriff
+The Sheriff is a role that has the ability to kill Impostors. However, if they attempt to kill a fellow crewmate, they will lose their own life instead as a punishment.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Sheriff Chance:** Chance of a Sheriff being added to the role selection pool
++ **# Max Sheriff Count:** The maximum number of Sheriffs that can be added to the role selection pool
++ **Sheriff Kill Cooldown:** Kill cooldown for the Sheriff
++ **Show Sheriff:** Shows the Sheriff to other players (via a highlighted name)
++ **Innocent Target Also Dies:** The Innocent target will also be killed along with the Sheriff
++ **Jester Is Enemy:** Jester will no longer count as "Innocent"
++ **Arsonist Is Enemy:** Arsonist will no longer count as "Innocent"
+
+</details>
+
+### Doctor
+The Doctor is a role that has the ability to revive dead players. However, this means they are also able to revive Impostors that have been killed by the Sheriff.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Doctor Chance:** Chance of a Doctor being added to the role selection pool
++ **# Max Doctor Count:** The maximum number of Doctors that can be added to the role selection pool
++ **Doctor Revive Cooldown:** Cooldown for the Doctor Revive Ability
++ **Doctor Revive Time:** The time is takes for a Doctor to successfully revive a player
++ **Start Cooldown On Failed Revives:** Start Revive Ability Cooldown if revive fails (if body is removed or disposed)
++ **Medbay Revive Only:** Only allow revives in the Medbay location of a map
++ **Lose Role On Revive:** Crewmates with special roles lose their role if revived (Does not affect Jester & Arsonist)
+
+</details>
+
+### Agent
+The Agent is a powerful role that has abilities allowing them to access map intel from anywhere. This includes the admin table map, security cameras, door logs and vitals if any are accessible. This gives them much more information on what is going on around the map, but they shouldn't neglect their tasks either.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Agent Chance:** Chance of a Agent being added to the role selection pool
++ **# Max Agent Count:** The maximum number of Agents that can be added to the role selection pool
++ **Agent Tech Cooldown:** The cooldown of Agent's abilities (the cooldowns are separate between the abilities, but they will all have the same cooldown time)
++ **Can Use Admin Map:** Agent can activate Admin Map
++ **Can Use Cameras:** Agent can activate Cameras _(Skeld and Polus Only)_
++ **Can Use Door Logs:** Agent can activate Door Logs _(MIRA HQ Only)_
++ **Can Use Vitals:** Agent can activate Vitals _(Polus Only)_
+
+</details>
+
+### Detective
+The Detective is a role that can see footprints and get extra information when reporting bodies (They will get a body report in chat only they can see, which shows time of death and if the body was moved or not). They should use this ability to track down Impostors, but they should also be careful not to frame the wrong person.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Detective Chance:** Chance of a Detective being added to the role selection pool
++ **# Max Detective Count:** The maximum number of Detectives that can be added to the role selection pool
++ **Footprint Duration:** How long the footprints will last in seconds
++ **Anonymous Footprints:** Whether the footprints should be anonymous or not
++ **Extra Information On Report:** If Detective reports a body, they will get an additional "Body Report" via messages (which only they can see). Shows how long the player has been dead for, as well as whether the body has been moved or not
++ **Killers Leave Bloody Prints:** Killers _(includes both Sheriffs & Impostors)_ will leave bloody footprints after a kill
++ **Bloody Prints Duration:** Duration for how long Killers should have bloody footprints for
+
+</details>
+
+### Plumber
+The Plumber is a role that can use vents to travel around. They can also stay in vents to observe the room. But they should be careful not to be suspected as the Impostor or noticed by the Impostor.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Plumber Chance:** Chance of a Plumber being added to the role selection pool
++ **# Max Plumber Count:** The maximum number of Plumbers that can be added to the role selection pool
+
+</details>
+
+### Informant
+The Informant is a role that can see other roles after they are finished with ALL their tasks. They will be "Informed" after finishing tasks, but should also be careful of Impostors that are notified about them. The Informant can only be informed or revealed after **completing at least one task**.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Informant Chance:** Chance of a Informant being added to the role selection pool
++ **# Max Informant Count:** The maximum number of Informants that can be added to the role selection pool
++ **Impostors Are Notified:** Toggles whether Impostors will be notified and also have the Informant revealed to them
++ **Tasks Left When Impostors Notified:** How many tasks left for the Informant before Impostors are notified about them
++ **Show Arrows (Informants And Impostors):** Show arrows pointing to Informants/Impostors if either have been revealed. These can only be seen by Informants or Impostors depending on options that are enabled
++ **See Jester After Tasks:** Toggles whether Informants can see Jesters after tasks
++ **See Arsonists After Tasks:** Toggles whether Informants can see Arsonists after tasks
++ **See Crewmate Roles After Tasks:** Toggles whether Informants can see Crewmate special roles _(if any)_ after tasks
++ **Highlight Names In Meetings:** Toggles whether names are highlighted in meetings too _(for Informants & Impostors)_
+
+</details>
+
+### Trickster
+The Trickster is a role that can create a decoy to trick the Impostor. If the Impostor kills the decoy, they will go into kill cooldown which will slow them down. However, the Sheriff is also able to kill decoys. The Trickster may also swap positions with their decoys to avoid danger or cover more ground quicker.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Trickster Chance:** Chance of a Trickster being added to the role selection pool
++ **# Max Trickster Count:** The maximum number of Tricksters that can be added to the role selection pool
++ **Trickster Decoy Cooldown:** Cooldown duration for the Trickster Decoy ability
++ **Trickster Decoy Duration:** Duration of how long the decoy should last
++ **Enable Trickster Swap Ability:** Allow Trickster to swap positions with the decoy
++ **Trickster Swap Cooldown:** Cooldown duration for the Trickster Swap ability
+
+</details>
+
+## Other Teams
+
+### Jester
+The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Jester Chance:** Chance of a Jester being added to the role selection pool
++ **Enable Jester:** Allow Jester to be added to the role selection pool 
++ **Jester Can Fix Sabotages:** Allow Jester to fix sabotages
++ **Jester Wins From Sheriff Kill:** Jester will win if killed by the Sheriff
+
+</details>
+
+### Arsonist
+The Arsonist is a role that aims to douse everyone alive and igniting them all to win alone. They need to do this before the Crewmate Team wins by finding all the Impostors. They have no tasks (they get fake tasks like Impostors), but should be careful not to be suspected as they have to say close for the duration of time they are dousing. They should also be careful not to be killed by the Impostor.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Arsonist Chance:** Chance of a Arsonist being added to the role selection pool
++ **Enable Arsonist:** Allow Arsonist to be added to the role selection pool 
++ **Douse Time:** How long it takes for Arsonist to douse a target
++ **Arsonist Can Fix Sabotages:** Toggles whether Arsonists can fix sabotages
++ **Arsonist Must Refuel:** Toggles whether Arsonists must refuel after set amount of douses
++ **# Douses Stored:** Number of successful Douses before Arsonists must refuel _(if refuel option is toggled on)_
+
+</details>
+
+### Impostor
+The Impostor has additional abilities they can make use of:
+- **Drag & Drop Bodies:** Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
+- **Dispose Bodies:** Impostors can dispose a body they are dragging if they are close to a vent or inside the vents. But when bodies are disposed, a bloodstain is left behind on the vent to give crewmates a clue.
+- **Disguise:** Impostors can disguise as another player for set duration. They must first sample the DNA of a player by being nearby the player.
+- **Decoy:** Impostors can drop a decoy, much like the Trickster, to confuse players and trick the Sheriff. They can also drop a decoy of another player by first Disguising as that player
+- **Swap:** Impostors can swap positions with their decoy, much like the Trickster, to avoid danger or cover more ground quicker
+
+<details>
+  
+<summary>Custom Options</summary>
+  
++ **Drag And Drop Ability:** Toggle the Drag and Drop Ability
++ **Disguise Ability:** Toggle the Disguise Ability
++ **Disguise Cooldown:** Cooldown for the Disguise Ability
++ **Disguise Duration:** How long the Disguise lasts for in seconds
++ **Dispose Body Ability:** Toggle the Dispose Body Ability
++ **Dispose Body Cooldown:** Cooldown for the Dipose Body Ability
++ **Enable Decoy Ability:** Toggle the Decoy Ability for Impostors
++ **Decoy Cooldown:** Cooldown for the Decoy ability
++ **Decoy Duration:** Duration for how long the Decoy will last
++ **Enable Decoy Swap Ability:** Toggle the Decoy Swap Ability for Impostors
++ **Decoy Swap Cooldown:** Cooldown for the Decoy Swap Ability
++ **Enable Impostor Messaging:** Toggle on/off Impostor Comms. Impostor Comms allows Impostors to chat to each other in-game via the chat messaging system, outside of meetings
++ **Can Vent With Body:** Toggle whether the Impostor can vent with bodies
+
+</details>
+
+# How does role assignment work?
+The role selection works as follows:
+For each role, it will attempt to add that to the selection pool **X** number of times, where **X** is the maximum count. The chance of the role being added to the selection pool each time is based on the percentage chance set in the custom options for the specified role.
+
+Once the selection pool is filled, the roles in there will then be randomly assigned to Crewmates (who are not already Impostors and don't already have a special role). As long as there are roles in the pool to assign and Crewmates to assign them to, they will be assigned out. If there are no more roles to be assigned out, the remaining players will just stay as normal Crewmates.
+
+Example:
+_**Sheriffs - # Max Count: 3 | % Chance: 50**_
+
+This means that the role selection will try to put 3 sheriffs into the pool, at 50% chance each time. So the pool can end up with 0, 1, 2 or even the maximum of 3 Sheriffs.
 
 ---
 
