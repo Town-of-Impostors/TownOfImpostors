@@ -13,13 +13,14 @@ More roles and abilities will be added in future versions. Customise and play ga
 <img src="Pics/TownOfImpostors-Plumber.png" width="300"></img>
 <img src="Pics/TownOfImpostors-Arsonist.PNG" width="300"></img>
 <img src="Pics/TownOfImpostors-Informant.PNG" width="300"></img>
+<img src="Pics/TownOfImpostors-Trickster.png" width="300"></img>
 
 ---
 
 # Roles, Abilities & Custom Options
 
 ### Keybindings
-From 1.6.0 onwards, you can now use keys **1, 2, 3, 4** to activate abilities.
+From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilities.
 
 ### General Custom Options
 - **Custom Role Eject Confirmation:** Enables ejects to show the special role of the player being ejected, assuming "Confirm Ejects" option is on
@@ -119,6 +120,20 @@ The Informant is a role that can see other roles after they are finished with AL
 
 </details>
 
+### Trickster
+The Trickster is a role that can create a decoy to trick the Impostor. If the Impostor kills the decoy, they will go into kill cooldown which will slow them down. However, the Sheriff is also able to kill decoys. The Trickster may also swap positions with their decoys to avoid danger or cover more ground quicker.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Trickster Chance:** Chance of a Trickster being added to the role selection pool
++ **# Max Trickster Count:** The maximum number of Tricksters that can be added to the role selection pool
++ **Trickster Decoy Cooldown:** Cooldown duration for the Trickster Decoy ability
++ **Trickster Decoy Duration:** Duration of how long the decoy should last
++ **Enable Trickster Swap Ability:** Allow Trickster to swap positions with the decoy
++ **Trickster Swap Cooldown:** Cooldown duration for the Trickster Swap ability
+
+</details>
+
 ## Other Teams
 
 ### Jester
@@ -152,7 +167,11 @@ The Impostor has additional abilities they can make use of:
 - **Drag & Drop Bodies:** Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
 - **Dispose Bodies:** Impostors can dispose a body they are dragging if they are close to a vent or inside the vents. But when bodies are disposed, a bloodstain is left behind on the vent to give crewmates a clue.
 - **Disguise:** Impostors can disguise as another player for set duration. They must first sample the DNA of a player by being nearby the player.
+- **Decoy:** Impostors can drop a decoy, much like the Trickster, to confuse players and trick the Sheriff. They can also drop a decoy of another player by first Disguising as that player
+- **Swap:** Impostors can swap positions with their decoy, much like the Trickster, to avoid danger or cover more ground quicker
+
 <details>
+  
 <summary>Custom Options</summary>
   
 + **Drag And Drop Ability:** Toggle the Drag and Drop Ability
@@ -161,6 +180,11 @@ The Impostor has additional abilities they can make use of:
 + **Disguise Duration:** How long the Disguise lasts for in seconds
 + **Dispose Body Ability:** Toggle the Dispose Body Ability
 + **Dispose Body Cooldown:** Cooldown for the Dipose Body Ability
++ **Enable Decoy Ability:** Toggle the Decoy Ability for Impostors
++ **Decoy Cooldown:** Cooldown for the Decoy ability
++ **Decoy Duration:** Duration for how long the Decoy will last
++ **Enable Decoy Swap Ability:** Toggle the Decoy Swap Ability for Impostors
++ **Decoy Swap Cooldown:** Cooldown for the Decoy Swap Ability
 + **Enable Impostor Messaging:** Toggle on/off Impostor Comms. Impostor Comms allows Impostors to chat to each other in-game via the chat messaging system, outside of meetings
 + **Can Vent With Body:** Toggle whether the Impostor can vent with bodies
 
@@ -216,6 +240,12 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
     <th>Link</th>
   </tr>
   <tr>
+    <td>v2021.3.31.3s</td>
+    <td>v1.7.0</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/TownOfImpostors1.7.0.zip">Download</></td>
+   </tr>
+  <tr>
+  <tr>
     <td>v2021.3.5s</td>
     <td>v1.6.1</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.6.1/TownOfImpostors1.6.1.zip">Download</></td>
@@ -259,6 +289,25 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
 
 <details>
   <summary>Changelog</summary>
+  <details>
+  <summary>v1.7.0</summary>
+  <h3>v1.7.0</h3>
+   <ul>
+    <li>Compatibility with 2021.3.35.3s</li>
+    <li>Compatibilities with Airship</li>
+    <li>Trickster Role</li>
+    <li>Impostor Decoy Abilities (Like Trickster)</li>
+     <li>Lobby Role Summary for Chances and Count</li>
+     <li>Lobby Improvements (Role Bookmarks)</li>
+     <li>Colorblind Friendly Updates</li>
+     <li>Fixed bugs with Impostor Comms</li>
+     <li>Dousing & Reviving now show progress bars instead</li>
+     <li>Fixed bugs with dead bodies using wrong colours on Comms Sabotage</li>
+     <li>Fixed some buttons resetting CDs on opening windows</li>
+     <li>Fixed issue with toggle buttons blocking scrolling/clickable anywhere (don't know why Innersloth made it like this)</li>
+     <li>Various bug fixes & optimisations</li>
+   </ul>
+    </details>
   <details>
   <summary>v1.6.1</summary>
   <h3>v1.6.1</h3>
@@ -436,10 +485,6 @@ You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an i
 - When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod. In v1.5.0 onwards, there is a new reset settings button the host can make use of to do a hard reset on all custom settings to reset everything to default values
 
 - Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
-
-- Impostor Comms is currently permanently enabled and dead impostors cannot talk to other players.
-
-- Dead bodies change into wrong colours after an anonymous comms sabotage.
 
 ---
 
