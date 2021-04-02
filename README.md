@@ -17,9 +17,37 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 
 ---
 
+Table of Contents
+=================
+
+  * [Installation](#installation)
+    * [Releases and Compatibility](#releases-and-compatibility)
+    * [Uninstalling](#uninstalling-the-mod)
+  * [Roles, Abilities & Custom Options](#roles-abilities--custom-options)
+    * [Crewmate Team](#crewmate-team)
+      * [Sheriff](#sheriff)
+      * [Doctor](#doctor)
+      * [Agent](#agent)
+      * [Detective](#detective)
+      * [Plumber](#plumber)
+      * [Informant](#informant)
+      * [Trickster](#trickster)
+    * [Other Teams](#other-teams)
+      * [Jester](#jester)
+      * [Arsonist](#arsonist)
+      * [Impostor](#impostor)
+    * [How Role Assignment Works](#how-does-role-assignment-work)
+  * [FAQ](#faq)
+  * [Troubleshooting](#troubleshooting)
+    * [Known Issues](#known-issues)
+  * [Contact & Donations](#contact--donations)
+  * [License](#license)
+
+---
+
 <h1 id="installation">Installation</h1>
 
-- Download the Mod for your specific game version. You are not able to launch the game if the versions do not match.
+- Download the Mod for your specific game version from the table below or check all releases [here](https://github.com/AJMix/TownOfImpostors/releases). You are not able to launch the game if the versions do not match.
 - Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us"). You can get to your root directory by right-clicking Among Us in steam -> Properties -> Local Files -> Browse. and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors")
 - Extract the contents TownOfImpostors.zip into the copied folder you created
 - Ensure the copied directory that is being modded now contains at least the following:
@@ -51,14 +79,12 @@ Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. T
 - Launch the game via Among Us.exe
 - In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_
 
-**Uninstalling the Mod**
+If you don't see this message please take a look at the <a href="#troubleshooting">troubleshooting section</a>.
+
+#### Uninstalling the Mod
 - If you copied the Among Us folder as instructed by the Installation Steps, simply delete the copied folder.
 - If you did not, and you unzipped the mod into your main Among Us folder, then you have to delete the following folders & files:
   - **BepInEx** folder, **mono** folder, **doorstop_config.ini**, **winhttp.dll**
-
-<p>If you don't see this message please take a look at the 
-  <a href="#troubleshooting">troubleshooting section</a>.
-</p>
  
 <h2>Releases and Compatibility</h2>
 
@@ -444,26 +470,51 @@ This means that the role selection will try to put 3 sheriffs into the pool, at 
 
 ---
 
-# Q&A
+# FAQ
  
 ### Can you play Proximity Chat (Crewlink) with it?
 Yes, Crewlink supports Among Us Modifications
 
-### Can you get banned for playing on public Servers?
-At the current state of the game there is no perma ban system for the game. The mod is designed in a way, that it does not send prohibited server requests.
-You are also able to join your own custom server to be safe <a href="https://github.com/Impostor/Impostor">(Impostor)</a></p>
-
-### How can I join a custom server?
-This functionality has been removed from 1.6.0 onwards. Please look into using <a href="https://github.com/MoltenMods/Unify">Unify</a></p>
+### Can this mod work with other mods?
+I cannot guarantee that this mod will work with other mods. There will likely be conflicts. You will have to test yourself. 
 
 ### Do my friends need to install the mod to play it together?
 Yes. Every player in the lobby must have the mod installed. Please don't use and play mods in unorganised public lobbies.
 
-### Can this mod work with other mods?
-I cannot guarantee that this mod will work with other mods. There will likely be conflicts. You will have to test yourself. 
+### Can you get banned for playing on public servers?
+At the current state of the game there is no perma ban system, though this may change depending on the stance of the Among Us developers. The mod is designed in a way that it does not send prohibited server requests. In a public lobby with randoms, with only you having the mod installed, you would either be kicked for strange behaviour or have a desync between you and other users that do not have same mod loaded, or both. In short, as long as this mod is played among friends in your own private lobby, you're safe.
+
+If you are really worried, I recommend checking out <a href="https://github.com/Impostor/Impostor">Impostor</a> to start your own custom, private server. (You may have to disable their AntiCheat implementation for it to work with mods like this).
+**Still, a disclaimer that you use this mod at your own risk and I am not responsible for any account suspensions that may occur from the use of this mod.**
+
+### How can I join servers of a custom region?
+This functionality has been removed from 1.6.0 onwards. Please look into using <a href="https://github.com/MoltenMods/Unify">Unify</a>
 
 ### Can this mod work with controllers?
-This mod was not made to be compatible with controllers. Recommended to only play this mod with keyboard and mouse.
+This mod was not made to be compatible with controllers in mind; it was intended to be played with keyboard and mouse.
+
+---
+
+<h1 id="troubleshooting">Troubleshooting</h1>
+
+### The mod isn't installed or game doesn't launch
+- Please make sure you're using the latest version of the mod and the correct version of Among Us for it
+- Please make sure you're using Windows, this mod is not compatible on Android, Mac or any other OS/devices
+- Please make sure you're using this with the **Steam** version of Among Us; this is not compatible with the itch.io version unfortunately
+- Please make sure you're not loading other mods along with this one
+- Make sure you have followed all the <a href="#installation">installation steps</a>, especially launching the game via the Among Us.exe file
+- Try uninstalling the mod (see uninstalling the mod in the Installation Steps) and following the installation steps again
+- If you're using a Mod Manager to install the mod, it is not guaranteed to work
+- You might be missing some cpp libs (software libraries used by the mod); please install <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe">visual studio c++</a>
+
+### The mod still doesn't work or found a bug?
+You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an issue within GitHub</a> documenting your issue. You will need to be logged into GitHub to do this.
+For any bugs, take a quick check if your bug has already been listed under the below [Known Issues](#known-issues) or if it has already been reported. Please give as much detail as possible regarding the issue, including steps to reproduce it if possible. If it exists, please also attach your **LogOutput.log**, generated in the Among Us\BepInEx\ folder.
+
+## Known Issues
+- When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod. In v1.5.0 onwards, there is a new reset settings button the host can make use of to do a hard reset on all custom settings to reset everything to default values
+
+- Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
 
 ---
 
@@ -481,27 +532,6 @@ This mod was not made to be compatible with controllers. Recommended to only pla
 <a href="https://www.paypal.com/donate?hosted_button_id=M2FL98EWXTQDE"><img src ="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal button" ></img></a>
 
 All donations are appreciated and will go towards the development of mods.
-
----
-
-<h1 id="troubleshooting">Troubleshooting</h1>
-
-### The mod isn't installed or game doesn't launch
-- Please make sure you're using the latest version of the mod and the correct version of Among Us for it
-- Please make sure you're using Windows, this mod is not compatible on mobile, Mac or any other OS/devices
-- Please make sure you're not loading other mods along with this one
-- Make sure you have followed all the <a href="#installation">installation steps</a>, especially launching the game via the Among Us.exe file
-- Try uninstalling the mod (see uninstalling the mod in the Installation Steps) and following the installation steps again
-- If you're using a Mod Manager to install the mod, it is not guaranteed to work
-- You might be missing some cpp libs (software libraries used by the mod); please install <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe">visual studio c++</a>
-
-### The mod still doesn't work or found a bug?
-You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an issue within GitHub</a> documenting your issue. You will need to be logged into GitHub to do this.
-
-## Known Issues
-- When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod. In v1.5.0 onwards, there is a new reset settings button the host can make use of to do a hard reset on all custom settings to reset everything to default values
-
-- Disconnections in the middle of the game can cause bugs to occur, and the only way to fix them would be starting a new game or restarting the game. This mod was made with the assumption that no one would disconnect as disconnections are a whole other edgecase to fix. Future updates will hopefully fix this, but for now, just start another game or restart the client if a disconnection causes your game to bug
 
 ---
 
