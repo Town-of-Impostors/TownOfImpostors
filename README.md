@@ -11,6 +11,7 @@
 <img src="Pics/TownOfImpostors-Jester.PNG" width="270">
 <img src="Pics/TownOfImpostors-Detective.png" width="270">
 <img src="Pics/TownOfImpostors-Plumber.png" width="270">
+<img src="Pics/TownOfImpostors-Agent.PNG" width="270">
 <img src="Pics/TownOfImpostors-Arsonist.PNG" width="270">
 <img src="Pics/TownOfImpostors-Informant.PNG" width="270">
 <img src="Pics/TownOfImpostors-Trickster.png" width="270">
