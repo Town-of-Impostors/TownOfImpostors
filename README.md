@@ -69,19 +69,17 @@ Table of Contents
 - **Make sure to launch the game via the Among Us.exe from this directory**
 - Please note that the first time launching the game with this mod may take a while
 
-**If you do not follow the installation instructions exactly, or you use a Mod Manager or other mods with this mod, I cannot guarantee the mod will work as intended. Please only raise issues if you've followed installations exactly and you are not using any mod manager or other mods.**
+**Verifying installation success**
+- Launch the game via Among Us.exe
+- In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_ to indicate the mod is successfully running.
 
-**When updating from version to version, settings can bug and cause unintended effects. This is due to how new custom settings are being added in each update. If you are getting strange bugs occurring with the settings, try manually settings everything again (to overwrite the saved settings on your computer) by manually toggling options on and off, setting timers and settings counts. You can also do a hard reset by running vanilla among us and creating a lobby, then reopening among us with this mod.**
+If you don't see this message or have any other issues, please take a look at the <a href="#troubleshooting">troubleshooting section</a>.
+
+**Before raising an issue, please double check that you have accurately followed the installation instructions and you are not using any mod manager or other mods.**
 
 **Starting from v1.5.0 onwards, there is a new reset custom settings button in the lobby. Please use it if your settings are bugged. Settings can bug when you update from version to version, it's best practice to reset settings.**
 
 **Starting from v1.6.0 onwards, this mod should now be compatible with Mod Manager by MatuxGG. Please note that using the Mod Manager to install the mod still does not guarantee that the mod will work as intended.**
-
-**Verifying installation success**
-- Launch the game via Among Us.exe
-- In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_
-
-If you don't see this message please take a look at the <a href="#troubleshooting">troubleshooting section</a>.
 
 #### Uninstalling the Mod
 - If you copied the Among Us folder as instructed by the Installation Steps, simply delete the copied folder.
