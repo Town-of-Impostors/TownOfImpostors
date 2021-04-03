@@ -1,7 +1,7 @@
 # Town Of Impostors
-Town Of Impostors Mod is a modification for Among Us - **PC/Windows (Steam)**. This mod aims to add new roles & abilities to enhance gameplay, while also allowing for many customisation options for you to tailor, balance and play games your way.
+<p align="center">Town Of Impostors Mod is a modification for Among Us - <b>PC/Windows (Steam)</b>. This mod aims to add new roles & abilities to enhance gameplay, while also providing a full range of options to allow for customising and playing games your way.</p>
 
-**Every player in the room must have the mod installed for it to work correctly. Please DO NOT play this mod on public lobbies, it is intended for private organised lobbies.**
+<p align="center"><b>Every player in the room must have the mod installed for it to work correctly. Please DO NOT play this mod on public lobbies, it is intended for private organised lobbies.</b></p>
 
 <p align="center">
 <img src="Pics/TownOfImpostorsPreview.png" width="900">
@@ -49,7 +49,7 @@ Table of Contents
 <h1 id="installation">Installation</h1>
 
 - Download the Mod for your specific game version from the table below or check all releases [here](https://github.com/AJMix/TownOfImpostors/releases). You are not able to launch the game if the versions do not match.
-- Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us"). You can get to your root directory by right-clicking Among Us in steam -> Properties -> Local Files -> Browse. and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors")
+- Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us"). You can get to your root directory by right-clicking Among Us in steam -> Properties -> Local Files -> Browse. and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors").
 - Extract the contents TownOfImpostors.zip into the copied folder you created
 - Ensure the copied directory that is being modded now contains at least the following:
 ```
