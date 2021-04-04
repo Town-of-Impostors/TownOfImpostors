@@ -5,15 +5,15 @@
 
 <p align="center">
 <img src="Pics/TownOfImpostorsPreview.png" width="900">
-<img src="Pics/TownOfImpostors-Sheriff.PNG" width="270">
-<img src="Pics/TownOfImpostors-Doctor.PNG" width="270">
+<img src="Pics/TownOfImpostors-Sheriff.png" width="270">
+<img src="Pics/TownOfImpostors-Doctor.png" width="270">
 <img src="Pics/TownOfImpostors-Impostor.PNG" width="270">
-<img src="Pics/TownOfImpostors-Jester.PNG" width="270">
-<img src="Pics/TownOfImpostors-Agent.PNG" width="270">
+<img src="Pics/TownOfImpostors-Jester.png" width="270">
+<img src="Pics/TownOfImpostors-Agent.png" width="270">
 <img src="Pics/TownOfImpostors-Detective.png" width="270">
 <img src="Pics/TownOfImpostors-Plumber.png" width="270">
-<img src="Pics/TownOfImpostors-Arsonist.PNG" width="270">
-<img src="Pics/TownOfImpostors-Informant.PNG" width="270">
+<img src="Pics/TownOfImpostors-Arsonist.png" width="270">
+<img src="Pics/TownOfImpostors-Informant.png" width="270">
 <img src="Pics/TownOfImpostors-Trickster.png" width="270">
 </p>
 
