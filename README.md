@@ -536,5 +536,18 @@ All donations are appreciated and will go towards the development of mods.
 
 ---
 
+# Credits
+
+**_Please let me know if you'd like me to attach a social media next to your name, change your name or remove your name from the list._**
+
+### Big thanks to the following Donator(s):
+**Bernie Choy**
+
+### Big thanks to the following for supporting in the development of the mod:
+- **Darkbrussel** for the Artwork
+- **JonyKasual** for thorough testing and general support
+
+---
+
 <h1>License</h1>
 <a href="https://github.com/BepInEx/BepInEx">BepinEx</a> is distributed under <b>LGPL-2.1</b> License.</p>
