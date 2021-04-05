@@ -21,7 +21,7 @@
 
 Table of Contents
 =================
-  * [Custom Hat](#customhats)
+  * [Custom Hats](#customhats)
   * [Installation](#installation)
     * [Releases and Compatibility](#releases-and-compatibility)
     * [Uninstalling](#uninstalling-the-mod)
