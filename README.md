@@ -47,6 +47,26 @@ Table of Contents
 
 ---
 
+<h1 id="customhats">Custom Hats</h1>
+
+**Custom Hats are coming in the next release!**
+
+## How do I add my own Custom Hat?
+* Download the template used to make the Custom Hat for Town Of Impostors:
+  * Download .psd template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.psd)
+  * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.png)
+* Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
+  * **IMPORTANT:** If you want your hat to be behind the crewmate (i.e. wings), add a `_back` to the name. If you want it to bounce while the crewmate walks, add a `_bounce` to the name. Example: `Wings_back.png`, `BouncyHat_bounce.png`, `BouncyWings_back_bounce.png`
+* Place the custom hat png into the `TownOfImpostors_CustomHats` folder which can be found in `BepInEx\plugins\TownOfImpostors_CustomHats` inside of the Among Us directory you have the mod installed (launch the game once with the mod or create the folder yourself if it does not exist)
+* Your custom hat should now appear in the hats tab **locally**. If you want everyone to see the same thing **make sure everyone has the same hats in the custom hats folder.**
+
+## Want to add your hat as part of the mod so everyone can use it?
+* Simply follow the same steps above to create a Custom Hat, then send me your Custom Hat .png via any means. Please also follow the naming convention so I know whether you'd like it to be added to the **back** of the crewmate and whether you'd like it to **bounce**.
+* Finally, tell me the name you'd like your hat to be referred as in-game, as well as the name you'd like me to credit the hat to. The credits of this hat will appear underneath the mod credits whenever someone is wearing your hat! (i.e. it'll appear as `AJ's Scarf by AJMix`)
+* I'll try my best to get your Custom Hat into the next release of Town Of Impostors!
+
+---
+
 <h1 id="installation">Installation</h1>
 
 - Before installing, verify your Among Us version by launching the game and checking the version displayed in the top left of the main menu.
