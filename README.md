@@ -49,7 +49,7 @@ Table of Contents
 
 <h1 id="customhats">Custom Hats</h1>
 
-**Custom Hats are coming in the next release!**
+### **THE INSTRUCTIONS BELOW ARE FOR NEXT RELEASE. You can start using the template now to create your Custom Hats, but the features will only be available next release.**
 
 ## How do I add my own Custom Hat?
 * Download the template used to make the Custom Hat for Town Of Impostors:
