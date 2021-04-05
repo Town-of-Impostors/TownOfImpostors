@@ -49,7 +49,7 @@ Table of Contents
 
 <h1 id="installation">Installation</h1>
 
-- Before installing, verify your Among Us version by launching the game and make note of the version displayed in the top left of the main menu.
+- Before installing, verify your Among Us version by launching the game and checking the version displayed in the top left of the main menu.
 
 - Download the Mod for your specific game version from the table below or check all releases [here](https://github.com/AJMix/TownOfImpostors/releases). **ENSURE THAT YOUR AMONG US VERSION MATCHES EXACTLY - EVERY DIGIT, LETTER, DOT & ALL.**
 
