@@ -49,9 +49,14 @@ Table of Contents
 
 <h1 id="installation">Installation</h1>
 
-- Download the Mod for your specific game version from the table below or check all releases [here](https://github.com/AJMix/TownOfImpostors/releases). You are not able to launch the game if the versions do not match.
-- Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us"). You can get to your root directory by right-clicking Among Us in steam -> Properties -> Local Files -> Browse. and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors").
-- Extract the contents TownOfImpostors.zip into the copied folder you created
+- Before installing, verify your Among Us version by launching the game and make note of the version displayed in the top left of the main menu.
+
+- Download the Mod for your specific game version from the table below or check all releases [here](https://github.com/AJMix/TownOfImpostors/releases). **ENSURE THAT YOUR AMONG US VERSION MATCHES EXACTLY - EVERY DIGIT, LETTER, DOT & ALL.**
+
+- Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us"). You can get to your root directory by right-clicking Among Us in Steam -> Properties -> Local Files -> Browse. and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors").
+
+- Extract the contents TownOfImpostors.zip into the copied folder you created.
+
 - Ensure the copied directory that is being modded now contains at least the following:
 ```
 .
@@ -59,6 +64,7 @@ Table of Contents
 ├── BepInEx <--
 ├── mono <--
 ├── Among Us.exe
+├── baselib.dll
 ├── changelog.txt
 ├── doorstop_config.ini <--
 ├── GameAssembly.dll
@@ -67,12 +73,16 @@ Table of Contents
 ├── UnityPlayer.dll
 └── winhttp.dll <--
 ```
-- **Make sure to launch the game via the Among Us.exe from this directory**
-- Please note that the first time launching the game with this mod may take a while
+<details>
+ <summary>Still unsure? Here's an image of what it should look like if you have hidden file name extensions</summary>
+ <img src="Pics/TownOfImpostersDirectory.png">
+ </details>
+ 
+- **Make sure to launch the game via the Among Us.exe from this directory**. Please note that the first time launching the game with this mod may take a while.
 
 **Verifying installation success**
 - Launch the game via Among Us.exe
-- In the top-left corner, below Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_ to indicate the mod is successfully running.
+- In the top-left corner of the main menu, below the Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_ to indicate the mod is running and has been successfully installed.
 
 If you don't see this message or have any other issues, please take a look at the <a href="#troubleshooting">troubleshooting section</a>.
 
