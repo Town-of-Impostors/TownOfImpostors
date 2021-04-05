@@ -57,8 +57,8 @@ Table of Contents
   * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.png)
 * Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
   
-* **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>`. Please avoid spaces, use `-` to represent spaces, for example, `Bouncy-Hat`.
-  * **For Modifiers**, if you want your hat to be behind the crewmate (i.e. wings), add a `_back` to the name. If you want it to bounce while the crewmate walks, add a `_bounce` to the name. 
+* **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>`. For spaces, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
+  * **For Modifiers:** if you want your hat to be behind the crewmate (i.e. wings), add a `_back` to the name. If you want it to bounce while the crewmate walks, add a `_bounce` to the name. 
   * **Example Names:** `Wing_Spaced-AJMix_back.png`, `Bouncy-Hat_AJMix_bounce.png`, `BouncyWings_AJMix_back_bounce.png`
 
 * Place the custom hat png into the `TownOfImpostors_CustomHats` which can be found inside of the Among Us directory you have the mod installed (launch the game once and start a lobby with the mod or create the folder yourself if it does not exist)
@@ -67,7 +67,7 @@ Table of Contents
 
 ## Want to add your hat as part of the mod so everyone can use it?
 * Simply follow the same steps above to create a Custom Hat, then send me your Custom Hat .png via any means. Please also follow the naming convention so I know whether you'd like it to be added to the **back** of the crewmate and whether you'd like it to **bounce**.
-* Finally, tell me the name you'd like your hat to be referred as in-game, as well as the name you'd like me to credit the hat to. The credits of this hat will appear underneath the mod credits whenever someone is wearing your hat! (i.e. `AJ's Scarf by AJMix`, `Dark's Scarf by Darkbrussel`)
+* Finally, tell me the name you'd like your hat to be referred as in-game, as well as the name you'd like me to credit the hat to. The credits of this hat will appear underneath the mod credits whenever someone is wearing your hat! (i.e. `AJ Scarf by AJMix`, `Dark Scarf by Darkbrussel`)
 * I'll try my best to get your Custom Hat into the next release of Town Of Impostors!
 
 ## How about the hat angles for animations such as the ladder climb in Airship?
