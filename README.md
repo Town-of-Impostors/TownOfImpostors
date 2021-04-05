@@ -65,6 +65,9 @@ Table of Contents
 * Finally, tell me the name you'd like your hat to be referred as in-game, as well as the name you'd like me to credit the hat to. The credits of this hat will appear underneath the mod credits whenever someone is wearing your hat! (i.e. `AJ's Scarf by AJMix`, `Dark's Scarf by Darkbrussel`)
 * I'll try my best to get your Custom Hat into the next release of Town Of Impostors!
 
+## How about the hat angles for animations such as the ladder climb in Airship?
+That currently won't be supported yet for custom. But I plan to add support for those in a future version!
+
 ---
 
 <h1 id="installation">Installation</h1>
