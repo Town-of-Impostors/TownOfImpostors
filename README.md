@@ -66,7 +66,7 @@ Table of Contents
 * I'll try my best to get your Custom Hat into the next release of Town Of Impostors!
 
 ## How about the hat angles for animations such as the ladder climb in Airship?
-That currently won't be supported yet for custom. But I plan to add support for those in a future version!
+That currently won't be supported yet for custom hats. But, I plan to add support for those in a future version!
 
 ---
 
