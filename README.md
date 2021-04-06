@@ -22,10 +22,11 @@
 Table of Contents
 =================
   * [Custom Hats](#customhats)
+  * [Streamer Mode](#streamermode)
   * [Installation](#installation)
     * [Releases and Compatibility](#releases-and-compatibility)
     * [Uninstalling](#uninstalling-the-mod)
-  * [Roles, Abilities & Custom Options](#roles-abilities--custom-options)
+  * [Roles, Abilities, Modifiers & Custom Options](#roles-abilities--custom-options)
     * [Crewmate Team](#crewmate-team)
       * [Sheriff](#sheriff)
       * [Doctor](#doctor)
@@ -38,6 +39,8 @@ Table of Contents
       * [Jester](#jester)
       * [Arsonist](#arsonist)
       * [Impostor](#impostor)
+    * [Modifiers](#modifiers)
+      * [Lovers](#lovers)
     * [How Role Assignment Works](#how-does-role-assignment-work)
   * [FAQ](#faq)
   * [Troubleshooting](#troubleshooting)
@@ -49,7 +52,7 @@ Table of Contents
 
 <h1 id="customhats">Custom Hats</h1>
 
-### **THE INSTRUCTIONS BELOW ARE FOR NEXT RELEASE. You can start using the template now to create your Custom Hats, but the features will only be available next release.**
+### **Only for versions 1.7.1 onwards**
 
 ## How do I add my own Custom Hat?
 * Download the template used to make the Custom Hat for Town Of Impostors:
@@ -72,6 +75,19 @@ Table of Contents
 
 ## How about the hat angles for animations such as the ladder climb in Airship?
 That currently won't be supported yet for custom hats. But, I plan to add support for those in a future version!
+
+---
+
+<h1 id="customhats">Streamer Mode</h1>
+
+From 1.7.1 onwards, there is a new streamer mode that can be toggled on.
+
+This makes it easier for streamers as you won't have to manually hide the code anymore on stream, it will be hidden for you.
+
+### How do I get the room code?
+When you create a room, the room code will be copied to your clipboard. Simply paste it somewhere and pass it onto others.
+
+If you accidentally copied something else before pasting the room code somewhere, you can get your copy/clipboard history by using `Windows Key + V`. Or you can just make another room.
 
 ---
 
@@ -135,6 +151,12 @@ If the table is not yet updated, check all releases [here](https://github.com/AJ
     <th>Mod Version</th>
     <th>Link</th>
   </tr>
+ <tr>
+    <td>v2021.3.31.3s</td>
+    <td>v1.7.1</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.1/TownOfImpostors1.7.1.zip">Download</></td>
+   </tr>
+  <tr>
   <tr>
     <td>v2021.3.31.3s</td>
     <td>v1.7.0</td>
@@ -185,6 +207,29 @@ If the table is not yet updated, check all releases [here](https://github.com/AJ
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v1.7.1</summary>
+  <h3>v1.7.1</h3>
+   <ul>
+    <li>Compatibility with 2021.3.31.3s</li>
+    <li>CUSTOM HATS! (See instructions on how this works at the top)</li>
+    <li>Streamer Mode (See instructions on how this works at the top)</li>
+    <li>Fixed role selection not properly randomising player list (host always got a role no matter what)</li>
+     <li>Bloodstains on vents should now properly disappear after meetings</li>
+     <li>Detective footprints now properly disappear after they lose their role from revives)</li>
+     <li>Fixed ghost crewmate vision that broke in the latest version</li>
+     <li>Made Informant arrows bigger</li>
+     <li>Fixed issue with disguise revealing impostors before meetings</li>
+     <li>Fixed role description text not appearing properly</li>
+     <li>Fixed a bug that caused infinite duration for some abilities</li>
+     <li>Fixed agent abilities being broken in some maps</li>
+     <li>[Modifier] Lover Modifier</li>
+    <li>[Custom Option] Disguised Footprints: Toggles whether Disguised Impostors leave Disguised Footprints</li>
+    <li>[Custom Option] Agent Abilities Share Cooldown: Toggles whether all Agent abilities should go into cooldown when using one ability</li>
+    <li>[Custom Option] Game Continues With Arsonist: Toggles whether the game continues if Arsonist is still alive</li>
+    <li>[Custom Option] Disable Body Report: Toggles whether body reports are enabled or not</li>
+   </ul>
+    </details>
   <details>
   <summary>v1.7.0</summary>
   <h3>v1.7.0</h3>
@@ -323,7 +368,7 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 
 ---
 
-# Roles, Abilities & Custom Options
+# Roles, Abilities, Modifiers & Custom Options
 
 ### Keybindings
 From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilities.
@@ -334,6 +379,8 @@ From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilit
 - **Comms Sabotage Causes Anonymity:** Improves the Comms Sabotage to turn everyone anonymous
 - **Ghosts Use Crewmate Vision:** Ghosts will no longer have ghost vision (where they can see everything), they will now instead use normal crewmate vision. Impostors are unaffected. _This option is recommended if there is a Doctor in the game_
 - **Impostors Can Kill Each Other:** Allows Impostors to target and kill each other
+- **Game Continues With Arsonist:** Toggles whether the game should continue as long as Arsonist is alive
+- **Disable Body Report:** Toggles on/off body reporting (to get a different kind of gameplay)
 
 ## Crewmate Team
 
@@ -381,6 +428,7 @@ The Agent is a powerful role that has abilities allowing them to access map inte
 + **Can Use Cameras:** Agent can activate Cameras _(Skeld and Polus Only)_
 + **Can Use Door Logs:** Agent can activate Door Logs _(MIRA HQ Only)_
 + **Can Use Vitals:** Agent can activate Vitals _(Polus Only)_
++ **Agent Abilities Share Cooldown:** Toggle whether all agent abilities go into cooldown after using one ability
 
 </details>
 
@@ -395,7 +443,8 @@ The Detective is a role that can see footprints and get extra information when r
 + **Anonymous Footprints:** Whether the footprints should be anonymous or not
 + **Extra Information On Report:** If Detective reports a body, they will get an additional "Body Report" via messages (which only they can see). Shows how long the player has been dead for, as well as whether the body has been moved or not
 + **Killers Leave Bloody Prints:** Killers _(includes both Sheriffs & Impostors)_ will leave bloody footprints after a kill
-+ **Bloody Prints Duration:** Duration for how long Killers should have bloody footprints for
++ **Bloody Prints Duration:** Duration for how long Killers should have bloody footprints
++ **Disguised Footprints:** Toggles whether Impostors leave behind disguised footprints if they are disguised
 
 </details>
 
@@ -493,6 +542,26 @@ The Impostor has additional abilities they can make use of:
 + **Decoy Swap Cooldown:** Cooldown for the Decoy Swap Ability
 + **Enable Impostor Messaging:** Toggle on/off Impostor Comms. Impostor Comms allows Impostors to chat to each other in-game via the chat messaging system, outside of meetings
 + **Can Vent With Body:** Toggle whether the Impostor can vent with bodies
+
+</details>
+
+## Modifiers
+
+### Lovers
+This activates the Lovers modifier. Two players are selected as random to be lovers (if applicable). Impostors can also be selected as Lovers. Jesters & Arsonists cannot be selected as Lovers. There can not be more than 1 Impostor Lover.
+
+Lovers can still get their own special roles, and can still win as normal with their respective teams.
+
+However, the Lovers can achieve a special "Lovers Win". The goal of the Lovers is to stay alive together and win together at the end. Lovers will achieve the special Lovers Win if they are both among the **last 3 players** standing. The only exception to this is if the custom option **Game Continues With Arsonist** is toggled on and the Arsonist is among the last 3. The game will continue as long as the Arsonist is alive.
+
+Lovers are given the ability to chat with each other via a special Lovers Chat in-between meetings.
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Lovers Chance:** Chance for Lovers to appear
++ **Enable Lovers:** Toggles Lovers on/off
++ **Lovers Die Together:** Toggles whether Lovers should die together (if one dies, the other dies, like a life link)
 
 </details>
 
