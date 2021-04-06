@@ -84,7 +84,7 @@ That currently won't be supported yet for custom hats. But, I plan to add suppor
 
 ---
 
-<h1 id="customhats">Streamer Mode</h1>
+<h1 id="streamermode">Streamer Mode</h1>
 
 From 1.7.1 onwards, there is a new streamer mode that can be toggled on.
 
