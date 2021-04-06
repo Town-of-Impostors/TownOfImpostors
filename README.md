@@ -88,7 +88,7 @@ That currently won't be supported yet for custom hats. But, I plan to add suppor
 
 From 1.7.1 onwards, there is a new streamer mode that can be toggled on.
 
-This makes it easier for streamers as you won't have to manually hide the code anymore on stream, it will be hidden for you.
+This makes it easier for streamers as they won't have to manually hide the code anymore on stream, it will be hidden automatically.
 
 ### How do I get the room code?
 When you create a room, the room code will be copied to your clipboard. Simply paste it somewhere and pass it onto others.
