@@ -19,6 +19,12 @@
 
 ---
 
+<p align="center">
+<img src="Pics/TownOfImpostors-LoversModifier.png" width="270">
+</p>
+
+---
+
 Table of Contents
 =================
   * [Custom Hats](#customhats)
