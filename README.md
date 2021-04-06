@@ -570,6 +570,8 @@ For any bugs, take a quick check if your bug has already been listed under the b
 ### Donations:
 <a href="https://www.paypal.com/donate?hosted_button_id=M2FL98EWXTQDE"><img src ="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal button" ></img></a>
 
+Buy me a coffee at [Ko-fi](https://ko-fi.com/ajmix)
+
 All donations are appreciated and will go towards the development of mods.
 
 ---
