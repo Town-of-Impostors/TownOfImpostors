@@ -5,9 +5,9 @@
 
 <p align="center">
 <img src="Pics/TownOfImpostorsPreview.png" width="900">
+<img src="Pics/TownOfImpostors-Impostor2.PNG" width="270">
 <img src="Pics/TownOfImpostors-Sheriff.png" width="270">
 <img src="Pics/TownOfImpostors-Doctor.png" width="270">
-<img src="Pics/TownOfImpostors-Impostor.PNG" width="270">
 <img src="Pics/TownOfImpostors-Jester.png" width="270">
 <img src="Pics/TownOfImpostors-Agent.png" width="270">
 <img src="Pics/TownOfImpostors-Detective.png" width="270">
