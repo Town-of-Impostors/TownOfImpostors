@@ -362,7 +362,7 @@ That currently won't be supported yet for custom hats. But, I plan to add suppor
 
 <h1 id="streamermode">Streamer Mode</h1>
 
-From 1.7.1 onwards, there is a new streamer mode that can be toggled on.
+From v1.7.1 onwards, there is a new streamer mode that can be toggled on.
 
 This makes it easier for streamers as they won't have to manually hide the code anymore on stream, it will be hidden automatically.
 
