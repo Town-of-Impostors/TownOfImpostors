@@ -27,12 +27,12 @@
 
 Table of Contents
 =================
-  * [Custom Hats](#customhats)
-  * [Streamer Mode](#streamermode)
   * [Installation](#installation)
     * [Releases and Compatibility](#releases-and-compatibility)
     * [Uninstalling](#uninstalling-the-mod)
-  * [Roles, Abilities, Modifiers & Custom Options](#roles-abilities--custom-options)
+  * [Custom Hats](#customhats)
+  * [Streamer Mode](#streamermode)
+  * [Roles, Abilities, Modifiers & Custom Options](#roles-abilities-modifiers--custom-options)
     * [Crewmate Team](#crewmate-team)
       * [Sheriff](#sheriff)
       * [Doctor](#doctor)
@@ -52,48 +52,8 @@ Table of Contents
   * [Troubleshooting](#troubleshooting)
     * [Known Issues](#known-issues)
   * [Contact & Donations](#contact--donations)
+  * [Credits](#credits)
   * [License](#license)
-
----
-
-<h1 id="customhats">Custom Hats</h1>
-
-### **Only for versions 1.7.1 onwards**
-
-## How do I add my own Custom Hat?
-* Download the template used to make the Custom Hat for Town Of Impostors:
-  * Download .psd template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.psd)
-  * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.png)
-* Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
-  
-* **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>`. If you want spaces in your names, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
-  * **For Modifiers:** if you want your hat to be behind the crewmate (i.e. wings), add a `_back` to the name. If you want it to bounce while the crewmate walks, add a `_bounce` to the name. These are **case sensitive**. 
-  * **Example Names:** `Wing_Spaced-AJMix_back.png`, `Bouncy-Hat_AJMix_bounce.png`, `BouncyWings_AJMix_back_bounce.png`, `Simple-Hat_AJMix.png`
-
-* Place the custom hat png into the `TownOfImpostors_CustomHats` which can be found inside of the Among Us directory you have the mod installed (launch the game once and start a lobby with the mod or create the folder yourself if it does not exist)
-
-* Your custom hat should now appear in the hats tab **locally**. If you want everyone to see the same thing **make sure everyone has the same hats in the custom hats folder.**
-
-## Want to add your hat as part of the mod so everyone can use it?
-* Simply follow the same steps above to create a Custom Hat, then send me your Custom Hat .png via any means. Please also follow the naming convention so I know the hat name, credits and whether you'd like it to be added to the **back** of the crewmate and whether you'd like it to **bounce**.
-* The Hat Name and Credits will be grabbed from the file name, as long as you have followed the naming convention. When someone wears your hat, credits will appear underneath the mod credits! (i.e. `AJ Scarf by AJMix`, `Dark Scarf by Darkbrussel`)
-* I'll try my best to get your Custom Hat into the next release of Town Of Impostors!
-
-## How about the hat angles for animations such as the ladder climb in Airship?
-That currently won't be supported yet for custom hats. But, I plan to add support for those in a future version!
-
----
-
-<h1 id="streamermode">Streamer Mode</h1>
-
-From 1.7.1 onwards, there is a new streamer mode that can be toggled on.
-
-This makes it easier for streamers as they won't have to manually hide the code anymore on stream, it will be hidden automatically.
-
-### How do I get the room code?
-When you create a room, the room code will be copied to your clipboard. Simply paste it somewhere and pass it onto others.
-
-If you accidentally copied something else before pasting the room code somewhere, you can get your copy/clipboard history by using `Windows Key + V`. Or you can just make another room.
 
 ---
 
@@ -148,8 +108,6 @@ If you don't see this message or have any other issues, please take a look at th
   - **BepInEx** folder, **mono** folder, **doorstop_config.ini**, **winhttp.dll**
  
 <h2>Releases and Compatibility</h2>
-
-If the table is not yet updated, check all releases [here](https://github.com/AJMix/TownOfImpostors/releases).
 
 <table style="width:100%">
   <tr>
@@ -371,6 +329,47 @@ If the table is not yet updated, check all releases [here](https://github.com/AJ
 
 <h2>Curseforge</h2>
 You can download the mod on Curseforge <a href="https://www.curseforge.com/among-us/all-mods/town-of-impostors">here</a>.
+
+---
+
+<h1 id="customhats">Custom Hats</h1>
+
+### **Only for versions v1.7.1 onwards**
+
+## How do I add my own Custom Hat?
+* Download the template used to make the Custom Hat for Town Of Impostors:
+  * Download .psd template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.psd)
+  * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.png)
+* Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
+  
+* **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>`. If you want spaces in your names, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
+  * **For Modifiers:** if you want your hat to be behind the crewmate (i.e. wings), add a `_back` to the name. If you want it to bounce while the crewmate walks, add a `_bounce` to the name. These are **case sensitive**. 
+  * **Example Names:** `Wing_Spaced-AJMix_back.png`, `Bouncy-Hat_AJMix_bounce.png`, `BouncyWings_AJMix_back_bounce.png`, `Simple-Hat_AJMix.png`
+
+* Place the custom hat png into the `TownOfImpostors_CustomHats` which can be found inside of the Among Us directory you have the mod installed (launch the game once and start a lobby with the mod or create the folder yourself if it does not exist)
+
+* Your custom hat should now appear in the hats tab **locally**. If you want everyone to see the same thing **make sure everyone has the same hats in the custom hats folder.**
+
+## Want to add your hat as part of the mod so everyone can use it?
+* Simply follow the same steps above to create a Custom Hat, then send me your Custom Hat .png via any means. Please also follow the naming convention so I know the hat name, credits and whether you'd like it to be added to the **back** of the crewmate and whether you'd like it to **bounce**.
+* The Hat Name and Credits will be grabbed from the file name, as long as you have followed the naming convention. When someone wears your hat, credits will appear underneath the mod credits! (i.e. `AJ Scarf by AJMix`, `Dark Scarf by Darkbrussel`)
+* I'll try my best to get your Custom Hat into the next release of Town Of Impostors!
+
+## How about the hat angles for animations such as the ladder climb in Airship?
+That currently won't be supported yet for custom hats. But, I plan to add support for those in a future version!
+
+---
+
+<h1 id="streamermode">Streamer Mode</h1>
+
+From 1.7.1 onwards, there is a new streamer mode that can be toggled on.
+
+This makes it easier for streamers as they won't have to manually hide the code anymore on stream, it will be hidden automatically.
+
+### How do I get the room code?
+When you create a room, the room code will be copied to your clipboard. Simply paste it somewhere and pass it onto others.
+
+If you accidentally copied something else before pasting the room code somewhere, you can get your copy/clipboard history by using `Windows Key + V`. Or you can just make another room.
 
 ---
 
