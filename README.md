@@ -353,7 +353,7 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 * Your custom hat should now appear in the hats tab **locally**. If you want everyone to see the same thing **make sure everyone has the same hats in the custom hats folder.**
 
 ## Want to add your hat as part of the mod so everyone can use it?
-* Simply follow the same steps above to create a Custom Hat, then send me your Custom Hat .png via any means. Please also follow the naming convention so I know the hat name, credits and whether you'd like it to be added to the **back** of the crewmate and whether you'd like it to **bounce**.
+* Simply follow the same steps above to create a Custom Hat, please join the discord server and post your hat in the custom hat channel there so it can be ready to add in the next release. Please also follow the naming convention so I know the hat name, credits and whether you'd like it to be added to the **back** of the crewmate and whether you'd like it to **bounce**.
 * The Hat Name and Credits will be grabbed from the file name, as long as you have followed the naming convention. When someone wears your hat, credits will appear underneath the mod credits! (i.e. `AJ Scarf by AJMix`, `Dark Scarf by Darkbrussel`)
 * I'll try my best to get your Custom Hat into the next release of Town Of Impostors!
 
