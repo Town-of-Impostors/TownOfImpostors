@@ -1,5 +1,5 @@
 # Town Of Impostors
-<p align="center"><h3>We now have a discord server! Join the discord server: https://discord.gg/xpsKVpUf4T</h></p>
+<p align="center">We now have a discord server! Join the discord server: https://discord.gg/xpsKVpUf4T</p>
 
 <p align="center">Town Of Impostors Mod is a modification for Among Us - <b>PC/Windows (Steam)</b>. This mod aims to add new roles, modifiers & abilities to enhance gameplay, while also providing a full range of options to allow for customising and playing games your way.</p>
 
