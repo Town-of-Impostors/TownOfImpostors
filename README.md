@@ -63,11 +63,13 @@ Table of Contents
 
 - Before installing, verify your Among Us version by launching the game and checking the version displayed in the top left of the main menu.
 
+- As of the Among Us v2021.3.31.3s update, **you must sign in to your account and set your player name now** to avoid issues later such as to setting your name or typing in the chat in the modded game.
+
 - Download the Mod for your specific game version from the table below or check all releases [here](https://github.com/AJMix/TownOfImpostors/releases). **ENSURE THAT YOUR AMONG US VERSION MATCHES EXACTLY - EVERY DIGIT, LETTER, DOT & ALL.**
 
-- Make a copy of your game’s root directory ("Steam/steamapps/common/Among Us"). You can get to your root directory by right-clicking Among Us in Steam -> Properties -> Local Files -> Browse. and rename it to whatever you want (e.g. "Steam/steamapps/common/Among Us Town Of Impostors").
+- Make a copy of your clean, unmodded game’s root directory `Steam/steamapps/common/Among Us` and rename the copied directory to whatever you want e.g. `Steam/steamapps/common/Among Us Town Of Impostors`. This copied directory is what will be modded. You can get to your root directory by right-clicking Among Us in Steam -> Properties -> Local Files -> Browse. **RECOMMENDED STEP TO KEEP A WORKING, UNMODDED VERSION IN CASE YOUR MODDED GAME BREAKS**
 
-- Extract the contents TownOfImpostors.zip into the copied folder you created.
+- Extract the contents `TownOfImpostors.zip` into the copied folder you created.
 
 - Ensure the copied directory that is being modded now contains at least the following:
 ```
@@ -90,10 +92,10 @@ Table of Contents
  <img src="Pics/TownOfImpostersDirectory.png">
  </details>
  
-- **Make sure to launch the game via the Among Us.exe from this directory**. Please note that the first time launching the game with this mod may take a while.
+- **Make sure to launch the game via the Among Us.exe from this directory**. Please note that the first time launching the game with this mod may take a while - give it one minute before worrying that nothing is appearing.
 
 **Verifying installation success**
-- Launch the game via Among Us.exe
+- Launching the game via Among Us.exe
 - In the top-left corner of the main menu, below the Among Us version, you should see _Town Of Impostors vX.X.X Mod by AJMix_ to indicate the mod is running and has been successfully installed.
 
 If you don't see this message or have any other issues, please take a look at the <a href="#troubleshooting">troubleshooting section</a>.
