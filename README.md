@@ -620,7 +620,7 @@ This mod was not made to be compatible with controllers in mind; it was intended
 - Make sure you have followed all the <a href="#installation">installation steps</a>, especially launching the game via the Among Us.exe file
 - Try uninstalling the mod (see uninstalling the mod in the Installation Steps) and following the installation steps again
 - If you're using a Mod Manager to install the mod, it is not guaranteed to work
-- You might be missing some cpp libs (software libraries used by the mod); please install <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe">visual studio c++</a>
+- You might be missing some cpp libs (software libraries used by the mod); please install Visual C++ redistributable packages [x86](https://aka.ms/vs/16/release/vc_redist.x86.exe) & [x64](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
 ### The mod still doesn't work or found a bug?
 You can <a href="https://github.com/AJMix/TownOfImpostors/issues/new">raise an issue within GitHub</a> documenting your issue. You will need to be logged into GitHub to do this.
