@@ -512,7 +512,7 @@ The Plumber is a role that can use vents to travel around. They can also stay in
 ### Informant
 The Informant is a role that can see other roles after they are finished with ALL their tasks. They will be "Informed" after finishing tasks, but should also be careful of Impostors that are notified about them. The Informant can only be informed or revealed after **completing at least one task**.
 
-**NOTE: Comms Anonymouse Sabotage will prevent Informant from seeing roles. This is the counterplay to Informant.**
+**NOTE: Comms Anonymous Sabotage (if toggled on) will prevent Informant from seeing roles, even in meetings. This is the counterplay to Informant.**
 
 <details>
 <summary>Custom Options</summary>
