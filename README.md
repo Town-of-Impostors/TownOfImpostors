@@ -17,6 +17,7 @@
 <img src="Pics/TownOfImpostors-Arsonist.png" width="270">
 <img src="Pics/TownOfImpostors-Informant.png" width="270">
 <img src="Pics/TownOfImpostors-Trickster.png" width="270">
+<img src="Pics/TownOfImpostors-Operative.png" width="270">
 </p>
 
 ---
@@ -43,6 +44,7 @@ Table of Contents
       * [Plumber](#plumber)
       * [Informant](#informant)
       * [Trickster](#trickster)
+      * [Operative](#operative)
     * [Other Teams](#other-teams)
       * [Jester](#jester)
       * [Arsonist](#arsonist)
@@ -100,6 +102,12 @@ Table of Contents
 
 If you don't see this message or have any other issues, please take a look at the <a href="#troubleshooting">troubleshooting section</a>.
 
+**Version Mismatch Checker:**
+Starting from v1.8.1 onwards, there is now a version mismatch checker that'll make sure that all users in the lobby are using the same game version. If a red message appears on the top right stating **"Warning: Player Version Mismatch"**, then there's a potential that someone in the lobby is not using the correct version.
+
+Sometimes this warning message can appear when something strange occurs, even if all users in the lobby are using the same version. If you're 100% sure all users in the lobby are using the same mod version, simply have players rejoin the lobby.
+
+
 **Before raising an issue, please double check that you have accurately followed the installation instructions and you are not using any mod manager or other mods.**
 
 **Starting from v1.5.0 onwards, there is a new reset custom settings button in the lobby. Please use it if your settings are bugged. Settings can bug when you update from version to version, it's best practice to reset settings.**
@@ -119,7 +127,12 @@ If you don't see this message or have any other issues, please take a look at th
     <th>Mod Version</th>
     <th>Link</th>
   </tr>
- <tr>
+  <tr>
+    <td>v2021.3.31.3s</td>
+    <td>v1.8.1</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.1/TownOfImpostors1.8.1.zip">Download</></td>
+   </tr>
+  <tr>
     <td>v2021.3.31.3s</td>
     <td>v1.7.1</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.1/TownOfImpostors1.7.1.zip">Download</></td>
@@ -175,6 +188,30 @@ If you don't see this message or have any other issues, please take a look at th
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v1.8.1</summary>
+  <h3>v1.8.1</h3>
+   <ul>
+    <li>Bunch of awesome custom hats from the community</li>
+    <li>Operative Role</li>
+    <li>More colours to select from</li>
+    <li>Improved Naming/Role, colorblind-friendly</li>
+     <li>Save/Load Settings Button In Lobby</li>
+     <li>Fixed game breaking bugs with custom colours</li>
+     <li>Fixed Text: Lovers Wins -> Lovers Win</li>
+     <li>Fixed specific hats not working with Decoys</li>
+     <li>Impostors can now use destroy decoy, disguise and dispose body again in vents (Sorry for breaking this before)</li>
+     <li>Fixed an issue with "Impostors Can Kill Each Other" somehow causing infinite disguise</li>
+     <li>Fixed a small issue with some hats & disguise</li>
+     <li>Fixed issue with agent cams ability broken on airship</li>
+     <li>Fixed an issue with arsonist continuing douse even while dead</li>
+    <li>Fixed sabotage comms anonymity not working on decoys</li>
+    <li>Fixed an issue where player's hats would appear for a frame while anonymous when climbing ladders/performing a kill</li>
+    <li>[Custom Option] Jester Bloody Footprints</li>
+    <li>[Custom Option] Jester Body Drag</li>
+    <li>[Custom Option] Jester Can Use Vents</li>
+   </ul>
+    </details>
  <details>
   <summary>v1.7.1</summary>
   <h3>v1.7.1</h3>
@@ -495,6 +532,25 @@ The Trickster is a role that can create a decoy to trick the Impostor. If the Im
 + **Trickster Decoy Duration:** Duration of how long the decoy should last
 + **Enable Trickster Swap Ability:** Allow Trickster to swap positions with the decoy
 + **Trickster Swap Cooldown:** Cooldown duration for the Trickster Swap ability
+
+</details>
+
+### Operative
+The Operative is a role that can place down gadgets that allow them to track other players. A sticky tracker can be placed down that'll stick to other players and reveal them for the duration. A AOE sensor can be placed down to reveal players in an area (revealed players will be anonymous) for a duration. **All revealed players will be shown on the map.** The Operative gadgets are only visible to the Operative.
+<details>
+<summary>Custom Options</summary>
+  
++ **% Operative Chance:** Chance of an Operative being added to the role selection pool
++ **# Max Operative Count:** The maximum number of Operatives that can be added to the role selection pool
++ **# Max Tracker Storage:** Maximum number of trackers that can be stored
++ **Tracker Duration:** How long Trackers should last before disappearing
++ **Tracker Cooldown:** Cooldown to gain a tracker charge
++ **# Max Sensor Storage:** Maximum number of sensors that can be stored
++ **Sensor Radius:** Size of the sensor radius for revealing players
++ **Sensor Duration:** How long Sensors should last before disappearing
++ **Sensor Cooldown:** Cooldown to gain a sensor charge
++ **Show Tracking Arrows:** Toggle whether the tracker should also show a tracking arrow when tracking someone
++ **Track Dead Bodies:** Toggle whether trackers/sensors should continue tracking dead players
 
 </details>
 
