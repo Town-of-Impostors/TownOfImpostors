@@ -102,10 +102,10 @@ Table of Contents
 
 If you don't see this message or have any other issues, please take a look at the <a href="#troubleshooting">troubleshooting section</a>.
 
-**Version Mismatch Checker:**
-Starting from v1.8.1 onwards, there is now a version mismatch checker that'll make sure that all users in the lobby are using the same game version. If a red message appears on the top right stating **"Warning: Player Version Mismatch"**, then there's a potential that someone in the lobby is not using the correct version.
 
-Sometimes this warning message can appear when something strange occurs, even if all users in the lobby are using the same version. If you're 100% sure all users in the lobby are using the same mod version, simply have players rejoin the lobby.
+**Version Mismatch Checker:**
+- Starting from v1.8.1 onwards, there is now a version mismatch checker that'll make sure that all users in the lobby are using the same game version. If a red message appears on the top right stating **"Warning: Player Version Mismatch"**, then there's a potential that someone in the lobby is not using the correct version.
+- Sometimes this warning message can appear when something strange occurs, even if all users in the lobby are using the same version. If you're 100% sure all users in the lobby are using the same mod version, simply have players rejoin the lobby.
 
 
 **Before raising an issue, please double check that you have accurately followed the installation instructions and you are not using any mod manager or other mods.**
