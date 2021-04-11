@@ -565,7 +565,7 @@ The Operative is a role that can place down gadgets that allow them to track oth
 ## Other Teams
 
 ### Jester
-The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose.
+The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose. The have extra abilities to help them act suspicious, such as dragging bodies, leaving bloody footprints and using vents.
 <details>
 <summary>Custom Options</summary>
   
@@ -573,6 +573,9 @@ The Jester is a role with no abilities and no tasks to do (they get fake tasks l
 + **Enable Jester:** Allow Jester to be added to the role selection pool 
 + **Jester Can Fix Sabotages:** Allow Jester to fix sabotages
 + **Jester Wins From Sheriff Kill:** Jester will win if killed by the Sheriff
++ **Jester Bloody Footprints Ability:** Toggles whether the Jester can leave bloody footprints to trick the detective
++ **Jester Body Drag Ability:** Toggles whether the Jester can drag bodies
++ **Jester Can Use Vents:** Toggles whether the Jester can use vents
 
 </details>
 
