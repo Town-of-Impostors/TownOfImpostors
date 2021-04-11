@@ -544,7 +544,7 @@ The Trickster is a role that can create a decoy to trick the Impostor. If the Im
 </details>
 
 ### Operative
-The Operative is a role that can place down gadgets that allow them to track other players. A sticky tracker can be placed down that'll stick to other players and reveal them for the duration. A AOE sensor can be placed down to reveal players in an area (revealed players will be anonymous) for a duration. **All revealed players will be shown on the map.** The Operative gadgets are only visible to the Operative.
+The Operative is a role that can place down gadgets that allow them to track other players. A sticky tracker can be placed down that'll stick to other players and reveal them for the duration. An AOE sensor can be placed down to reveal players in an area (revealed players will be anonymous) for a duration. **All revealed players will be shown on the map.** The Operative gadgets are only visible to the Operative.
 <details>
 <summary>Custom Options</summary>
   
