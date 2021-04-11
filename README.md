@@ -32,6 +32,7 @@ Table of Contents
 =================
   * [Installation](#installation)
     * [Releases and Compatibility](#releases-and-compatibility)
+    * [Saving and Loading Settings](#saving-and-loading)
     * [Uninstalling](#uninstalling-the-mod)
   * [Custom Hats](#customhats)
   * [Streamer Mode](#streamermode)
@@ -113,6 +114,9 @@ If you don't see this message or have any other issues, please take a look at th
 **Starting from v1.5.0 onwards, there is a new reset custom settings button in the lobby. Please use it if your settings are bugged. Settings can bug when you update from version to version, it's best practice to reset settings.**
 
 **Starting from v1.6.0 onwards, this mod should now be compatible with Mod Manager by MatuxGG. Please note that using the Mod Manager to install the mod still does not guarantee that the mod will work as intended.**
+
+### Saving & Loading Settings
+Starting from v1.8.1, you can now save and load your settings. This is to help lower the issue of settings completely messing up between versions. You should find a new "TownOfImpostorsSettings.txt" in the Among Us folder where the mod is installed. This can also be passed onto others so they can play with your settings!
 
 #### Uninstalling the Mod
 - If you copied the Among Us folder as instructed by the Installation Steps, simply delete the copied folder.
