@@ -392,6 +392,13 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
   * **For Modifiers:** if you want your hat to be behind the crewmate (i.e. wings), add a `_back` to the name. If you want it to bounce while the crewmate walks, add a `_bounce` to the name. These are **case sensitive**. 
   * **Example Names:** `Wing_Spaced-AJMix_back.png`, `Bouncy-Hat_AJMix_bounce.png`, `BouncyWings_AJMix_back_bounce.png`, `Simple-Hat_AJMix.png`
 
+**Starting from v1.8.2 onwards**, you'll be able to also add `_anycolor` as an additional modifier to have your hat match the colour of your crewmate. See example of how this is done here:
+
+![ExampleByDark](https://user-images.githubusercontent.com/78827892/114481635-dacf1380-9bfc-11eb-8032-e839df7240ec.PNG)
+
+You'll need to use **Red** _(Hex: FF0000)_ for the base colour, and **Blue** _(Hex: 0000FF)_ for the shading.
+
+
 * Place the custom hat png into the `TownOfImpostors_CustomHats` which can be found inside of the Among Us directory you have the mod installed (launch the game once and start a lobby with the mod or create the folder yourself if it does not exist)
 
 * Your custom hat should now appear in the hats tab **locally**. If you want everyone to see the same thing **make sure everyone has the same hats in the custom hats folder.**
