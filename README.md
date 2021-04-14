@@ -72,7 +72,7 @@ Table of Contents
 
 - Download the Mod for your specific game version from the table below or check all releases [here](https://github.com/AJMix/TownOfImpostors/releases). **ENSURE THAT YOUR AMONG US VERSION MATCHES EXACTLY - EVERY DIGIT, LETTER, DOT & ALL.**
 
-- Make a copy of your clean, unmodded game’s root directory `Steam/steamapps/common/Among Us` and rename the copied directory to whatever you want e.g. `Steam/steamapps/common/Among Us Town Of Impostors`. This copied directory is what will be modded. You can get to your root directory by right-clicking Among Us in Steam -> Properties -> Local Files -> Browse. **RECOMMENDED STEP TO KEEP A WORKING, UNMODDED VERSION IN CASE YOUR MODDED GAME BREAKS OR IF ANYTHING UPDATES AND BREAKS THE MOD.**
+- Make a copy of your clean, unmodded game’s root directory `Steam/steamapps/common/Among Us` and rename the copied directory to whatever you want e.g. `Steam/steamapps/common/Among Us Town Of Impostors`. This copied directory is what will be modded. You can get to your root directory by right-clicking Among Us in Steam -> Properties -> Local Files -> Browse. **RECOMMENDED STEP TO KEEP SEPARATE COPIES IN CASE YOUR MODDED GAME BREAKS & TO AVOID AN AUTO-UPDATE BREAKING THE MOD.**
 
 - Extract the contents `TownOfImpostors.zip` into the copied folder you created.
 
