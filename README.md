@@ -407,9 +407,9 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 ### **Only for versions v1.7.1 onwards**
 
 ## How do I add my own Custom Hat?
-* Download the template used to make the Custom Hat for Town Of Impostors:
-  * Download .psd template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.psd)
-  * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.7.0/ToI_CustomHat_Template_150x185.png)
+* Download the template used to make the Custom Hat for Town Of Impostors **(Big Thanks to Con No 1 for the template)**:
+  * Download .psd template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/ConTemplate.psd)
+  * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/ConTemplate.png)
 * Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
   
 * **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>`. If you want spaces in your names, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
