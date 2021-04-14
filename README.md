@@ -134,6 +134,11 @@ Starting from v1.8.1, you can now save and load your settings. This is to help l
     <th>Mod Version</th>
     <th>Link</th>
   </tr>
+ <tr>
+    <td>v2021.4.12s</td>
+    <td>v1.8.2.1</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/TownOfImpostors1.8.2.1.zip">Download</></td>
+   </tr>
   <tr>
     <td>v2021.3.31.3s</td>
     <td>v1.8.1</td>
@@ -195,6 +200,23 @@ Starting from v1.8.1, you can now save and load your settings. This is to help l
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v1.8.2.1</summary>
+  <h3>v1.8.2.1</h3>
+   <ul>
+    <li>Separate Impostor roles (Dragger, Morphling, Deceiver)</li>
+    <li>Custom Hats can now match Crewmate color with _anycolor modifier</li>
+    <li>More custom hats from community</li>
+    <li>Fixed issue with Lover getting stuck in Airship</li>
+     <li>Name fixes (fixed issue with host role being revealed sometimes)</li>
+     <li>Fixed issues with colours of certain hats messing up in ladder climb in airship</li>
+     <li>Fixed issues with people seeing Lover's chat</li>
+     <li>Bug fixes and polishes</li>
+     <li>[Custom Option] Dead Player See All Roles</li>
+     <li>[Custom Option] Sheriff Does Not Die</li>
+     <li>[Custom Option] Imps Do Not Know Each Other</li>
+   </ul>
+    </details>
  <details>
   <summary>v1.8.1</summary>
   <h3>v1.8.1</h3>
@@ -413,6 +435,9 @@ You'll need to use **Red** _(Hex: FF0000)_ for the base colour, and **Blue** _(H
 ## How about the hat angles for animations such as the ladder climb in Airship?
 That currently won't be supported yet for custom hats. But, I plan to add support for those in a future version!
 
+## Where can I download more custom hats from the community?
+Here: https://drive.google.com/drive/u/2/folders/1urae5ivZ3qkXCXAm2VHeR6j9bLWEDoyS
+
 ---
 
 <h1 id="streamermode">Streamer Mode</h1>
@@ -441,6 +466,8 @@ From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilit
 - **Impostors Can Kill Each Other:** Allows Impostors to target and kill each other
 - **Game Continues With Arsonist:** Toggles whether the game should continue as long as Arsonist is alive
 - **Disable Body Report:** Toggles on/off body reporting (to get a different kind of gameplay)
+- **Dead Player See All Roles:** Toggles whether dead players should see all roles (after a meeting only)
+- **Impostors Do Not Know Each Other:** Toggles whether Impostors know each other
 
 ## Crewmate Team
 
@@ -458,6 +485,7 @@ The Sheriff is a role that has the ability to kill Impostors. However, if they a
 + **Innocent Target Also Dies:** The Innocent target will also be killed along with the Sheriff
 + **Jester Is Enemy:** Jester will no longer count as "Innocent"
 + **Arsonist Is Enemy:** Arsonist will no longer count as "Innocent"
++ **Sheriff Does Not Die:** Toggles whether Sheriff will die as a punishment or not
 
 </details>
 
