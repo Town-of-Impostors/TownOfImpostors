@@ -80,21 +80,20 @@ Table of Contents
 ```
 .
 ├── Among Us_Data
-├── BepInEx <--
-├── mono <--
+├── BepInEx <---
+├── mono <---
 ├── Among Us.exe
 ├── baselib.dll
-├── changelog.txt
-├── doorstop_config.ini <--
+├── doorstop_config.ini <---
 ├── GameAssembly.dll
-├── steam_appid.txt <--
+├── steam_appid.txt <---
 ├── UnityCrashHandler32.exe
 ├── UnityPlayer.dll
-└── winhttp.dll <--
+└── winhttp.dll <---
 ```
 <details>
- <summary>Still unsure? Here's an image of what it should look like if you have hidden file name extensions</summary>
- <img src="Pics/TownOfImpostersDirectory.png">
+ <summary>Still unsure? Click this for an image of what it should look like if you have hidden file name extensions</summary>
+ <img src="Pics/TownOfImpostersDirectoryNew.png">
  </details>
  
 - **Make sure to launch the game via the Among Us.exe from this directory**. Please note that the first time launching the game with this mod may take a while - give it one minute before worrying that nothing is appearing.
