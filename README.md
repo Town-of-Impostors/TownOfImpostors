@@ -658,6 +658,13 @@ The Impostor has additional abilities they can make use of:
 
 </details>
 
+**If separate Impostor Roles are enabled:**
+- **Dragger** has the drag/drop & dispose body abilities
+- **Morphling** has the sample & disguise abilities
+- **Deceiver** has the decoy & swap abilities
+
+**These separate Impostor roles abilities are configured with the same options used to configure the normal Impostor**
+
 ## Modifiers
 
 ### Lovers
