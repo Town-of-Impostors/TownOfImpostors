@@ -135,7 +135,7 @@ Starting from v1.8.1, you can now save and load your settings. This is to help l
     <th>Link</th>
   </tr>
  <tr>
-    <td>v2021.4.12s</td>
+    <td>v2021.4.12s & v2021.4.14s</td>
     <td>v1.8.2.1</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/TownOfImpostors1.8.2.1.zip">Download</></td>
    </tr>
