@@ -23,6 +23,7 @@
 <img src="Pics/TownOfImpostors-Informant.png" width="270">
 <img src="Pics/TownOfImpostors-Trickster.png" width="270">
 <img src="Pics/TownOfImpostors-Operative.png" width="270">
+<img src="Pics/TownOfImpostors-Mayor.png" width="270">
 </p>
 
 ---
@@ -40,6 +41,7 @@ Table of Contents
     * [Saving and Loading Settings](#saving-and-loading)
     * [Uninstalling](#uninstalling-the-mod)
   * [Custom Hats](#customhats)
+  * [Custom Colors](#customcolors)
   * [Streamer Mode](#streamermode)
   * [Roles, Abilities, Modifiers & Custom Options](#roles-abilities-modifiers--custom-options)
     * [Crewmate Team](#crewmate-team)
@@ -51,6 +53,7 @@ Table of Contents
       * [Informant](#informant)
       * [Trickster](#trickster)
       * [Operative](#operative)
+      * [Mayor](#mayor)
     * [Other Teams](#other-teams)
       * [Jester](#jester)
       * [Arsonist](#arsonist)
@@ -136,6 +139,12 @@ Starting from v1.8.1, you can now save and load your settings. This is to help l
   </tr>
  <tr>
     <td>v2021.4.12s & v2021.4.14s</td>
+    <td>v1.8.6</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.6/TownOfImpostors1.8.6.zip">Download</></td>
+   </tr>
+  <tr>
+ <tr>
+    <td>v2021.4.12s & v2021.4.14s</td>
     <td>v1.8.2.1</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/TownOfImpostors1.8.2.1.zip">Download</></td>
    </tr>
@@ -200,6 +209,40 @@ Starting from v1.8.1, you can now save and load your settings. This is to help l
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v1.8.6</summary>
+  <h3>v1.8.6</h3>
+   <ul>
+<li>Mayor Role</li>
+<li>Map Randomisation Game Mode</li>
+<li>Brought back "dlekS ehT" map</li>
+<li>Hat Pages to store more custom hats</li>
+<li>Arsonist can now douse players in vents</li>
+<li>Optional hat name modifiers for hats to display better in menu _<xOffset>_<yOffset> (example _0.0f_0.1f)</li>
+<li>Sheriff kill timer will start at 10 seconds, matching Impostors</li>
+<li>Impostors inside of vents can now kill Plumbers & Jesters inside of vents</li>
+<li>Moved "Can Vent With Body" to General Options</li>
+<li>Trickster Disguise Ability</li>
+<li>Hitman & Joker Impostor Roles</li>
+<li>Fixed bug associated with disguise & start meeting</li>
+<li>Fixed color name bug</li>
+<li>Fixed Impostors setting names as red in messages even with Impostors Do Not Know Each Other option</li>
+<li>Fixed desyncs with dispose body</li>
+<li>Fixed Streamer Mode</li>
+<li>Implemented Host Checks for Sheriff & Impostor kills to prevent kill desyncs (this will introduce host advantage and delay to kills if you're not the host, but this fixes all desyncs on kills)</li>
+<li>Fixed gamebreaking bugs with impostors kills</li>
+<li>Fixed bug with lover death not removing disguise</li>
+<li>Compatibilities with Reactor & Reactor.Essentials</li>
+<li>Impostor Retrieve Body Ability</li>
+<li>Plumber Retrieve Body Ability</li>
+<li>Doctor Retrieve Body Ability</li>
+<li>Jester Retrieve Body Ability</li>
+<li>[Custom Option] Vents Hold Multiple Bodies</li>
+<li>[Custom Option] Imps Can Kill Inside Vents</li>
+<li>Massive optimisations</li>
+<li>Various other null ref and bug fixes</li>
+   </ul>
+    </details>
  <details>
   <summary>v1.8.2.1</summary>
   <h3>v1.8.2.1</h3>
@@ -415,6 +458,7 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 * **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>`. If you want spaces in your names, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
   * **For Modifiers:** if you want your hat to be behind the crewmate (i.e. wings), add a `_back` to the name. If you want it to bounce while the crewmate walks, add a `_bounce` to the name. These are **case sensitive**. 
   * **Example Names:** `Wing_Spaced-AJMix_back.png`, `Bouncy-Hat_AJMix_bounce.png`, `BouncyWings_AJMix_back_bounce.png`, `Simple-Hat_AJMix.png`
+  * **Advanced Modifiers:** you can now add **X** and **Y** offsets to the name to position the hat more accurately in the menu i.e. `Simple-Hat_AJMix_-0.5f_+0.3f`. You need to specify both an **X** and a **Y** offset. Placing a **+** or **-** in front will indicate whether it should be positive or negative. _Placing no symbols wil default it to positive._ The offsets must follow the exact example as shown, with a decimal number followed by an _"**f**"_
 
 **Starting from v1.8.2 onwards**, you'll be able to also add `_anycolor` as an additional modifier to have your hat match the colour of your crewmate. See example of how this is done here:
 
@@ -440,6 +484,22 @@ Here: https://drive.google.com/drive/u/2/folders/1urae5ivZ3qkXCXAm2VHeR6j9bLWEDo
 
 ---
 
+<h1 id="customcolors">Custom Colors</h1>
+
+From v1.8.6 onwards, you will be able to add your own custom colors.
+
+Add your custom colors to the file `TownOfImpostors_CustomColors.txt` which can be found in the `TownOfImpostors_Data` folder. Please launch the game and create a lobby once if you don't see the folder or file, or manually create them yourselves.
+
+Follow this example to add a color:
+`255,255,255,255 220,220,220,255 Pure_White PWH`
+<MainColor> <ShadingColor> <LongName> <ShortName>
+ 
+ 
+For the colors the format is: R,G,B,A (values between 0-255)
+Separate each part with a space, use `_` to represent spaces in the long name.
+
+---
+
 <h1 id="streamermode">Streamer Mode</h1>
 
 From v1.7.1 onwards, there is a new streamer mode that can be toggled on.
@@ -458,6 +518,9 @@ If you accidentally copied something else before pasting the room code somewhere
 ### Keybindings
 From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilities.
 
+### Gamemodes
+- **Map Randomise Mode:** When toggled on, map will be randomised upon starting the game
+
 ### General Custom Options
 - **Custom Role Eject Confirmation:** Enables ejects to show the special role of the player being ejected, assuming "Confirm Ejects" option is on
 - **Same Roles Know Each Other:** Allows players of the same role to see each other (via highlighted names)
@@ -468,6 +531,9 @@ From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilit
 - **Disable Body Report:** Toggles on/off body reporting (to get a different kind of gameplay)
 - **Dead Player See All Roles:** Toggles whether dead players should see all roles (after a meeting only)
 - **Impostors Do Not Know Each Other:** Toggles whether Impostors know each other
+- **Impostors Can Kill Inside Vents:** Toggles whether Impostors can kill any other players inside of vents (if they are in the vent too)
+- **Vents Hold Multiple Bodies:** Toggles whether multiple bodies can be disposed in one vent (default is 1 body maximum if toggled off)
+- **Can Vent With Body:** Toggle whether players can vent with bodies
 
 ## Crewmate Team
 
@@ -501,6 +567,8 @@ The Doctor is a role that has the ability to revive dead players. However, this 
 + **Start Cooldown On Failed Revives:** Start Revive Ability Cooldown if revive fails (if body is removed or disposed)
 + **Medbay Revive Only:** Only allow revives in the Medbay location of a map
 + **Lose Role On Revive:** Crewmates with special roles lose their role if revived (Does not affect Jester & Arsonist)
++ **Retrieve Body Ability:** Toggle the Retrieve Body Ability
++ **Retreive Body Cooldown:** Cooldown for the Retrieve Body Ability
 
 </details>
 
@@ -543,6 +611,8 @@ The Plumber is a role that can use vents to travel around. They can also stay in
   
 + **% Plumber Chance:** Chance of a Plumber being added to the role selection pool
 + **# Max Plumber Count:** The maximum number of Plumbers that can be added to the role selection pool
++ **Retrieve Body Ability:** Toggle the Retrieve Body Ability
++ **Retreive Body Cooldown:** Cooldown for the Retrieve Body Ability
 
 </details>
 
@@ -577,6 +647,9 @@ The Trickster is a role that can create a decoy to trick the Impostor. If the Im
 + **Trickster Decoy Duration:** Duration of how long the decoy should last
 + **Enable Trickster Swap Ability:** Allow Trickster to swap positions with the decoy
 + **Trickster Swap Cooldown:** Cooldown duration for the Trickster Swap ability
++ **Trickster Disguise Ability:** Toggles whether triggers can disguise as other players
++ **Trickster Disguise Cooldown:** Cooldown for Trickster disguise
++ **Trickster Disguise Duration:** Duration for Trickster's disguise
 
 </details>
 
@@ -599,6 +672,22 @@ The Operative is a role that can place down gadgets that allow them to track oth
 
 </details>
 
+### Mayor
+The Operative is a role that gets additional votes they can use to influence the results of a meeting. They are able to store votes each meeting and can add votes to any player in the meeting (or skip vote) at any time, as long as they have not locked in their final vote. They should use this if they want to force someone to be voted out or force a skip vote. But they should be careful not to reveal themselves too early.
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Mayor Chance:** Chance of a Mayor being added to the role selection pool
++ **Enable Mayor:** Toggle whether Mayor is enabled or not
++ **Starting Vote Bank:** How many votes should Mayor start with
++ **Votes Gained Per Meeting:** How many votes Mayor should gain per meeting
++ **Enable Emergency Ability:** Toggle Mayor's Emergency Meeting Ability
++ **Emergency Ability Cooldown:** Mayor Emergency Meeting Ability cooldown
++ **Emergency Ability Limit:** Maximum number of times Mayor can use the ability
+
+</details>
+
 ## Other Teams
 
 ### Jester
@@ -613,6 +702,8 @@ The Jester is a role with no abilities and no tasks to do (they get fake tasks l
 + **Jester Bloody Footprints Ability:** Toggles whether the Jester can leave bloody footprints to trick the detective
 + **Jester Body Drag Ability:** Toggles whether the Jester can drag bodies
 + **Jester Can Use Vents:** Toggles whether the Jester can use vents
++ **Retrieve Body Ability:** Toggle the Retrieve Body Ability
++ **Retreive Body Cooldown:** Cooldown for the Retrieve Body Ability
 
 </details>
 
@@ -634,6 +725,7 @@ The Arsonist is a role that aims to douse everyone alive and igniting them all t
 The Impostor has additional abilities they can make use of:
 - **Drag & Drop Bodies:** Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
 - **Dispose Bodies:** Impostors can dispose a body they are dragging if they are close to a vent or inside the vents. But when bodies are disposed, a bloodstain is left behind on the vent to give crewmates a clue.
+- **Retrieve Bodies:** Impostors can retrieve a disposed body from a vent
 - **Disguise:** Impostors can disguise as another player for set duration. They must first sample the DNA of a player by being nearby the player.
 - **Decoy:** Impostors can drop a decoy, much like the Trickster, to confuse players and trick the Sheriff. They can also drop a decoy of another player by first Disguising as that player
 - **Swap:** Impostors can swap positions with their decoy, much like the Trickster, to avoid danger or cover more ground quicker
@@ -647,21 +739,27 @@ The Impostor has additional abilities they can make use of:
 + **Disguise Cooldown:** Cooldown for the Disguise Ability
 + **Disguise Duration:** How long the Disguise lasts for in seconds
 + **Dispose Body Ability:** Toggle the Dispose Body Ability
-+ **Dispose Body Cooldown:** Cooldown for the Dipose Body Ability
++ **Dispose Body Cooldown:** Cooldown for the Dispose Body Ability
++ **Retrieve Body Ability:** Toggle the Retrieve Body Ability
++ **Retreive Body Cooldown:** Cooldown for the Retrieve Body Ability
 + **Enable Decoy Ability:** Toggle the Decoy Ability for Impostors
 + **Decoy Cooldown:** Cooldown for the Decoy ability
 + **Decoy Duration:** Duration for how long the Decoy will last
 + **Enable Decoy Swap Ability:** Toggle the Decoy Swap Ability for Impostors
 + **Decoy Swap Cooldown:** Cooldown for the Decoy Swap Ability
 + **Enable Impostor Messaging:** Toggle on/off Impostor Comms. Impostor Comms allows Impostors to chat to each other in-game via the chat messaging system, outside of meetings
-+ **Can Vent With Body:** Toggle whether the Impostor can vent with bodies
 
 </details>
 
-### If separate Impostor Roles are enabled:
+## If separate Impostor Roles are enabled:
+### Tier 1 Impostors:
 - **Dragger** has the drag/drop & dispose body abilities
 - **Morphling** has the sample & disguise abilities
 - **Deceiver** has the decoy & swap abilities
+
+### Tier 2 Impostors:
+- **Hitman** has the combined abilities of Dragger and Morphling
+- **Joker** has the combined abilities of Morphling and Deceiver
 
 **Any Impostor without a special Impostor role will be a normal vanilla Impostor**
 
