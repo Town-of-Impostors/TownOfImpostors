@@ -122,7 +122,9 @@ _Starting from v1.5.0 onwards, there is a new reset custom settings button in th
 _Starting from v1.6.0 onwards, this mod should now be compatible with Mod Manager by MatuxGG. Please note that using the Mod Manager to install the mod still does not guarantee that the mod will work as intended._
 
 ### Saving and Loading
-Starting from v1.8.1, you can now save and load your settings. This is to help lower the issue of settings completely messing up between versions. You should find a new "TownOfImpostorsSettings.txt" in the Among Us folder where the mod is installed. This can also be passed onto others so they can play with your settings!
+Starting from v1.8.1, you can now save and load your settings. This is to help lower the issue of settings completely messing up between versions. You should find a new `TownOfImpostorsSettings.txt` in the Among Us folder where the mod is installed. This can also be passed onto others so they can play with your settings!
+
+From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to save multiple settings. You will be able to find them as `TownOfImpostorsSettings_1.txt`, `TownOfImpostorsSettings_2.txt` etc. inside of the `TownOfImpostors_Data` folder. Please launch the game or create the folder yourself if you don't see it. These settings can be passed onto others. If you were using the previous `TownOfImpostorsSettings.txt` before, please move this into the folder and rename it to `TownOfImpostorsSettings_1.txt`.
 
 ### Uninstalling the Mod
 - If you copied the Among Us folder as instructed by the Installation Steps, simply delete the copied folder.
@@ -492,9 +494,7 @@ Add your custom colors to the file `TownOfImpostors_CustomColors.txt` which can 
 
 Follow this example to add a color:
 - `255,255,255,255 220,220,220,255 Pure_White PWH`
-- <MainColor> <ShadingColor> <LongName> <ShortName>
- 
- 
+- `MainColor` `ShadingColor` `LongName` `ShortName`
 - For the colors the format is: R,G,B,A (values between 0-255)
 - Separate each part with a space, use `_` to represent spaces in the long name.
 
