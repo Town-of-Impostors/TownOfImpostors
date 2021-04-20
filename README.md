@@ -141,8 +141,13 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
   </tr>
  <tr>
     <td>v2021.4.12s & v2021.4.14s</td>
+    <td>v1.8.6.1</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.6.1/TownOfImpostors1.8.6.1.zip">Download</></td>
+   </tr>
+ <tr>
+    <td>v2021.4.12s & v2021.4.14s</td>
     <td>v1.8.6</td>
-    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.6/TownOfImpostors1.8.6.zip">Download</></td>
+    <td><strike>Download</strike></></td>
    </tr>
   <tr>
  <tr>
@@ -211,6 +216,16 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 
 <details>
   <summary>Changelog</summary>
+  <details>
+  <summary>v1.8.6.1</summary>
+  <h3>v1.8.6.1</h3>
+   <ul>
+<li>Fixed major game breaking bugs with voting</li>
+<li>Fixed issue with bodies disappearing if player dies while dragging a body through vent</li>
+<li>Fixed potential issues with trickster disguised decoy</li>
+    <li>Various small bug fixes and optimisations</li>
+   </ul>
+    </details>
  <details>
   <summary>v1.8.6</summary>
   <h3>v1.8.6</h3>
