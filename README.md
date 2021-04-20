@@ -491,12 +491,12 @@ From v1.8.6 onwards, you will be able to add your own custom colors.
 Add your custom colors to the file `TownOfImpostors_CustomColors.txt` which can be found in the `TownOfImpostors_Data` folder. Please launch the game and create a lobby once if you don't see the folder or file, or manually create them yourselves.
 
 Follow this example to add a color:
-`255,255,255,255 220,220,220,255 Pure_White PWH`
-<MainColor> <ShadingColor> <LongName> <ShortName>
+- `255,255,255,255 220,220,220,255 Pure_White PWH`
+- <MainColor> <ShadingColor> <LongName> <ShortName>
  
  
-For the colors the format is: R,G,B,A (values between 0-255)
-Separate each part with a space, use `_` to represent spaces in the long name.
+- For the colors the format is: R,G,B,A (values between 0-255)
+- Separate each part with a space, use `_` to represent spaces in the long name.
 
 ---
 
