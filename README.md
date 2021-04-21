@@ -487,19 +487,22 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 ### Modifiers
 *All hat modifiers are **case sensitive**!*
 
+
 `_back`
 > If you want your hat to be behind the crewmate (i.e. wings). 
 
 `_bounce`
 > If you want it to bounce while the crewmate walks.
-### Advanced Modifiers
-*All hat modifiers are **case sensitive**!*
 
 `_anycolor`
 > **From v1.8.2 onwards**, you'll be able to also add this as an additional modifier to have your hat match the colour of your crewmate. You'll need to use **Red** _(Hex: FF0000)_ for the base colour, and **Blue** _(Hex: 0000FF)_ for the shading. See example of how this is done here: 
 
 ![ExampleByDark](https://user-images.githubusercontent.com/78827892/114481635-dacf1380-9bfc-11eb-8032-e839df7240ec.PNG)  
-  
+
+### Advanced Modifiers
+*All hat modifiers are **case sensitive**!*
+
+
 `_0.0f_0.0f`  
 > **From v1.8.6 onwards**, you can now add **X** and **Y** offsets to the name to position the hat more accurately in the menu i.e. `Simple-Hat_AJMix_-0.5f_+0.3f`. You need to specify both an **X** and a **Y** offset. Placing a **+** or **-** in front will indicate whether it should be positive or negative. _Placing no symbols will default it to positive._ The offsets must follow the exact example as shown, with a decimal number followed by an _"**f**"_.
 
