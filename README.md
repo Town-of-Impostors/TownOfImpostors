@@ -41,6 +41,8 @@ Table of Contents
     * [Saving and Loading Settings](#saving-and-loading)
     * [Uninstalling](#uninstalling-the-mod)
   * [Custom Hats](#customhats)
+    * [Modifiers](#modifiers)
+    * [Advanced Modifiers](#advanced-modifiers)
   * [Custom Colors](#customcolors)
   * [Streamer Mode](#streamermode)
   * [Roles, Abilities, Modifiers & Custom Options](#roles-abilities-modifiers--custom-options)
