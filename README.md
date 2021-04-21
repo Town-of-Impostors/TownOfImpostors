@@ -485,7 +485,7 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 ---
 
 ### Modifiers
-*All `<Modifiers>` are **case sensitive**!*
+*All hat modifiers are **case sensitive**!*
 
 `_back`
 > If you want your hat to be behind the crewmate (i.e. wings). 
@@ -493,7 +493,7 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 `_bounce`
 > If you want it to bounce while the crewmate walks.
 ### Advanced Modifiers
-*All `<Modifiers>` are **case sensitive**!*
+*All hat modifiers are **case sensitive**!*
 
 `_anycolor`
 > **From v1.8.2 onwards**, you'll be able to also add this as an additional modifier to have your hat match the colour of your crewmate. You'll need to use **Red** _(Hex: FF0000)_ for the base colour, and **Blue** _(Hex: 0000FF)_ for the shading. See example of how this is done here: 
