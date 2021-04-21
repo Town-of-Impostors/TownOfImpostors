@@ -472,9 +472,15 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
   * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/ConTemplate.png)
 * Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
   
-* **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>` for your PNG. If you want spaces in your names, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
+* **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>` for your PNG. See below for list of modifiers. If you want spaces in your names, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
 
 **Example Names:** `Wing_Spaced-AJMix_back.png`, `Bouncy-Hat_AJMix_bounce.png`, `BouncyWings_AJMix_back_bounce.png`, `Simple-Hat_AJMix.png`, `Advanced-Hat_AJMix_bounce_anycolor_-1.1f_+2.3f.png`
+
+* Place the custom hat png into the `TownOfImpostors_CustomHats` which can be found inside of the Among Us directory you have the mod installed (launch the game once and start a lobby with the mod or create the folder yourself if it does not exist)
+
+* Your custom hat should now appear in the hats tab **locally**. If you want everyone to see the same thing **make sure everyone has the same hats in the custom hats folder.**
+
+---
 
 *All `<Modifiers>` are **case sensitive**!*
 ### Modifiers
@@ -485,16 +491,12 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 > If you want it to bounce while the crewmate walks.
 ### Advanced Modifiers
 `_anycolor`
-> **Starting from v1.8.2 onwards**, you'll be able to also add this as an additional modifier to have your hat match the colour of your crewmate. You'll need to use **Red** _(Hex: FF0000)_ for the base colour, and **Blue** _(Hex: 0000FF)_ for the shading. See example of how this is done here: 
+> **From v1.8.2 onwards**, you'll be able to also add this as an additional modifier to have your hat match the colour of your crewmate. You'll need to use **Red** _(Hex: FF0000)_ for the base colour, and **Blue** _(Hex: 0000FF)_ for the shading. See example of how this is done here: 
 
 ![ExampleByDark](https://user-images.githubusercontent.com/78827892/114481635-dacf1380-9bfc-11eb-8032-e839df7240ec.PNG)  
   
 `_0.0f_0.0f`  
-> **Starting from v1.8.6 onwards**, you can now add **X** and **Y** offsets to the name to position the hat more accurately in the menu i.e. `Simple-Hat_AJMix_-0.5f_+0.3f`. You need to specify both an **X** and a **Y** offset. Placing a **+** or **-** in front will indicate whether it should be positive or negative. _Placing no symbols will default it to positive._ The offsets must follow the exact example as shown, with a decimal number followed by an _"**f**"_.
-
-* Place the custom hat png into the `TownOfImpostors_CustomHats` which can be found inside of the Among Us directory you have the mod installed (launch the game once and start a lobby with the mod or create the folder yourself if it does not exist)
-
-* Your custom hat should now appear in the hats tab **locally**. If you want everyone to see the same thing **make sure everyone has the same hats in the custom hats folder.**
+> **From v1.8.6 onwards**, you can now add **X** and **Y** offsets to the name to position the hat more accurately in the menu i.e. `Simple-Hat_AJMix_-0.5f_+0.3f`. You need to specify both an **X** and a **Y** offset. Placing a **+** or **-** in front will indicate whether it should be positive or negative. _Placing no symbols will default it to positive._ The offsets must follow the exact example as shown, with a decimal number followed by an _"**f**"_.
 
 ## Want to add your hat as part of the mod so everyone can use it?
 * Simply follow the same steps above to create a Custom Hat, please join the discord server and post your hat in the custom hat channel there so it can be ready to add in the next release. Please also follow the naming convention so I know the hat name, credits and whether you'd like it to be added to the **back** of the crewmate and whether you'd like it to **bounce**.
@@ -511,21 +513,27 @@ Here: https://drive.google.com/drive/u/2/folders/1urae5ivZ3qkXCXAm2VHeR6j9bLWEDo
 
 <h1 id="customcolors">Custom Colors</h1>
 
-From v1.8.6 onwards, you will be able to add your own custom colors.
+**From v1.8.6 onwards**, you will be able to add your own custom colors.
 
-Add your custom colors to the file `TownOfImpostors_CustomColors.txt` which can be found in the `TownOfImpostors_Data` folder. Please launch the game and create a lobby once if you don't see the folder or file, or manually create them yourselves.
+Add your custom colors to the file `TownOfImpostors_CustomColors.txt` which can be found in the `TownOfImpostors_Data` folder. Please launch the game and create a lobby once if you don't see the folder or file, or manually create them yourselves. 
 
 Follow this example to add a color:
-- `255,255,255,255 220,220,220,255 Pure_White PWH`
-- `MainColor` `ShadingColor` `LongName` `ShortName`
-- For the colors the format is: R,G,B,A (values between 0-255)
-- Separate each part with a space, use `_` to represent spaces in the long name.
+> `255,255,255,255 220,220,220,255 Pure_White PWH`
+
+Each part of the entry stands for this:
+> `MainColor` `ShadingColor` `LongName` `ShortName`
+> 
+> For the colors the format is: R,G,B,A (values between 0-255)
+> 
+> Separate each part with a space, use `_` to represent spaces in the long name.
+
+**In multiplayer, everyone must have the same `TownOfImpostors_CustomColors.txt` to see and use the same custom colors!**
 
 ---
 
 <h1 id="streamermode">Streamer Mode</h1>
 
-From v1.7.1 onwards, there is a new streamer mode that can be toggled on.
+**From v1.7.1 onwards**, there is a new streamer mode that can be toggled on.
 
 This makes it easier for streamers as they won't have to manually hide the code anymore on stream, it will be hidden automatically.
 
