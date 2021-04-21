@@ -464,7 +464,7 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 
 <h1 id="customhats">Custom Hats</h1>
 
-### **Only for versions v1.7.1 onwards**
+**Only for versions v1.7.1 onwards**
 
 ## How do I add my own Custom Hat?
 * Download the template used to make the Custom Hat for Town Of Impostors **(Big Thanks to Con No 1 for the template)**:
@@ -472,17 +472,25 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
   * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/ConTemplate.png)
 * Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
   
-* **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>`. If you want spaces in your names, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
-  * **For Modifiers:** if you want your hat to be behind the crewmate (i.e. wings), add a `_back` to the name. If you want it to bounce while the crewmate walks, add a `_bounce` to the name. These are **case sensitive**. 
-  * **Example Names:** `Wing_Spaced-AJMix_back.png`, `Bouncy-Hat_AJMix_bounce.png`, `BouncyWings_AJMix_back_bounce.png`, `Simple-Hat_AJMix.png`
-  * **Advanced Modifiers:** you can now add **X** and **Y** offsets to the name to position the hat more accurately in the menu i.e. `Simple-Hat_AJMix_-0.5f_+0.3f`. You need to specify both an **X** and a **Y** offset. Placing a **+** or **-** in front will indicate whether it should be positive or negative. _Placing no symbols wil default it to positive._ The offsets must follow the exact example as shown, with a decimal number followed by an _"**f**"_
+* **IMPORTANT:** Please follow this naming convention `<HatName>_<Credits>_<Modifiers>` for your PNG. If you want spaces in your names, use `-` to represent spaces. For example, `Bouncy-Hat` will be processed into `Bouncy Hat` inside the game.
 
-**Starting from v1.8.2 onwards**, you'll be able to also add `_anycolor` as an additional modifier to have your hat match the colour of your crewmate. See example of how this is done here:
+**Example Names:** `Wing_Spaced-AJMix_back.png`, `Bouncy-Hat_AJMix_bounce.png`, `BouncyWings_AJMix_back_bounce.png`, `Simple-Hat_AJMix.png`, `Advanced-Hat_AJMix_bounce_anycolor_-1.1f_+2.3f.png`
 
-![ExampleByDark](https://user-images.githubusercontent.com/78827892/114481635-dacf1380-9bfc-11eb-8032-e839df7240ec.PNG)
+*All `<Modifiers>` are **case sensitive**!*
+### Modifiers
+`_back`
+> If you want your hat to be behind the crewmate (i.e. wings). 
 
-You'll need to use **Red** _(Hex: FF0000)_ for the base colour, and **Blue** _(Hex: 0000FF)_ for the shading.
+`_bounce`
+> If you want it to bounce while the crewmate walks.
+### Advanced Modifiers
+`_anycolor`
+> **Starting from v1.8.2 onwards**, you'll be able to also add this as an additional modifier to have your hat match the colour of your crewmate. You'll need to use **Red** _(Hex: FF0000)_ for the base colour, and **Blue** _(Hex: 0000FF)_ for the shading. See example of how this is done here: 
 
+![ExampleByDark](https://user-images.githubusercontent.com/78827892/114481635-dacf1380-9bfc-11eb-8032-e839df7240ec.PNG)  
+  
+`_0.0f_0.0f`  
+> **Starting from v1.8.6 onwards**, you can now add **X** and **Y** offsets to the name to position the hat more accurately in the menu i.e. `Simple-Hat_AJMix_-0.5f_+0.3f`. You need to specify both an **X** and a **Y** offset. Placing a **+** or **-** in front will indicate whether it should be positive or negative. _Placing no symbols will default it to positive._ The offsets must follow the exact example as shown, with a decimal number followed by an _"**f**"_.
 
 * Place the custom hat png into the `TownOfImpostors_CustomHats` which can be found inside of the Among Us directory you have the mod installed (launch the game once and start a lobby with the mod or create the folder yourself if it does not exist)
 
