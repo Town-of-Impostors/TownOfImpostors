@@ -463,7 +463,7 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 </details>
  
 ### Updating the Mod
-It is recommended to keep separate folders for each version of Town Of Impostors, or start fresh, instead of overwriting, even if the Among Us version between them is the same and it appears that the bundled files are the same in each release. But if you're intent updating an existing version of the mod with a new version that is compatible to that version of Among Us: 
+It is recommended to keep separate folders for each version of Town Of Impostors instead of overwriting. Even if the Among Us version between them is the same and it appears that the bundled files are the same in each release. But if you're intent updating an existing version of the mod with a new version that is compatible to that version of Among Us: 
 
 - Please ensure you **extract and overwrite all** that has been asked. Do not pick and mix, or extract only the `TownOfImpostors.dll` for updating. Each release was crafted for the BepInEx it is bundled with, so there will be errors if the wrong version of BepInEx is used.
 
