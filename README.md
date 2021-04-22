@@ -40,6 +40,7 @@ Table of Contents
     * [Releases and Compatibility](#releases-and-compatibility)
     * [Saving and Loading Settings](#saving-and-loading)
     * [Uninstalling](#uninstalling-the-mod)
+    * [Updating](#updating-the-mod)
   * [Custom Hats](#customhats)
     * [Modifiers](#modifiers)
     * [Advanced Modifiers](#advanced-modifiers)
@@ -73,6 +74,8 @@ Table of Contents
 ---
 
 <h1 id="installation">Installation</h1>
+
+- If you are updating your Town Of Impostors version, please hop to this section [here](#updating).
 
 - Before installing, verify your Among Us version by launching the game and checking the version displayed in the top left of the main menu.
 
@@ -458,6 +461,19 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
    </ul>
   </details>
 </details>
+ 
+### Updating the Mod
+It is recommended to keep separate folders for each version of Town Of Impostors, or start fresh, instead of overwriting, even if the Among Us version between them is the same and it appears that the bundled files are the same in each release. But if you're intent updating an existing version of the mod with a new version that is compatible to that version of Among Us: 
+
+- Please ensure you **extract and overwrite all** that has been asked. Do not pick and mix, or extract only the `TownOfImpostors.dll` for updating. Each release was crafted for the BepInEx it is bundled with, so there will be errors if the wrong version of BepInEx is used.
+
+- Inside your `\Among Us Modded\BepInEx\`, please delete the `\cache\` folder.
+
+- You may have to sign in again to your account. If it does not work inside the modded game, please launch the unmodded version and sign in through there first before returning to the modded game. This is why we recommend copying and working with a copied directory of Among Us that is not auto-updated by Steam but also a backup for any issues involving modding.
+
+- In the lobby, please click Reset Settings on the bottom left when playing a new version of Town Of Impostors. See [Known Issues](#known-issues) for why. If you're running v1.8.1 or higher, you may use the Save Settings before the update, then Load Settings after the update to restore your Town Of Impostors configuration.
+
+- Now hope all is good! If there are errors, you can always resort to a fresh installation of the mod with another copy of the unmodded Among Us folder!   
 
 <h2>Curseforge</h2>
 You can download the mod on Curseforge <a href="https://www.curseforge.com/among-us/all-mods/town-of-impostors">here</a>.
