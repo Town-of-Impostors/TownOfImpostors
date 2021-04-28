@@ -75,7 +75,7 @@ Table of Contents
 
 <h1 id="installation">Installation</h1>
 
-- If you are updating your Town Of Impostors version, please hop to this section [here](#updating).
+- If you are updating your Town Of Impostors version, please hop to this section [here](#updating-the-mod).
 
 - Before installing, verify your Among Us version by launching the game and checking the version displayed in the top left of the main menu.
 
