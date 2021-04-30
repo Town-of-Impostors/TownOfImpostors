@@ -146,6 +146,12 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
   </tr>
  <tr>
     <td>v2021.4.12s & v2021.4.14s</td>
+    <td>v1.9.2</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.9.2/TownOfImpostors1.9.2zip">Download</></td>
+   </tr>
+ <tr>
+ <tr>
+    <td>v2021.4.12s & v2021.4.14s</td>
     <td>v1.8.6.1</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.6.1/TownOfImpostors1.8.6.1.zip">Download</></td>
    </tr>
@@ -221,6 +227,40 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v1.9.2</summary>
+  <h3>v1.9.2</h3>
+   <ul>
+<li>Settings 2.0</li>
+<li>[Custom Option] Enable Impostor Abilities (only if Impostor Roles are off)</li>
+    <li>[Custom Option] Mayor Cannot Be Lover</li>
+<li>ALL MUST DIE Gamemode (Impostors only win if ALL crewmates are dead)</li>
+<li>Impostor Blind Trap Ability</li>
+<li>Impostor Poison Ability</li>
+<li>Detective Body Scan Ability</li>
+<li>Detective Body Report shows whether victim was poisoned</li>
+<li>Impostor Viper Role (Tier 1)</li>
+<li>Impostor Assassin Role (Tier 2)</li>
+<li>Impostor Predator Role (Tier 3)</li>
+<li>New warning for when settings are bugged (messed up values)</li>
+<li>Added foolproof checks to prevent errors in custom colors, settings and hats from stopping the mod from loading</li>
+<li>Using chat (between meetings) no longer freezes kill cooldown, this should encourage more Impostor Comms/Lover chat</li>
+<li>Jester can see their own footprints if paint ability toggled on</li>
+<li>Game Continues With Arsonist is now a "Gamemode"</li>
+<li>Mayor Hats will no longer show in meeting hud if player is dead</li>
+<li>Fixed bug with ghosts still having issues with vision</li>
+<li>Arsonist douse time now defaults to 2 seconds</li>
+<li>Detective Anonymous Footprints defaults off, footprint time default 15 seconds</li>
+<li>Fixed bug with uninteractable bodies</li>
+<li>Fixed exploit that allowed Doctors to revive & report someone at the same time</li>
+<li>Fixed bug with Arsonist dousing players in vents</li>
+<li>QoL update, hats tab mentions hat pages</li>
+<li>Progress Bar QoL update</li>
+<li>Fixed small bug with loaded settings not synced between players</li>
+<li>Various small bug fixes</li>
+<li>Even more optimisations for even smoother performance</li>
+   </ul>
+    </details>
   <details>
   <summary>v1.8.6.1</summary>
   <h3>v1.8.6.1</h3>
@@ -575,19 +615,16 @@ From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilit
 
 ### Gamemodes
 - **Map Randomise Mode:** When toggled on, map will be randomised upon starting the game
+- **All Crewmates Must Die Mode:** When toggled on, game will continue as long as a crewmate is alive (special win conditions still occur for Jester, Arsonist and Lovers)
+- **Game Continues With Arsonist:** Toggles whether the game should continue as long as Arsonist is alive
 
-### General Custom Options
+### Extra Settings
 - **Custom Role Eject Confirmation:** Enables ejects to show the special role of the player being ejected, assuming "Confirm Ejects" option is on
 - **Same Roles Know Each Other:** Allows players of the same role to see each other (via highlighted names)
 - **Comms Sabotage Causes Anonymity:** Improves the Comms Sabotage to turn everyone anonymous
 - **Ghosts Use Crewmate Vision:** Ghosts will no longer have ghost vision (where they can see everything), they will now instead use normal crewmate vision. Impostors are unaffected. _This option is recommended if there is a Doctor in the game_
-- **Impostors Can Kill Each Other:** Allows Impostors to target and kill each other
-- **Game Continues With Arsonist:** Toggles whether the game should continue as long as Arsonist is alive
 - **Disable Body Report:** Toggles on/off body reporting (to get a different kind of gameplay)
 - **Dead Player See All Roles:** Toggles whether dead players should see all roles (after a meeting only)
-- **Impostors Do Not Know Each Other:** Toggles whether Impostors know each other
-- **Impostors Can Kill Inside Vents:** Toggles whether Impostors can kill any other players inside of vents (if they are in the vent too)
-- **Vents Hold Multiple Bodies:** Toggles whether multiple bodies can be disposed in one vent (default is 1 body maximum if toggled off)
 - **Can Vent With Body:** Toggle whether players can vent with bodies
 
 ## Crewmate Team
@@ -650,9 +687,12 @@ The Detective is a role that can see footprints and get extra information when r
   
 + **% Detective Chance:** Chance of a Detective being added to the role selection pool
 + **# Max Detective Count:** The maximum number of Detectives that can be added to the role selection pool
++ **Enable Body Scan Ability:** Toggles body scan ability for Detective
++ **Body Scan Cooldown:** Body scan ability cooldown
++ **Body Scan Radius:** Body scan radius
 + **Footprint Duration:** How long the footprints will last in seconds
 + **Anonymous Footprints:** Whether the footprints should be anonymous or not
-+ **Extra Information On Report:** If Detective reports a body, they will get an additional "Body Report" via messages (which only they can see). Shows how long the player has been dead for, as well as whether the body has been moved or not
++ **Extra Information On Report:** If Detective reports a body, they will get an additional "Body Report" via messages (which only they can see). Shows how long the player has been dead for, as well as whether the body has been moved or not. Also shows whether the body was poisoned.
 + **Killers Leave Bloody Prints:** Killers _(includes both Sheriffs & Impostors)_ will leave bloody footprints after a kill
 + **Bloody Prints Duration:** Duration for how long Killers should have bloody footprints
 + **Disguised Footprints:** Toggles whether Impostors leave behind disguised footprints if they are disguised
@@ -735,6 +775,7 @@ The Mayor is a role that gets additional votes they can use to influence the res
   
 + **% Mayor Chance:** Chance of a Mayor being added to the role selection pool
 + **Enable Mayor:** Toggle whether Mayor is enabled or not
++ **Mayor Cannot Be Lover:** Toggles whether a Mayor can be lover or not
 + **Starting Vote Bank:** How many votes should Mayor start with
 + **Votes Gained Per Meeting:** How many votes Mayor should gain per meeting
 + **Enable Emergency Ability:** Toggle Mayor's Emergency Meeting Ability
@@ -743,7 +784,7 @@ The Mayor is a role that gets additional votes they can use to influence the res
 
 </details>
 
-## Other Teams
+## Neutral Team
 
 ### Jester
 The Jester is a role with no abilities and no tasks to do (they get fake tasks like Impostors). They are in their own team, and their goal is to get themselves ejected from the ship and make sure not to get killed by the Impostors. They will win instantly if ejected from the ship. However, if they are killed, they will have no way to win and essentially lose. The have extra abilities to help them act suspicious, such as dragging bodies, leaving bloody footprints and using vents.
@@ -776,49 +817,88 @@ The Arsonist is a role that aims to douse everyone alive and igniting them all t
 
 </details>
 
-### Impostor
-The Impostor has additional abilities they can make use of:
-- **Drag & Drop Bodies:** Impostors can drag around and drop dead bodies to reposition them. They may also drag bodies through vents.
-- **Dispose Bodies:** Impostors can dispose a body they are dragging if they are close to a vent or inside the vents. But when bodies are disposed, a bloodstain is left behind on the vent to give crewmates a clue.
-- **Retrieve Bodies:** Impostors can retrieve a disposed body from a vent
-- **Disguise:** Impostors can disguise as another player for set duration. They must first sample the DNA of a player by being nearby the player.
-- **Decoy:** Impostors can drop a decoy, much like the Trickster, to confuse players and trick the Sheriff. They can also drop a decoy of another player by first Disguising as that player
-- **Swap:** Impostors can swap positions with their decoy, much like the Trickster, to avoid danger or cover more ground quicker
+## Impostor Team
+
+### Impostor Settings
 
 <details>
   
 <summary>Custom Options</summary>
   
++ **Enable Impostor Roles:** Enable separate Impostor roles. If this is toggled off, the Impostor is a "Super Impostor" with all abilities
++ **Enable Impostor Abilities:** This option is available is Impostor Roles is toggled off. Enables/Disables abilities for the normal Impostor
++ **Impostors Can Kill Each Other:** Allows Impostors to target and kill each other
++ **Impostors Do Not Know Each Other:** Toggles whether Impostors know each other
++ **Impostors Can Kill Inside Vents:** Toggles whether Impostors can kill any other players inside of vents (if they are in the vent too)
++ **Enable Impostor Messaging:** Toggle on/off Impostor Comms. Impostor Comms allows Impostors to chat to each other in-game via the chat messaging system, outside of meetings
+
+</details>
+
+### Dragger
+The Dragger is an Impostor role that can drag & drop dead bodies. They are also able to dispose the dead bodies in vents.
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Dragger Chance:** Chance of a Dragger being added to the role selection pool
++ **Dragger Count:** The maximum number of Draggers that can be added to the role selection pool
 + **Drag And Drop Ability:** Toggle the Drag and Drop Ability
-+ **Disguise Ability:** Toggle the Disguise Ability
-+ **Disguise Cooldown:** Cooldown for the Disguise Ability
-+ **Disguise Duration:** How long the Disguise lasts for in seconds
 + **Dispose Body Ability:** Toggle the Dispose Body Ability
 + **Dispose Body Cooldown:** Cooldown for the Dispose Body Ability
 + **Retrieve Body Ability:** Toggle the Retrieve Body Ability
 + **Retreive Body Cooldown:** Cooldown for the Retrieve Body Ability
++ **Vents Hold Multiple Bodies:** Toggles whether multiple bodies can be disposed in one vent (default is 1 body maximum if toggled off)
+
+</details>
+
+### Morphling
+The Morphling is an Impostor role that can sample DNA of other players and disguise into them, confusing everyone.
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Morphling Chance:** Chance of a Morphling being added to the role selection pool
++ **Morphling Count:** The maximum number of Morphlings that can be added to the role selection pool
++ **Disguise Ability:** Toggle the Disguise Ability
++ **Disguise Cooldown:** Cooldown for the Disguise Ability
++ **Disguise Duration:** How long the Disguise lasts for in seconds
+
+</details>
+
+### Deceiver
+The Deceiver is an Impostor role that can leave decoys and swap to them, confusing players and allowing them to reposition themselves.
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Deceiver Chance:** Chance of a Deceiver being added to the role selection pool
++ **Deceiver Count:** The maximum number of Deceivers that can be added to the role selection pool
 + **Enable Decoy Ability:** Toggle the Decoy Ability for Impostors
 + **Decoy Cooldown:** Cooldown for the Decoy ability
 + **Decoy Duration:** Duration for how long the Decoy will last
 + **Enable Decoy Swap Ability:** Toggle the Decoy Swap Ability for Impostors
 + **Decoy Swap Cooldown:** Cooldown for the Decoy Swap Ability
-+ **Enable Impostor Messaging:** Toggle on/off Impostor Comms. Impostor Comms allows Impostors to chat to each other in-game via the chat messaging system, outside of meetings
 
 </details>
+
+**If seperate Impostor Roles are disabled, the normal Impostors will use all abilities (configured with the same custom options as the separate roles). Basically every Impostor is a "Predator"**
 
 ## If separate Impostor Roles are enabled:
 ### Tier 1 Impostors:
 - **Dragger** has the drag/drop & dispose body abilities
 - **Morphling** has the sample & disguise abilities
 - **Deceiver** has the decoy & swap abilities
+- **Viper** has the blind trap & poison abilities
 
 ### Tier 2 Impostors:
 - **Hitman** has the combined abilities of Dragger and Morphling
 - **Joker** has the combined abilities of Morphling and Deceiver
+- **Assassin** has the combined abilities of Dragger and Viper
 
-**Any Impostor without a special Impostor role will be a normal vanilla Impostor**
+### Tier 3 Impostors:
+- **Predator** has the abilities of all Impostor roles
 
-**Impostor Role abilities are configured with the same options used to configure the normal Impostor**
+**Any Impostor without a special Impostor role will be a normal vanilla Impostor with no abilities. Impostor Role abilities are configured with the same options used to configure the normal Impostor**
 
 ## Modifiers
 
