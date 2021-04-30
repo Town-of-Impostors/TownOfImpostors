@@ -34,6 +34,19 @@
 
 ---
 
+<p align="center">
+<img src="Pics/TownOfImpostors-Dragger.png" width="270">
+<img src="Pics/TownOfImpostors-Morphling.png" width="270">
+<img src="Pics/TownOfImpostors-Deceiver.png" width="270">
+ <img src="Pics/TownOfImpostors-Viper.png" width="270">
+ <img src="Pics/TownOfImpostors-Hitman.png" width="270">
+ <img src="Pics/TownOfImpostors-Joker.png" width="270">
+ <img src="Pics/TownOfImpostors-Assassin.png" width="270">
+ <img src="Pics/TownOfImpostors-Predator.png" width="270">
+</p>
+
+---
+
 Table of Contents
 =================
   * [Installation](#installation)
