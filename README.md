@@ -904,7 +904,7 @@ The Deceiver is an Impostor role that can leave decoys and swap to them, confusi
 </details>
 
 ### Viper
-The Deceiver is an Impostor role that can blind and poison other players.
+The Viper is an Impostor role that can blind and poison other players.
 
 <details>
 <summary>Custom Options</summary>
