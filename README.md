@@ -903,6 +903,26 @@ The Deceiver is an Impostor role that can leave decoys and swap to them, confusi
 
 </details>
 
+### Viper
+The Deceiver is an Impostor role that can blind and poison other players.
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Viper Chance:** Chance of a Viper being added to the role selection pool
++ **Viper Count:** The maximum number of Vipers that can be added to the role selection pool
++ **Blind Trap Ability:** Toggle the blind trap ability
++ **Blind Trap Charges:** Max charges of blind traps Viper can hold
++ **Blind Trap Cooldown:** Blind trap cooldown to regain a charge
++ **Blind Trap Duration:** How long the blind trap should last
++ **Blind Duration:** How long players are blinded for
++ **Poison Ability:** Toggle the poison ability
++ **Poison Duration:** Duration before player is killed by poison
++ **Poison Additional Kill Cooldown:** How much extra cooldown is added to the kill button
++ **Poison Cure Duration:** How long it takes to cure the poison in medbay
+
+</details>
+
 **If seperate Impostor Roles are disabled, the normal Impostors will use all abilities (configured with the same custom options as the separate roles). Basically every Impostor is a "Predator"**
 
 ## If separate Impostor Roles are enabled:
