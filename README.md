@@ -819,6 +819,15 @@ The Arsonist is a role that aims to douse everyone alive and igniting them all t
 
 ## Impostor Team
 
+### New Abilities:
+- Drag & Drop Bodies - The Impostor may now drag & drop bodies to reposition them, bodies may also be dragged through vents
+- Dispose Body - The Impostor can dispose a body they are dragging, if they are close to or inside a vent. A bloodstain is left behind to give crewmates a clue
+- Disguise/Sample DNA - The Impostor can disguise as another player, by first sampling their DNA
+- Decoy - The Impostor can drop a decoy, much like the Trickster, and can drop decoys of other players by first disguising as them
+- Swap - The Impostor can swap positions with their decoy
+- Blind Trap - The Impostor can leave blind traps that will blind players that walk on it
+- Poison - The Impostor can poison a player, they will die after a set duration
+
 ### Impostor Settings
 
 <details>
