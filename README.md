@@ -73,7 +73,7 @@ Table of Contents
     * [Other Teams](#other-teams)
       * [Jester](#jester)
       * [Arsonist](#arsonist)
-      * [Impostor](#impostor)
+      * [Impostor](#impostor-team)
     * [Modifiers](#modifiers)
       * [Lovers](#lovers)
     * [How Role Assignment Works](#how-does-role-assignment-work)
