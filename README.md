@@ -520,6 +520,8 @@ It is recommended to keep separate folders for each version of Town Of Impostors
 
 - Please ensure you **extract and overwrite all** that has been asked. Do not pick and mix, or extract only the `TownOfImpostors.dll` for updating. Each release was crafted for the BepInEx it is bundled with, so there will be errors if the wrong version of BepInEx is used.
 
+- We've begun labelling the mod with `TownOfImpostors-X.X.X.dll` to help differentiate between the versions under file explorers, so you may not receive a confirmation to overwrite the mod itself. Whilst this should not cause any issues as BepInEx checks and uses the latest version of a mod, if there are any problems, please proceed to `\Among Us Modded\BepInEx\plugins\` and delete the older versions of the mod.
+
 - Inside your `\Among Us Modded\BepInEx\`, please delete the `\cache\` folder.
 
 - You may have to sign in again to your account. If it does not work inside the modded game, please launch the unmodded version and sign in through there first before returning to the modded game. This is why we recommend copying and working with a copied directory of Among Us that is not auto-updated by Steam but also a backup for any issues involving modding.
