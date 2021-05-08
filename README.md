@@ -577,6 +577,7 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 
 ### New System:
 * Download the **new** template, along with the default empty manifest.json to being making Custom Hats for Town Of Impostors (you may still use the old template if you want to) **Massive thanks to JonyKasual for working hard to create an advanced template**
+  * Download an empty `manifest.json` [here](https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.0/manifest.json)
   * Download .psd template 150x185 [here](https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.0/ToI_CustomHat_Template_150x185_v2.psd)
   * Download .psd template 225x280 [here](https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.0/ToIHat_AdvancedTemplate_225x280.psd)
   * Download .psd template 300x370 [here](https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.0/ToIHat_AdvancedTemplate_300x370.psd)
