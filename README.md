@@ -635,11 +635,8 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 * The Hat Name and Credits will be grabbed from the file name, as long as you have followed the naming convention. When someone wears your hat, credits will appear underneath the mod credits! (i.e. `AJ Scarf by AJMix`, `Dark Scarf by Darkbrussel`)
 * I'll try my best to get your Custom Hat into the next release of Town Of Impostors!
 
-## How about the hat angles for animations such as the ladder climb in Airship?
-That currently won't be supported yet for custom hats. But, I plan to add support for those in a future version!
-
 ## Where can I download more custom hats from the community?
-Here: https://drive.google.com/drive/u/2/folders/1urae5ivZ3qkXCXAm2VHeR6j9bLWEDoyS
+Please join the discord to find more custom hats from the community, as well as download links!
 
 ---
 
