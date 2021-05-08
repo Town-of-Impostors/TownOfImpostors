@@ -167,7 +167,7 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
  <tr>
     <td>v2021.4.12s & v2021.4.14s</td>
     <td>v2.0.0</td>
-    <td>Coming Soon</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.0/TownOfImpostors2.0.0.zip">Download</></td></td>
    </tr>
  <tr>
  <tr>
