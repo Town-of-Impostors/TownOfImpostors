@@ -257,6 +257,7 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
   <summary>v2.0.0</summary>
   <h3>v2.0.0</h3>
    <ul>
+<li>Sniper Role (Unique Impostor Role)</li>
 <li>Hat System 2.0 (Animated Hats, More Possibilities)</li>
 <li>Dead Players Seeing All Roles now also see Lover Icons</li>
 <li>Art updates by Con No 1 (Twitter @Con_No_1)</li>
@@ -268,7 +269,7 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 <li>Fixed bug with blind traps not being disabled when toggle off</li>
 <li>Fixed bug with sabotages not ending game in some cases with All Crewmates Must Die Mode On</li>
 <li>Fixed Jester Footprints not disappearing on death</li>
-<li>Fixed bug with revived Informants losing role and seeing everyone as their</li>
+<li>Fixed bug with revived Informants losing role and seeing everyone as their own name</li>
 <li>Fixed bug with Poison Kills on Decoys not properly setting cooldown</li>
 <li>Fixed exploit allowing Impostors to reset cooldown after poison ability</li>
    </ul>
