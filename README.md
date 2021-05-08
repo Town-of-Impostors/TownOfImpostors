@@ -1123,7 +1123,7 @@ This mod was not made to be compatible with controllers in mind; it was intended
 - Please make sure you're using Windows, this mod is not compatible on Android, Mac or any other OS/devices
 - Please make sure you're using this with the **Steam** version of Among Us; this is not compatible with the itch.io version unfortunately
 - Please make sure you're not loading other mods along with this one
-- The first time launching the mod may take a while, so please allow a minute before worrying that nothing is appearing. If nothing has happened for a while, please open your Task Manager(CTRL+ALT+DEL) and close the Among Us process, then attempt launching again.
+- The first time launching the mod may take a while, so please allow a minute before worrying that nothing is appearing. If nothing has happened for a while, please open your Task Manager (CTRL+ALT+DEL) and close the Among Us process, then attempt launching again.
 - Make sure you have followed all the <a href="#installation">installation steps</a>, especially launching the game via the Among Us.exe file in the modified game directory.
 - Try uninstalling the mod (see uninstalling the mod in the Installation Steps) and following the installation steps again
 - If you're using a Mod Manager to install the mod, it is not guaranteed to work
