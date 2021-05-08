@@ -1,0 +1,30 @@
+{
+	"HatName": "",
+	"Creator": "",
+
+	"FrontImageHatPath": [""],
+	"BackImageHatPath": [""],
+	"ClimbImageHatPath": [""],
+	
+	"AdaptiveColor": false,
+	"BounceOnMove": false,
+	"HidePlayerModel": false,
+
+	"MenuOffset":
+	{
+		"x": 0.0,
+		"y": 0.35
+	},
+
+	"Animated": false,
+	"FrontSecondsBetweenFrames": 0.05,
+	"BackSecondsBetweenFrames": 0.05,
+	"ClimbSecondsBetweenFrames": 0.05,
+
+	"PivotPoint":
+	{
+		"x": 0.5,
+		"y": 0.8
+	},
+	"PixelsPerUnit": 112.5
+}
