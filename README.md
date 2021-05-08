@@ -576,9 +576,9 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 
 ### New System:
 * Download the **new** template, along with the default empty manifest.json to being making Custom Hats for Town Of Impostors (you may still use the old template if you want to) **Massive thanks to JonyKasual for working hard to create an advanced template**
- * Download .psd template [here] (coming soon)
- * Download .png template for idle [here] (coming soon)
- * Download .png template for climbing [here] (coming soon) 
+  * Download .psd template [here] (coming soon)
+  * Download .png template for idle [here] (coming soon)
+  * Download .png template for climbing [here] (coming soon) 
 * Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
 
 * With the new system, you will be able to create hats for all layers (Front, Back, Climbing) and have to all compiled into one, as long as it is all specified in the manifest.json. You will also be able to create animated hats, and specify other parameters such as hat bounce, adaptive color and whether to hide crewmate.
