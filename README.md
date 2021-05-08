@@ -30,6 +30,9 @@
 
 <p align="center">
 <img src="Pics/TownOfImpostors-LoversModifier.png" width="270">
+ <img src="Pics/TownOfImpostors-Giant.png" width="270">
+ <img src="Pics/TownOfImpostors-Tiny.png" width="270">
+ <img src="Pics/TownOfImpostors-Nightowl.png" width="270">
 </p>
 
 ---
@@ -43,6 +46,7 @@
  <img src="Pics/TownOfImpostors-Joker.png" width="270">
  <img src="Pics/TownOfImpostors-Assassin.png" width="270">
  <img src="Pics/TownOfImpostors-Predator.png" width="270">
+ <img src="Pics/TownOfImpostors-Sniper.png" width="270">
 </p>
 
 ---
@@ -76,6 +80,9 @@ Table of Contents
       * [Impostor](#impostor-team)
     * [Modifiers](#modifiers)
       * [Lovers](#lovers)
+      * [Giant](#giant)
+      * [Tiny](#tiny)
+      * [Nightowl](#nightowl)
     * [How Role Assignment Works](#how-does-role-assignment-work)
   * [FAQ](#faq)
   * [Troubleshooting](#troubleshooting)
@@ -159,6 +166,12 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
   </tr>
  <tr>
     <td>v2021.4.12s & v2021.4.14s</td>
+    <td>v2.0.0</td>
+    <td>Coming Soon</td>
+   </tr>
+ <tr>
+ <tr>
+    <td>v2021.4.12s & v2021.4.14s</td>
     <td>v1.9.2</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v1.9.2/TownOfImpostors1.9.2.zip">Download</></td>
    </tr>
@@ -240,6 +253,26 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 
 <details>
   <summary>Changelog</summary>
+  <details>
+  <summary>v2.0.0</summary>
+  <h3>v2.0.0</h3>
+   <ul>
+<li>Hat System 2.0 (Animated Hats, More Possibilities)</li>
+<li>Dead Players Seeing All Roles now also see Lover Icons</li>
+<li>Art updates by Con No 1 (Twitter @Con_No_1)</li>
+<li>Giant Modifier, Tiny Modifier, Nightowl Modifier</li>
+<li>Impostors can now see poisoned players in meetings</li>
+<li>[Custom Option] Speed Modifier % for dragging bodies</li>
+<li>[Custom Option] Poison Continues In Meeting</li>
+<li>Fixed a bug with venting with Plumber & Jester</li>
+<li>Fixed bug with blind traps not being disabled when toggle off</li>
+<li>Fixed bug with sabotages not ending game in some cases with All Crewmates Must Die Mode On</li>
+<li>Fixed Jester Footprints not disappearing on death</li>
+<li>Fixed bug with revived Informants losing role and seeing everyone as their</li>
+<li>Fixed bug with Poison Kills on Decoys not properly setting cooldown</li>
+<li>Fixed exploit allowing Impostors to reset cooldown after poison ability</li>
+   </ul>
+    </details>
  <details>
   <summary>v1.9.2</summary>
   <h3>v1.9.2</h3>
@@ -540,6 +573,23 @@ You can download the mod on Curseforge <a href="https://www.curseforge.com/among
 **Only for versions v1.7.1 onwards**
 
 ## How do I add my own Custom Hat?
+
+### New System:
+* Download the **new** template, along with the default empty manifest.json to being making Custom Hats for Town Of Impostors (you may still use the old template if you want to) **Massive thanks to JonyKasual for working hard to create an advanced template**
+ * Download .psd template [here] (coming soon)
+ * Download .png template for idle [here] (coming soon)
+ * Download .png template for climbing [here] (coming soon) 
+* Draw your hat on the template and save in PNG format, with a unique name (make sure to also hide the crewmate and shadow). Preserve the resolution.
+
+* With the new system, you will be able to create hats for all layers (Front, Back, Climbing) and have to all compiled into one, as long as it is all specified in the manifest.json. You will also be able to create animated hats, and specify other parameters such as hat bounce, adaptive color and whether to hide crewmate.
+* To get animated hats, set the animated parameter in the manifest.json to `true` and add to the list of Front, Back or Climb images
+* Please leave `PivotPoint` and `PixelsPerUnit` as default values if you don't know how they work
+* You may use any name for the folder and files as long as everything is specified correctly in the manifest.json, but for the folder it is recommended to use the naming convention `<hat name>_<creator name>` for clarity
+* Submit your entire hat bundle as a `.zip` file in the discord
+* Please see the `ExampleHat_AJMix` bundled in the build for an example of how the new system works
+* If the new system is too complicated, you may always continue using the **Old System**
+
+### Old System:
 * Download the template used to make the Custom Hat for Town Of Impostors **(Big Thanks to Con No 1 for the template)**:
   * Download .psd template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/ConTemplate.psd)
   * Download .png template [here](https://github.com/AJMix/TownOfImpostors/releases/download/v1.8.2.1/ConTemplate.png)
@@ -641,6 +691,7 @@ From 1.6.0 onwards, you can now use keys **1, 2, 3, 4, Z, X** to activate abilit
 - **Disable Body Report:** Toggles on/off body reporting (to get a different kind of gameplay)
 - **Dead Player See All Roles:** Toggles whether dead players should see all roles (after a meeting only)
 - **Can Vent With Body:** Toggle whether players can vent with bodies
+- **% Boddy Drag Speed Modifier:** % Movement Modifier for dragging bodies
 
 ## Crewmate Team
 
@@ -922,6 +973,29 @@ The Viper is an Impostor role that can blind and poison other players.
 + **Poison Duration:** Duration before player is killed by poison
 + **Poison Additional Kill Cooldown:** How much extra cooldown is added to the kill button
 + **Poison Cure Duration:** How long it takes to cure the poison in medbay
++ **Poison Continues In Meeting:** Toggles whether Poison Timer should continue ticking in meetings
+
+</details>
+
+</details>
+
+### Sniper
+The Sniper has the ability to kill players during meetings if they are able to guess their roles. But they may be punished for wrong guesses. They may also use a Sniper in-game if toggled on. (Note: Sniper Rotation is not synced between players, so you will not see where the player is aiming)
+
+**REMINDER:** Toggling on the Sniper Rifle will hide/replace the original Kill Button
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Sniper Chance:** Chance of a Sniper being added to the role selection pool
++ **Sniper Count:** The maximum number of Snipers that can be added to the role selection pool
++ **Max Snipe Per Meeting:** The number of times the Sniper can attempt to kill players in meetings with role guesses
++ **Sniper Dies On Wrong Guess:** Punish the Sniper with death if they guess wrong
++ **Sniper Rifle Ability:** Toggled On/Off the Sniper Rifle to use between meetings, a long range killing ability _**(NOTE: This hides/replaces the normal kill)**_
++ **Sniper Rifle Cooldown:** Cooldown for Sniper Rifle Shots
++ **Rifle Unholster Cooldown:** Cooldown to unholster the Sniper Rifle
++ **Rifle Holster Cooldown:** Cooldown to holster the Sniper Rifle
++ **Gunshot Revealed Duration:** Duration for how the Sniper Shot Reveal Arrow lasts
 
 </details>
 
@@ -961,6 +1035,45 @@ Lovers are given the ability to chat with each other via a special Lovers Chat i
 + **% Lovers Chance:** Chance for Lovers to appear
 + **Enable Lovers:** Toggles Lovers on/off
 + **Lovers Die Together:** Toggles whether Lovers should die together (if one dies, the other dies, like a life link)
+
+</details>
+
+### Giant
+This activates the Giant modifier. A Giant player will have a larger sight radius to see more things, but will suffer from slower movement speed.
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Giant Chance:** Chance for Giant to appear
++ **Enable Giant:** Toggles Giant on/off
++ **% Movement Modifier:** Percentage movement modifier for Giant
++ **% Vision Modifier:** Percentage vision modifier for Giant
+
+</details>
+
+### Tiny
+This activates the Tiny modifier. A Tiny player will be able to move around faster, but will suffer from lower vision (opposite of Giant)
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Tiny Chance:** Chance for Tiny to appear
++ **Enable Tiny:** Toggles Tiny on/off
++ **% Movement Modifier:** Percentage movement modifier for Tiny
++ **% Vision Modifier:** Percentage vision modifier for Tiny
+
+</details>
+
+### Nightowl
+This activates the Nightowl modifier. A Nightowl will be able to see better when lights are out compared to other players, but will suffer from worse vision when lights are on.
+
+<details>
+<summary>Custom Options</summary>
+  
++ **% Nightowl Chance:** Chance for Nightowl to appear
++ **Enable Nightowl:** Toggles Nightowl on/off
++ **% Lights On Vision Modifier:** Percentage Lights On Vision modifier for Nightowl
++ **% Lights Off Vision Modifier:** Percentage Lights Off Vision modifier for Nightowl
 
 </details>
 
