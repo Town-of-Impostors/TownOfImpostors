@@ -11,7 +11,10 @@
 <p align="center"><b>Every player in the room must have the mod installed for it to work correctly. Please DO NOT play this mod on public lobbies, it is intended for private organised lobbies.</b></p>
 
 <p align="center">
-<img src="Pics/TownOfImpostorsPreview.png" width="900">
+<img src="Pics/TOI-Animated.gif" width="360">
+</p>
+
+<p align="center">
 <img src="Pics/TownOfImpostors-Impostor2.png" width="270">
 <img src="Pics/TownOfImpostors-Sheriff.png" width="270">
 <img src="Pics/TownOfImpostors-Doctor.png" width="270">
