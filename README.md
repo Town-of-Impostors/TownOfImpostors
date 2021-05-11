@@ -168,6 +168,11 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
     <th>Link</th>
   </tr>
  <tr>
+    <td>v2021.5.10s</td>
+    <td>v2.0.1</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.1/TownOfImpostors2.0.1.zip">Download</></td></td>
+   </tr>
+ <tr>
     <td>v2021.4.12s & v2021.4.14s</td>
     <td>v2.0.0</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.0/TownOfImpostors2.0.0.zip">Download</></td></td>
@@ -256,6 +261,18 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v2.0.1</summary>
+  <h3>v2.0.1</h3>
+   <ul>
+<li>New Home Update Button, Easier Updating Of Mod</li>
+<li>Fixed Sniper Kill Button exploit</li>
+<li>Fixed vote not ending if Sniper dies</li>
+<li>Fixed Sniper guess text not displaying properly</li>
+<li>Lobby Host Buttons should now appear for new host when previous host leaves</li>
+<li>Custom Color txt and Settings txt are now renamed to backup files</li>
+   </ul>
+    </details>
   <details>
   <summary>v2.0.0</summary>
   <h3>v2.0.0</h3>
