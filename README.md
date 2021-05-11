@@ -169,6 +169,12 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
   </tr>
  <tr>
     <td>v2021.5.10s</td>
+    <td>v2.0.2</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.2/TownOfImpostors2.0.2.zip">Download</></td></td>
+   </tr>
+ <tr>
+ <tr>
+    <td>v2021.5.10s</td>
     <td>v2.0.1</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.1/TownOfImpostors2.0.1.zip">Download</></td></td>
    </tr>
@@ -261,6 +267,13 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v2.0.2</summary>
+  <h3>v2.0.2</h3>
+   <ul>
+    <li>Morphing fix</li>
+   </ul>
+    </details>
  <details>
   <summary>v2.0.1</summary>
   <h3>v2.0.1</h3>
