@@ -169,6 +169,12 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
   </tr>
  <tr>
     <td>v2021.5.10s</td>
+    <td>v2.0.5</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.5/TownOfImpostors2.0.5.zip">Download</></td></td>
+   </tr>
+ <tr>
+ <tr>
+    <td>v2021.5.10s</td>
     <td>v2.0.3</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.3/TownOfImpostors2.0.3.zip">Download</></td></td>
    </tr>
@@ -267,6 +273,21 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v2.0.5</summary>
+  <h3>v2.0.5</h3>
+   <ul>
+    <li>Fixed and optimised bugs regarding custom options</li>
+<li>Further optimised custom button system</li>
+<li>Sniper reveal arrow duration can now be set to 0 (so it doesn't appear at all)</li>
+<li>dded extra safety checks to Hat System to prevent everything breaking</li>
+<li>Fixed speed issues with Tiny</li>
+<li>Fixed Tiny not being able to do some tasks</li>
+<li>Fixed HidePlayerModel still hiding players on comms sabotage anonymity</li>
+<li>Fixed exploit that allowed people to go through walls when morphing into Giant/Tiny</li>
+<li>[Balance Change] Comms Anonymous Sabotage now also updates player scale to take into account Giant/Tiny modifiers for consistency</li>
+   </ul>
+    </details>
  <details>
   <summary>v2.0.3</summary>
   <h3>v2.0.3</h3>
