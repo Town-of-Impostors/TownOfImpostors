@@ -169,6 +169,11 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
   </tr>
  <tr>
     <td>v2021.5.10s</td>
+    <td>v2.0.6</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.6/TownOfImpostors2.0.6.zip">Download</></td></td>
+   </tr>
+ <tr>
+    <td>v2021.5.10s</td>
     <td>v2.0.5</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.5/TownOfImpostors2.0.5.zip">Download</></td></td>
    </tr>
@@ -273,6 +278,16 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 
 <details>
   <summary>Changelog</summary>
+ <details>
+  <summary>v2.0.6</summary>
+  <h3>v2.0.6</h3>
+   <ul>
+    <li>Fixed bug with custom hat system</li>
+<li>Fixed issue with meetings not ending correctly with sniping/poison</li>
+<li>Fixed issue with Tiny/Giant modifier kills leading to players going into walls</li>
+<li>Added more custom hats</li>
+   </ul>
+    </details>
  <details>
   <summary>v2.0.5</summary>
   <h3>v2.0.5</h3>
