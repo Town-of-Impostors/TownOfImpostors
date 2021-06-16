@@ -168,6 +168,12 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
     <th>Link</th>
   </tr>
  <tr>
+    <td>v2021.6.15s</td>
+    <td>v2.0.7</td>
+    <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.7/TownOfImpostors2.0.7.zip">Download</></td></td>
+   </tr>
+ <tr>
+ <tr>
     <td>v2021.5.25s & v2021.5.25e</td>
     <td>v2.0.6</td>
     <td><a href="https://github.com/AJMix/TownOfImpostors/releases/download/v2.0.6/TownOfImpostors2.0.6.zip">Download</></td></td>
