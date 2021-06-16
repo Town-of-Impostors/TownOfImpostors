@@ -285,6 +285,12 @@ From v1.8.6 onwards, there are now 5 **Save & Load** slots. You can use these to
 <details>
   <summary>Changelog</summary>
  <details>
+  <summary>v2.0.7</summary>
+  <h3>v2.0.7</h3>
+   <ul>
+    <li>Compatibility with v2021.6.15s of Among Us</li>
+    <li>Various small bug fixes</li>
+   </ul>
   <summary>v2.0.6</summary>
   <h3>v2.0.6</h3>
    <ul>
