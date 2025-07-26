@@ -1,3 +1,10 @@
+This project has been abandoned and there will be no further updates.
+
+We've been notified that some people have been taking advantage of this and claiming that they "contributed" on this project.
+Anyone who is not credited on this GitHub or the mod itself has NOT had any contribution this project.
+
+Please report anyone claiming otherwise.
+
 # Town Of Impostors
 
 <a href="https://discord.gg/xpsKVpUf4T"><p align="center"><img src="https://user-images.githubusercontent.com/78827892/114307643-77e45c00-9ad8-11eb-81a5-44e985616cc5.png" width="300"></a>
